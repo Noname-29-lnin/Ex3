@@ -1,0 +1,3614 @@
+|Question6_unit
+i_clk => o_sorted[0]~reg0.CLK
+i_clk => o_sorted[1]~reg0.CLK
+i_clk => o_sorted[2]~reg0.CLK
+i_clk => o_sorted[3]~reg0.CLK
+i_clk => o_sorted[4]~reg0.CLK
+i_clk => o_sorted[5]~reg0.CLK
+i_clk => o_sorted[6]~reg0.CLK
+i_clk => o_sorted[7]~reg0.CLK
+i_clk => o_sorted[8]~reg0.CLK
+i_clk => o_sorted[9]~reg0.CLK
+i_clk => o_sorted[10]~reg0.CLK
+i_clk => o_sorted[11]~reg0.CLK
+i_clk => o_sorted[12]~reg0.CLK
+i_clk => o_sorted[13]~reg0.CLK
+i_clk => o_sorted[14]~reg0.CLK
+i_clk => o_sorted[15]~reg0.CLK
+i_clk => o_sorted[16]~reg0.CLK
+i_clk => o_sorted[17]~reg0.CLK
+i_clk => o_sorted[18]~reg0.CLK
+i_clk => o_sorted[19]~reg0.CLK
+i_clk => o_sorted[20]~reg0.CLK
+i_clk => o_sorted[21]~reg0.CLK
+i_clk => o_sorted[22]~reg0.CLK
+i_clk => o_sorted[23]~reg0.CLK
+i_clk => o_sorted[24]~reg0.CLK
+i_clk => o_sorted[25]~reg0.CLK
+i_clk => o_sorted[26]~reg0.CLK
+i_clk => o_sorted[27]~reg0.CLK
+i_clk => o_sorted[28]~reg0.CLK
+i_clk => o_sorted[29]~reg0.CLK
+i_clk => o_sorted[30]~reg0.CLK
+i_clk => o_sorted[31]~reg0.CLK
+i_clk => o_sorted[32]~reg0.CLK
+i_clk => o_sorted[33]~reg0.CLK
+i_clk => o_sorted[34]~reg0.CLK
+i_clk => o_sorted[35]~reg0.CLK
+i_clk => o_sorted[36]~reg0.CLK
+i_clk => o_sorted[37]~reg0.CLK
+i_clk => o_sorted[38]~reg0.CLK
+i_clk => o_sorted[39]~reg0.CLK
+i_clk => o_sorted[40]~reg0.CLK
+i_clk => o_sorted[41]~reg0.CLK
+i_clk => o_sorted[42]~reg0.CLK
+i_clk => o_sorted[43]~reg0.CLK
+i_clk => o_sorted[44]~reg0.CLK
+i_clk => o_sorted[45]~reg0.CLK
+i_clk => o_sorted[46]~reg0.CLK
+i_clk => o_sorted[47]~reg0.CLK
+i_clk => o_sorted[48]~reg0.CLK
+i_clk => o_sorted[49]~reg0.CLK
+i_clk => o_sorted[50]~reg0.CLK
+i_clk => o_sorted[51]~reg0.CLK
+i_clk => o_sorted[52]~reg0.CLK
+i_clk => o_sorted[53]~reg0.CLK
+i_clk => o_sorted[54]~reg0.CLK
+i_clk => o_sorted[55]~reg0.CLK
+i_clk => o_sorted[56]~reg0.CLK
+i_clk => o_sorted[57]~reg0.CLK
+i_clk => o_sorted[58]~reg0.CLK
+i_clk => o_sorted[59]~reg0.CLK
+i_clk => o_sorted[60]~reg0.CLK
+i_clk => o_sorted[61]~reg0.CLK
+i_clk => o_sorted[62]~reg0.CLK
+i_clk => o_sorted[63]~reg0.CLK
+i_clk => w_i_data[0].CLK
+i_clk => w_i_data[1].CLK
+i_clk => w_i_data[2].CLK
+i_clk => w_i_data[3].CLK
+i_clk => w_i_data[4].CLK
+i_clk => w_i_data[5].CLK
+i_clk => w_i_data[6].CLK
+i_clk => w_i_data[7].CLK
+i_clk => w_i_data[8].CLK
+i_clk => w_i_data[9].CLK
+i_clk => w_i_data[10].CLK
+i_clk => w_i_data[11].CLK
+i_clk => w_i_data[12].CLK
+i_clk => w_i_data[13].CLK
+i_clk => w_i_data[14].CLK
+i_clk => w_i_data[15].CLK
+i_clk => w_i_data[16].CLK
+i_clk => w_i_data[17].CLK
+i_clk => w_i_data[18].CLK
+i_clk => w_i_data[19].CLK
+i_clk => w_i_data[20].CLK
+i_clk => w_i_data[21].CLK
+i_clk => w_i_data[22].CLK
+i_clk => w_i_data[23].CLK
+i_clk => w_i_data[24].CLK
+i_clk => w_i_data[25].CLK
+i_clk => w_i_data[26].CLK
+i_clk => w_i_data[27].CLK
+i_clk => w_i_data[28].CLK
+i_clk => w_i_data[29].CLK
+i_clk => w_i_data[30].CLK
+i_clk => w_i_data[31].CLK
+i_clk => w_i_data[32].CLK
+i_clk => w_i_data[33].CLK
+i_clk => w_i_data[34].CLK
+i_clk => w_i_data[35].CLK
+i_clk => w_i_data[36].CLK
+i_clk => w_i_data[37].CLK
+i_clk => w_i_data[38].CLK
+i_clk => w_i_data[39].CLK
+i_clk => w_i_data[40].CLK
+i_clk => w_i_data[41].CLK
+i_clk => w_i_data[42].CLK
+i_clk => w_i_data[43].CLK
+i_clk => w_i_data[44].CLK
+i_clk => w_i_data[45].CLK
+i_clk => w_i_data[46].CLK
+i_clk => w_i_data[47].CLK
+i_clk => w_i_data[48].CLK
+i_clk => w_i_data[49].CLK
+i_clk => w_i_data[50].CLK
+i_clk => w_i_data[51].CLK
+i_clk => w_i_data[52].CLK
+i_clk => w_i_data[53].CLK
+i_clk => w_i_data[54].CLK
+i_clk => w_i_data[55].CLK
+i_clk => w_i_data[56].CLK
+i_clk => w_i_data[57].CLK
+i_clk => w_i_data[58].CLK
+i_clk => w_i_data[59].CLK
+i_clk => w_i_data[60].CLK
+i_clk => w_i_data[61].CLK
+i_clk => w_i_data[62].CLK
+i_clk => w_i_data[63].CLK
+i_rst_n => o_sorted[0]~reg0.ACLR
+i_rst_n => o_sorted[1]~reg0.ACLR
+i_rst_n => o_sorted[2]~reg0.ACLR
+i_rst_n => o_sorted[3]~reg0.ACLR
+i_rst_n => o_sorted[4]~reg0.ACLR
+i_rst_n => o_sorted[5]~reg0.ACLR
+i_rst_n => o_sorted[6]~reg0.ACLR
+i_rst_n => o_sorted[7]~reg0.ACLR
+i_rst_n => o_sorted[8]~reg0.ACLR
+i_rst_n => o_sorted[9]~reg0.ACLR
+i_rst_n => o_sorted[10]~reg0.ACLR
+i_rst_n => o_sorted[11]~reg0.ACLR
+i_rst_n => o_sorted[12]~reg0.ACLR
+i_rst_n => o_sorted[13]~reg0.ACLR
+i_rst_n => o_sorted[14]~reg0.ACLR
+i_rst_n => o_sorted[15]~reg0.ACLR
+i_rst_n => o_sorted[16]~reg0.ACLR
+i_rst_n => o_sorted[17]~reg0.ACLR
+i_rst_n => o_sorted[18]~reg0.ACLR
+i_rst_n => o_sorted[19]~reg0.ACLR
+i_rst_n => o_sorted[20]~reg0.ACLR
+i_rst_n => o_sorted[21]~reg0.ACLR
+i_rst_n => o_sorted[22]~reg0.ACLR
+i_rst_n => o_sorted[23]~reg0.ACLR
+i_rst_n => o_sorted[24]~reg0.ACLR
+i_rst_n => o_sorted[25]~reg0.ACLR
+i_rst_n => o_sorted[26]~reg0.ACLR
+i_rst_n => o_sorted[27]~reg0.ACLR
+i_rst_n => o_sorted[28]~reg0.ACLR
+i_rst_n => o_sorted[29]~reg0.ACLR
+i_rst_n => o_sorted[30]~reg0.ACLR
+i_rst_n => o_sorted[31]~reg0.ACLR
+i_rst_n => o_sorted[32]~reg0.ACLR
+i_rst_n => o_sorted[33]~reg0.ACLR
+i_rst_n => o_sorted[34]~reg0.ACLR
+i_rst_n => o_sorted[35]~reg0.ACLR
+i_rst_n => o_sorted[36]~reg0.ACLR
+i_rst_n => o_sorted[37]~reg0.ACLR
+i_rst_n => o_sorted[38]~reg0.ACLR
+i_rst_n => o_sorted[39]~reg0.ACLR
+i_rst_n => o_sorted[40]~reg0.ACLR
+i_rst_n => o_sorted[41]~reg0.ACLR
+i_rst_n => o_sorted[42]~reg0.ACLR
+i_rst_n => o_sorted[43]~reg0.ACLR
+i_rst_n => o_sorted[44]~reg0.ACLR
+i_rst_n => o_sorted[45]~reg0.ACLR
+i_rst_n => o_sorted[46]~reg0.ACLR
+i_rst_n => o_sorted[47]~reg0.ACLR
+i_rst_n => o_sorted[48]~reg0.ACLR
+i_rst_n => o_sorted[49]~reg0.ACLR
+i_rst_n => o_sorted[50]~reg0.ACLR
+i_rst_n => o_sorted[51]~reg0.ACLR
+i_rst_n => o_sorted[52]~reg0.ACLR
+i_rst_n => o_sorted[53]~reg0.ACLR
+i_rst_n => o_sorted[54]~reg0.ACLR
+i_rst_n => o_sorted[55]~reg0.ACLR
+i_rst_n => o_sorted[56]~reg0.ACLR
+i_rst_n => o_sorted[57]~reg0.ACLR
+i_rst_n => o_sorted[58]~reg0.ACLR
+i_rst_n => o_sorted[59]~reg0.ACLR
+i_rst_n => o_sorted[60]~reg0.ACLR
+i_rst_n => o_sorted[61]~reg0.ACLR
+i_rst_n => o_sorted[62]~reg0.ACLR
+i_rst_n => o_sorted[63]~reg0.ACLR
+i_rst_n => w_i_data[0].ACLR
+i_rst_n => w_i_data[1].ACLR
+i_rst_n => w_i_data[2].ACLR
+i_rst_n => w_i_data[3].ACLR
+i_rst_n => w_i_data[4].ACLR
+i_rst_n => w_i_data[5].ACLR
+i_rst_n => w_i_data[6].ACLR
+i_rst_n => w_i_data[7].ACLR
+i_rst_n => w_i_data[8].ACLR
+i_rst_n => w_i_data[9].ACLR
+i_rst_n => w_i_data[10].ACLR
+i_rst_n => w_i_data[11].ACLR
+i_rst_n => w_i_data[12].ACLR
+i_rst_n => w_i_data[13].ACLR
+i_rst_n => w_i_data[14].ACLR
+i_rst_n => w_i_data[15].ACLR
+i_rst_n => w_i_data[16].ACLR
+i_rst_n => w_i_data[17].ACLR
+i_rst_n => w_i_data[18].ACLR
+i_rst_n => w_i_data[19].ACLR
+i_rst_n => w_i_data[20].ACLR
+i_rst_n => w_i_data[21].ACLR
+i_rst_n => w_i_data[22].ACLR
+i_rst_n => w_i_data[23].ACLR
+i_rst_n => w_i_data[24].ACLR
+i_rst_n => w_i_data[25].ACLR
+i_rst_n => w_i_data[26].ACLR
+i_rst_n => w_i_data[27].ACLR
+i_rst_n => w_i_data[28].ACLR
+i_rst_n => w_i_data[29].ACLR
+i_rst_n => w_i_data[30].ACLR
+i_rst_n => w_i_data[31].ACLR
+i_rst_n => w_i_data[32].ACLR
+i_rst_n => w_i_data[33].ACLR
+i_rst_n => w_i_data[34].ACLR
+i_rst_n => w_i_data[35].ACLR
+i_rst_n => w_i_data[36].ACLR
+i_rst_n => w_i_data[37].ACLR
+i_rst_n => w_i_data[38].ACLR
+i_rst_n => w_i_data[39].ACLR
+i_rst_n => w_i_data[40].ACLR
+i_rst_n => w_i_data[41].ACLR
+i_rst_n => w_i_data[42].ACLR
+i_rst_n => w_i_data[43].ACLR
+i_rst_n => w_i_data[44].ACLR
+i_rst_n => w_i_data[45].ACLR
+i_rst_n => w_i_data[46].ACLR
+i_rst_n => w_i_data[47].ACLR
+i_rst_n => w_i_data[48].ACLR
+i_rst_n => w_i_data[49].ACLR
+i_rst_n => w_i_data[50].ACLR
+i_rst_n => w_i_data[51].ACLR
+i_rst_n => w_i_data[52].ACLR
+i_rst_n => w_i_data[53].ACLR
+i_rst_n => w_i_data[54].ACLR
+i_rst_n => w_i_data[55].ACLR
+i_rst_n => w_i_data[56].ACLR
+i_rst_n => w_i_data[57].ACLR
+i_rst_n => w_i_data[58].ACLR
+i_rst_n => w_i_data[59].ACLR
+i_rst_n => w_i_data[60].ACLR
+i_rst_n => w_i_data[61].ACLR
+i_rst_n => w_i_data[62].ACLR
+i_rst_n => w_i_data[63].ACLR
+i_data[0] => w_i_data[0].DATAIN
+i_data[1] => w_i_data[1].DATAIN
+i_data[2] => w_i_data[2].DATAIN
+i_data[3] => w_i_data[3].DATAIN
+i_data[4] => w_i_data[4].DATAIN
+i_data[5] => w_i_data[5].DATAIN
+i_data[6] => w_i_data[6].DATAIN
+i_data[7] => w_i_data[7].DATAIN
+i_data[8] => w_i_data[8].DATAIN
+i_data[9] => w_i_data[9].DATAIN
+i_data[10] => w_i_data[10].DATAIN
+i_data[11] => w_i_data[11].DATAIN
+i_data[12] => w_i_data[12].DATAIN
+i_data[13] => w_i_data[13].DATAIN
+i_data[14] => w_i_data[14].DATAIN
+i_data[15] => w_i_data[15].DATAIN
+i_data[16] => w_i_data[16].DATAIN
+i_data[17] => w_i_data[17].DATAIN
+i_data[18] => w_i_data[18].DATAIN
+i_data[19] => w_i_data[19].DATAIN
+i_data[20] => w_i_data[20].DATAIN
+i_data[21] => w_i_data[21].DATAIN
+i_data[22] => w_i_data[22].DATAIN
+i_data[23] => w_i_data[23].DATAIN
+i_data[24] => w_i_data[24].DATAIN
+i_data[25] => w_i_data[25].DATAIN
+i_data[26] => w_i_data[26].DATAIN
+i_data[27] => w_i_data[27].DATAIN
+i_data[28] => w_i_data[28].DATAIN
+i_data[29] => w_i_data[29].DATAIN
+i_data[30] => w_i_data[30].DATAIN
+i_data[31] => w_i_data[31].DATAIN
+i_data[32] => w_i_data[32].DATAIN
+i_data[33] => w_i_data[33].DATAIN
+i_data[34] => w_i_data[34].DATAIN
+i_data[35] => w_i_data[35].DATAIN
+i_data[36] => w_i_data[36].DATAIN
+i_data[37] => w_i_data[37].DATAIN
+i_data[38] => w_i_data[38].DATAIN
+i_data[39] => w_i_data[39].DATAIN
+i_data[40] => w_i_data[40].DATAIN
+i_data[41] => w_i_data[41].DATAIN
+i_data[42] => w_i_data[42].DATAIN
+i_data[43] => w_i_data[43].DATAIN
+i_data[44] => w_i_data[44].DATAIN
+i_data[45] => w_i_data[45].DATAIN
+i_data[46] => w_i_data[46].DATAIN
+i_data[47] => w_i_data[47].DATAIN
+i_data[48] => w_i_data[48].DATAIN
+i_data[49] => w_i_data[49].DATAIN
+i_data[50] => w_i_data[50].DATAIN
+i_data[51] => w_i_data[51].DATAIN
+i_data[52] => w_i_data[52].DATAIN
+i_data[53] => w_i_data[53].DATAIN
+i_data[54] => w_i_data[54].DATAIN
+i_data[55] => w_i_data[55].DATAIN
+i_data[56] => w_i_data[56].DATAIN
+i_data[57] => w_i_data[57].DATAIN
+i_data[58] => w_i_data[58].DATAIN
+i_data[59] => w_i_data[59].DATAIN
+i_data[60] => w_i_data[60].DATAIN
+i_data[61] => w_i_data[61].DATAIN
+i_data[62] => w_i_data[62].DATAIN
+i_data[63] => w_i_data[63].DATAIN
+o_sorted[0] << o_sorted[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[1] << o_sorted[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[2] << o_sorted[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[3] << o_sorted[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[4] << o_sorted[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[5] << o_sorted[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[6] << o_sorted[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[7] << o_sorted[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[8] << o_sorted[8]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[9] << o_sorted[9]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[10] << o_sorted[10]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[11] << o_sorted[11]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[12] << o_sorted[12]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[13] << o_sorted[13]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[14] << o_sorted[14]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[15] << o_sorted[15]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[16] << o_sorted[16]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[17] << o_sorted[17]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[18] << o_sorted[18]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[19] << o_sorted[19]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[20] << o_sorted[20]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[21] << o_sorted[21]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[22] << o_sorted[22]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[23] << o_sorted[23]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[24] << o_sorted[24]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[25] << o_sorted[25]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[26] << o_sorted[26]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[27] << o_sorted[27]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[28] << o_sorted[28]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[29] << o_sorted[29]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[30] << o_sorted[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[31] << o_sorted[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[32] << o_sorted[32]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[33] << o_sorted[33]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[34] << o_sorted[34]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[35] << o_sorted[35]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[36] << o_sorted[36]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[37] << o_sorted[37]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[38] << o_sorted[38]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[39] << o_sorted[39]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[40] << o_sorted[40]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[41] << o_sorted[41]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[42] << o_sorted[42]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[43] << o_sorted[43]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[44] << o_sorted[44]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[45] << o_sorted[45]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[46] << o_sorted[46]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[47] << o_sorted[47]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[48] << o_sorted[48]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[49] << o_sorted[49]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[50] << o_sorted[50]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[51] << o_sorted[51]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[52] << o_sorted[52]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[53] << o_sorted[53]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[54] << o_sorted[54]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[55] << o_sorted[55]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[56] << o_sorted[56]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[57] << o_sorted[57]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[58] << o_sorted[58]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[59] << o_sorted[59]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[60] << o_sorted[60]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[61] << o_sorted[61]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[62] << o_sorted[62]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o_sorted[63] << o_sorted[63]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT
+i_data[0] => w_i_data[0][0].IN1
+i_data[1] => w_i_data[0][1].IN1
+i_data[2] => w_i_data[0][2].IN1
+i_data[3] => w_i_data[0][3].IN1
+i_data[4] => w_i_data[0][4].IN1
+i_data[5] => w_i_data[0][5].IN1
+i_data[6] => w_i_data[0][6].IN1
+i_data[7] => w_i_data[0][7].IN1
+i_data[8] => w_i_data[1][0].IN1
+i_data[9] => w_i_data[1][1].IN1
+i_data[10] => w_i_data[1][2].IN1
+i_data[11] => w_i_data[1][3].IN1
+i_data[12] => w_i_data[1][4].IN1
+i_data[13] => w_i_data[1][5].IN1
+i_data[14] => w_i_data[1][6].IN1
+i_data[15] => w_i_data[1][7].IN1
+i_data[16] => w_i_data[2][0].IN1
+i_data[17] => w_i_data[2][1].IN1
+i_data[18] => w_i_data[2][2].IN1
+i_data[19] => w_i_data[2][3].IN1
+i_data[20] => w_i_data[2][4].IN1
+i_data[21] => w_i_data[2][5].IN1
+i_data[22] => w_i_data[2][6].IN1
+i_data[23] => w_i_data[2][7].IN1
+i_data[24] => w_i_data[3][0].IN1
+i_data[25] => w_i_data[3][1].IN1
+i_data[26] => w_i_data[3][2].IN1
+i_data[27] => w_i_data[3][3].IN1
+i_data[28] => w_i_data[3][4].IN1
+i_data[29] => w_i_data[3][5].IN1
+i_data[30] => w_i_data[3][6].IN1
+i_data[31] => w_i_data[3][7].IN1
+i_data[32] => w_i_data[4][0].IN1
+i_data[33] => w_i_data[4][1].IN1
+i_data[34] => w_i_data[4][2].IN1
+i_data[35] => w_i_data[4][3].IN1
+i_data[36] => w_i_data[4][4].IN1
+i_data[37] => w_i_data[4][5].IN1
+i_data[38] => w_i_data[4][6].IN1
+i_data[39] => w_i_data[4][7].IN1
+i_data[40] => w_i_data[5][0].IN1
+i_data[41] => w_i_data[5][1].IN1
+i_data[42] => w_i_data[5][2].IN1
+i_data[43] => w_i_data[5][3].IN1
+i_data[44] => w_i_data[5][4].IN1
+i_data[45] => w_i_data[5][5].IN1
+i_data[46] => w_i_data[5][6].IN1
+i_data[47] => w_i_data[5][7].IN1
+i_data[48] => w_i_data[6][0].IN1
+i_data[49] => w_i_data[6][1].IN1
+i_data[50] => w_i_data[6][2].IN1
+i_data[51] => w_i_data[6][3].IN1
+i_data[52] => w_i_data[6][4].IN1
+i_data[53] => w_i_data[6][5].IN1
+i_data[54] => w_i_data[6][6].IN1
+i_data[55] => w_i_data[6][7].IN1
+i_data[56] => w_i_data[7][0].IN1
+i_data[57] => w_i_data[7][1].IN1
+i_data[58] => w_i_data[7][2].IN1
+i_data[59] => w_i_data[7][3].IN1
+i_data[60] => w_i_data[7][4].IN1
+i_data[61] => w_i_data[7][5].IN1
+i_data[62] => w_i_data[7][6].IN1
+i_data[63] => w_i_data[7][7].IN1
+o_sorted[0] <= Bitonic_Block8:BN_8_UNIT_0.o_data_0
+o_sorted[1] <= Bitonic_Block8:BN_8_UNIT_0.o_data_0
+o_sorted[2] <= Bitonic_Block8:BN_8_UNIT_0.o_data_0
+o_sorted[3] <= Bitonic_Block8:BN_8_UNIT_0.o_data_0
+o_sorted[4] <= Bitonic_Block8:BN_8_UNIT_0.o_data_0
+o_sorted[5] <= Bitonic_Block8:BN_8_UNIT_0.o_data_0
+o_sorted[6] <= Bitonic_Block8:BN_8_UNIT_0.o_data_0
+o_sorted[7] <= Bitonic_Block8:BN_8_UNIT_0.o_data_0
+o_sorted[8] <= Bitonic_Block8:BN_8_UNIT_0.o_data_1
+o_sorted[9] <= Bitonic_Block8:BN_8_UNIT_0.o_data_1
+o_sorted[10] <= Bitonic_Block8:BN_8_UNIT_0.o_data_1
+o_sorted[11] <= Bitonic_Block8:BN_8_UNIT_0.o_data_1
+o_sorted[12] <= Bitonic_Block8:BN_8_UNIT_0.o_data_1
+o_sorted[13] <= Bitonic_Block8:BN_8_UNIT_0.o_data_1
+o_sorted[14] <= Bitonic_Block8:BN_8_UNIT_0.o_data_1
+o_sorted[15] <= Bitonic_Block8:BN_8_UNIT_0.o_data_1
+o_sorted[16] <= Bitonic_Block8:BN_8_UNIT_0.o_data_2
+o_sorted[17] <= Bitonic_Block8:BN_8_UNIT_0.o_data_2
+o_sorted[18] <= Bitonic_Block8:BN_8_UNIT_0.o_data_2
+o_sorted[19] <= Bitonic_Block8:BN_8_UNIT_0.o_data_2
+o_sorted[20] <= Bitonic_Block8:BN_8_UNIT_0.o_data_2
+o_sorted[21] <= Bitonic_Block8:BN_8_UNIT_0.o_data_2
+o_sorted[22] <= Bitonic_Block8:BN_8_UNIT_0.o_data_2
+o_sorted[23] <= Bitonic_Block8:BN_8_UNIT_0.o_data_2
+o_sorted[24] <= Bitonic_Block8:BN_8_UNIT_0.o_data_3
+o_sorted[25] <= Bitonic_Block8:BN_8_UNIT_0.o_data_3
+o_sorted[26] <= Bitonic_Block8:BN_8_UNIT_0.o_data_3
+o_sorted[27] <= Bitonic_Block8:BN_8_UNIT_0.o_data_3
+o_sorted[28] <= Bitonic_Block8:BN_8_UNIT_0.o_data_3
+o_sorted[29] <= Bitonic_Block8:BN_8_UNIT_0.o_data_3
+o_sorted[30] <= Bitonic_Block8:BN_8_UNIT_0.o_data_3
+o_sorted[31] <= Bitonic_Block8:BN_8_UNIT_0.o_data_3
+o_sorted[32] <= Bitonic_Block8:BN_8_UNIT_0.o_data_4
+o_sorted[33] <= Bitonic_Block8:BN_8_UNIT_0.o_data_4
+o_sorted[34] <= Bitonic_Block8:BN_8_UNIT_0.o_data_4
+o_sorted[35] <= Bitonic_Block8:BN_8_UNIT_0.o_data_4
+o_sorted[36] <= Bitonic_Block8:BN_8_UNIT_0.o_data_4
+o_sorted[37] <= Bitonic_Block8:BN_8_UNIT_0.o_data_4
+o_sorted[38] <= Bitonic_Block8:BN_8_UNIT_0.o_data_4
+o_sorted[39] <= Bitonic_Block8:BN_8_UNIT_0.o_data_4
+o_sorted[40] <= Bitonic_Block8:BN_8_UNIT_0.o_data_5
+o_sorted[41] <= Bitonic_Block8:BN_8_UNIT_0.o_data_5
+o_sorted[42] <= Bitonic_Block8:BN_8_UNIT_0.o_data_5
+o_sorted[43] <= Bitonic_Block8:BN_8_UNIT_0.o_data_5
+o_sorted[44] <= Bitonic_Block8:BN_8_UNIT_0.o_data_5
+o_sorted[45] <= Bitonic_Block8:BN_8_UNIT_0.o_data_5
+o_sorted[46] <= Bitonic_Block8:BN_8_UNIT_0.o_data_5
+o_sorted[47] <= Bitonic_Block8:BN_8_UNIT_0.o_data_5
+o_sorted[48] <= Bitonic_Block8:BN_8_UNIT_0.o_data_6
+o_sorted[49] <= Bitonic_Block8:BN_8_UNIT_0.o_data_6
+o_sorted[50] <= Bitonic_Block8:BN_8_UNIT_0.o_data_6
+o_sorted[51] <= Bitonic_Block8:BN_8_UNIT_0.o_data_6
+o_sorted[52] <= Bitonic_Block8:BN_8_UNIT_0.o_data_6
+o_sorted[53] <= Bitonic_Block8:BN_8_UNIT_0.o_data_6
+o_sorted[54] <= Bitonic_Block8:BN_8_UNIT_0.o_data_6
+o_sorted[55] <= Bitonic_Block8:BN_8_UNIT_0.o_data_6
+o_sorted[56] <= Bitonic_Block8:BN_8_UNIT_0.o_data_7
+o_sorted[57] <= Bitonic_Block8:BN_8_UNIT_0.o_data_7
+o_sorted[58] <= Bitonic_Block8:BN_8_UNIT_0.o_data_7
+o_sorted[59] <= Bitonic_Block8:BN_8_UNIT_0.o_data_7
+o_sorted[60] <= Bitonic_Block8:BN_8_UNIT_0.o_data_7
+o_sorted[61] <= Bitonic_Block8:BN_8_UNIT_0.o_data_7
+o_sorted[62] <= Bitonic_Block8:BN_8_UNIT_0.o_data_7
+o_sorted[63] <= Bitonic_Block8:BN_8_UNIT_0.o_data_7
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0
+i_data_0[0] => i_data_0[0].IN1
+i_data_0[1] => i_data_0[1].IN1
+i_data_0[2] => i_data_0[2].IN1
+i_data_0[3] => i_data_0[3].IN1
+i_data_0[4] => i_data_0[4].IN1
+i_data_0[5] => i_data_0[5].IN1
+i_data_0[6] => i_data_0[6].IN1
+i_data_0[7] => i_data_0[7].IN1
+i_data_1[0] => i_data_1[0].IN1
+i_data_1[1] => i_data_1[1].IN1
+i_data_1[2] => i_data_1[2].IN1
+i_data_1[3] => i_data_1[3].IN1
+i_data_1[4] => i_data_1[4].IN1
+i_data_1[5] => i_data_1[5].IN1
+i_data_1[6] => i_data_1[6].IN1
+i_data_1[7] => i_data_1[7].IN1
+i_data_2[0] => i_data_2[0].IN1
+i_data_2[1] => i_data_2[1].IN1
+i_data_2[2] => i_data_2[2].IN1
+i_data_2[3] => i_data_2[3].IN1
+i_data_2[4] => i_data_2[4].IN1
+i_data_2[5] => i_data_2[5].IN1
+i_data_2[6] => i_data_2[6].IN1
+i_data_2[7] => i_data_2[7].IN1
+i_data_3[0] => i_data_3[0].IN1
+i_data_3[1] => i_data_3[1].IN1
+i_data_3[2] => i_data_3[2].IN1
+i_data_3[3] => i_data_3[3].IN1
+i_data_3[4] => i_data_3[4].IN1
+i_data_3[5] => i_data_3[5].IN1
+i_data_3[6] => i_data_3[6].IN1
+i_data_3[7] => i_data_3[7].IN1
+o_data_0[0] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[1] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[2] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[3] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[4] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[5] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[6] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[7] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_1[0] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[1] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[2] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[3] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[4] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[5] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[6] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[7] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_2[0] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[1] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[2] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[3] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[4] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[5] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[6] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[7] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_3[0] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[1] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[2] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[3] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[4] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[5] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[6] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[7] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_0
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_1
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_0
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_1
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_2_0
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1
+i_data_0[0] => i_data_0[0].IN1
+i_data_0[1] => i_data_0[1].IN1
+i_data_0[2] => i_data_0[2].IN1
+i_data_0[3] => i_data_0[3].IN1
+i_data_0[4] => i_data_0[4].IN1
+i_data_0[5] => i_data_0[5].IN1
+i_data_0[6] => i_data_0[6].IN1
+i_data_0[7] => i_data_0[7].IN1
+i_data_1[0] => i_data_1[0].IN1
+i_data_1[1] => i_data_1[1].IN1
+i_data_1[2] => i_data_1[2].IN1
+i_data_1[3] => i_data_1[3].IN1
+i_data_1[4] => i_data_1[4].IN1
+i_data_1[5] => i_data_1[5].IN1
+i_data_1[6] => i_data_1[6].IN1
+i_data_1[7] => i_data_1[7].IN1
+i_data_2[0] => i_data_2[0].IN1
+i_data_2[1] => i_data_2[1].IN1
+i_data_2[2] => i_data_2[2].IN1
+i_data_2[3] => i_data_2[3].IN1
+i_data_2[4] => i_data_2[4].IN1
+i_data_2[5] => i_data_2[5].IN1
+i_data_2[6] => i_data_2[6].IN1
+i_data_2[7] => i_data_2[7].IN1
+i_data_3[0] => i_data_3[0].IN1
+i_data_3[1] => i_data_3[1].IN1
+i_data_3[2] => i_data_3[2].IN1
+i_data_3[3] => i_data_3[3].IN1
+i_data_3[4] => i_data_3[4].IN1
+i_data_3[5] => i_data_3[5].IN1
+i_data_3[6] => i_data_3[6].IN1
+i_data_3[7] => i_data_3[7].IN1
+o_data_0[0] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[1] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[2] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[3] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[4] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[5] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[6] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_0[7] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_1[0] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[1] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[2] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[3] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[4] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[5] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[6] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_1[7] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_2[0] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[1] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[2] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[3] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[4] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[5] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[6] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_2[7] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_3[0] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[1] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[2] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[3] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[4] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[5] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[6] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+o_data_3[7] <= Compare_and_Swap_unit:CAS_1_1.o_data_min
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_0
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_1
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_0
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_1
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_2_0
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block4:BN_4_UNIT_1|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0
+i_data_0[0] => i_data_0[0].IN1
+i_data_0[1] => i_data_0[1].IN1
+i_data_0[2] => i_data_0[2].IN1
+i_data_0[3] => i_data_0[3].IN1
+i_data_0[4] => i_data_0[4].IN1
+i_data_0[5] => i_data_0[5].IN1
+i_data_0[6] => i_data_0[6].IN1
+i_data_0[7] => i_data_0[7].IN1
+i_data_1[0] => i_data_1[0].IN1
+i_data_1[1] => i_data_1[1].IN1
+i_data_1[2] => i_data_1[2].IN1
+i_data_1[3] => i_data_1[3].IN1
+i_data_1[4] => i_data_1[4].IN1
+i_data_1[5] => i_data_1[5].IN1
+i_data_1[6] => i_data_1[6].IN1
+i_data_1[7] => i_data_1[7].IN1
+i_data_2[0] => i_data_2[0].IN1
+i_data_2[1] => i_data_2[1].IN1
+i_data_2[2] => i_data_2[2].IN1
+i_data_2[3] => i_data_2[3].IN1
+i_data_2[4] => i_data_2[4].IN1
+i_data_2[5] => i_data_2[5].IN1
+i_data_2[6] => i_data_2[6].IN1
+i_data_2[7] => i_data_2[7].IN1
+i_data_3[0] => i_data_3[0].IN1
+i_data_3[1] => i_data_3[1].IN1
+i_data_3[2] => i_data_3[2].IN1
+i_data_3[3] => i_data_3[3].IN1
+i_data_3[4] => i_data_3[4].IN1
+i_data_3[5] => i_data_3[5].IN1
+i_data_3[6] => i_data_3[6].IN1
+i_data_3[7] => i_data_3[7].IN1
+i_data_4[0] => i_data_4[0].IN1
+i_data_4[1] => i_data_4[1].IN1
+i_data_4[2] => i_data_4[2].IN1
+i_data_4[3] => i_data_4[3].IN1
+i_data_4[4] => i_data_4[4].IN1
+i_data_4[5] => i_data_4[5].IN1
+i_data_4[6] => i_data_4[6].IN1
+i_data_4[7] => i_data_4[7].IN1
+i_data_5[0] => i_data_5[0].IN1
+i_data_5[1] => i_data_5[1].IN1
+i_data_5[2] => i_data_5[2].IN1
+i_data_5[3] => i_data_5[3].IN1
+i_data_5[4] => i_data_5[4].IN1
+i_data_5[5] => i_data_5[5].IN1
+i_data_5[6] => i_data_5[6].IN1
+i_data_5[7] => i_data_5[7].IN1
+i_data_6[0] => i_data_6[0].IN1
+i_data_6[1] => i_data_6[1].IN1
+i_data_6[2] => i_data_6[2].IN1
+i_data_6[3] => i_data_6[3].IN1
+i_data_6[4] => i_data_6[4].IN1
+i_data_6[5] => i_data_6[5].IN1
+i_data_6[6] => i_data_6[6].IN1
+i_data_6[7] => i_data_6[7].IN1
+i_data_7[0] => i_data_7[0].IN1
+i_data_7[1] => i_data_7[1].IN1
+i_data_7[2] => i_data_7[2].IN1
+i_data_7[3] => i_data_7[3].IN1
+i_data_7[4] => i_data_7[4].IN1
+i_data_7[5] => i_data_7[5].IN1
+i_data_7[6] => i_data_7[6].IN1
+i_data_7[7] => i_data_7[7].IN1
+o_data_0[0] <= Compare_and_Swap_unit:CAS_0_0.o_data_max
+o_data_0[1] <= Compare_and_Swap_unit:CAS_0_0.o_data_max
+o_data_0[2] <= Compare_and_Swap_unit:CAS_0_0.o_data_max
+o_data_0[3] <= Compare_and_Swap_unit:CAS_0_0.o_data_max
+o_data_0[4] <= Compare_and_Swap_unit:CAS_0_0.o_data_max
+o_data_0[5] <= Compare_and_Swap_unit:CAS_0_0.o_data_max
+o_data_0[6] <= Compare_and_Swap_unit:CAS_0_0.o_data_max
+o_data_0[7] <= Compare_and_Swap_unit:CAS_0_0.o_data_max
+o_data_1[0] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_1[1] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_1[2] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_1[3] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_1[4] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_1[5] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_1[6] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_1[7] <= Compare_and_Swap_unit:CAS_1_0.o_data_max
+o_data_2[0] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_2[1] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_2[2] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_2[3] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_2[4] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_2[5] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_2[6] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_2[7] <= Compare_and_Swap_unit:CAS_2_0.o_data_max
+o_data_3[0] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_3[1] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_3[2] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_3[3] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_3[4] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_3[5] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_3[6] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_3[7] <= Compare_and_Swap_unit:CAS_2_0.o_data_min
+o_data_4[0] <= Compare_and_Swap_unit:CAS_2_1.o_data_max
+o_data_4[1] <= Compare_and_Swap_unit:CAS_2_1.o_data_max
+o_data_4[2] <= Compare_and_Swap_unit:CAS_2_1.o_data_max
+o_data_4[3] <= Compare_and_Swap_unit:CAS_2_1.o_data_max
+o_data_4[4] <= Compare_and_Swap_unit:CAS_2_1.o_data_max
+o_data_4[5] <= Compare_and_Swap_unit:CAS_2_1.o_data_max
+o_data_4[6] <= Compare_and_Swap_unit:CAS_2_1.o_data_max
+o_data_4[7] <= Compare_and_Swap_unit:CAS_2_1.o_data_max
+o_data_5[0] <= Compare_and_Swap_unit:CAS_2_1.o_data_min
+o_data_5[1] <= Compare_and_Swap_unit:CAS_2_1.o_data_min
+o_data_5[2] <= Compare_and_Swap_unit:CAS_2_1.o_data_min
+o_data_5[3] <= Compare_and_Swap_unit:CAS_2_1.o_data_min
+o_data_5[4] <= Compare_and_Swap_unit:CAS_2_1.o_data_min
+o_data_5[5] <= Compare_and_Swap_unit:CAS_2_1.o_data_min
+o_data_5[6] <= Compare_and_Swap_unit:CAS_2_1.o_data_min
+o_data_5[7] <= Compare_and_Swap_unit:CAS_2_1.o_data_min
+o_data_6[0] <= Compare_and_Swap_unit:CAS_1_2.o_data_min
+o_data_6[1] <= Compare_and_Swap_unit:CAS_1_2.o_data_min
+o_data_6[2] <= Compare_and_Swap_unit:CAS_1_2.o_data_min
+o_data_6[3] <= Compare_and_Swap_unit:CAS_1_2.o_data_min
+o_data_6[4] <= Compare_and_Swap_unit:CAS_1_2.o_data_min
+o_data_6[5] <= Compare_and_Swap_unit:CAS_1_2.o_data_min
+o_data_6[6] <= Compare_and_Swap_unit:CAS_1_2.o_data_min
+o_data_6[7] <= Compare_and_Swap_unit:CAS_1_2.o_data_min
+o_data_7[0] <= Compare_and_Swap_unit:CAS_0_3.o_data_min
+o_data_7[1] <= Compare_and_Swap_unit:CAS_0_3.o_data_min
+o_data_7[2] <= Compare_and_Swap_unit:CAS_0_3.o_data_min
+o_data_7[3] <= Compare_and_Swap_unit:CAS_0_3.o_data_min
+o_data_7[4] <= Compare_and_Swap_unit:CAS_0_3.o_data_min
+o_data_7[5] <= Compare_and_Swap_unit:CAS_0_3.o_data_min
+o_data_7[6] <= Compare_and_Swap_unit:CAS_0_3.o_data_min
+o_data_7[7] <= Compare_and_Swap_unit:CAS_0_3.o_data_min
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_0
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_1
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_2
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_2|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_2|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_2|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_2|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_2|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_2|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_2|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_3
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_3|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_3|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_3|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_3|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_3|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_3|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_0_3|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_0
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_1
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_2
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_2|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_2|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_2|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_2|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_2|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_2|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_1_2|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_0
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_0|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_1
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_data_max[0] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[1] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[2] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[3] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[4] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[5] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[6] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_max[7] <= o_data_max.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[0] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[1] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[2] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[3] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[4] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[5] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[6] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+o_data_min[7] <= o_data_min.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_1|COMP_less:COMP_UNIT
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_a[4] => i_data_a[4].IN1
+i_data_a[5] => i_data_a[5].IN1
+i_data_a[6] => i_data_a[6].IN1
+i_data_a[7] => i_data_a[7].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+i_data_b[4] => i_data_b[4].IN1
+i_data_b[5] => i_data_b[5].IN1
+i_data_b[6] => i_data_b[6].IN1
+i_data_b[7] => i_data_b[7].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_1|COMP_less:COMP_UNIT|COMP_4bit:u_low
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_1|COMP_less:COMP_UNIT|COMP_4bit:u_low|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_1|COMP_less:COMP_UNIT|COMP_4bit:u_high
+i_data_a[0] => i_data_a[0].IN1
+i_data_a[1] => i_data_a[1].IN1
+i_data_a[2] => i_data_a[2].IN1
+i_data_a[3] => i_data_a[3].IN1
+i_data_b[0] => i_data_b[0].IN1
+i_data_b[1] => i_data_b[1].IN1
+i_data_b[2] => i_data_b[2].IN1
+i_data_b[3] => i_data_b[3].IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= o_equal.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_low
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Question6_unit|Bitonic_Sort:DUT|Bitonic_Block8:BN_8_UNIT_0|Compare_and_Swap_unit:CAS_2_1|COMP_less:COMP_UNIT|COMP_4bit:u_high|COMP_2bit:u_high
+i_data_a[0] => o_equal.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[0] => o_less.IN0
+i_data_a[1] => o_equal.IN0
+i_data_a[1] => o_less.IN0
+i_data_a[1] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_less.IN1
+i_data_b[0] => o_equal.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_less.IN1
+i_data_b[1] => o_equal.IN1
+o_less <= o_less.DB_MAX_OUTPUT_PORT_TYPE
+o_equal <= WideNor0.DB_MAX_OUTPUT_PORT_TYPE
+
+
