@@ -44,12 +44,12 @@ VL_INLINE_OPT VlCoroutine Vtb_Question6___024root___eval_initial__TOP__Vtiming__
                                        53);
     vlSelf->__Vm_traceActivity[2U] = 1U;
     vlSelf->tb_Question6__DOT__i_rst_n = 1U;
-    vlSelf->tb_Question6__DOT__i_data[0U] = 0x23U;
-    vlSelf->tb_Question6__DOT__i_data[1U] = 0x78U;
-    vlSelf->tb_Question6__DOT__i_data[2U] = 0U;
+    vlSelf->tb_Question6__DOT__i_data[0U] = 0x87U;
+    vlSelf->tb_Question6__DOT__i_data[1U] = 0xdcU;
+    vlSelf->tb_Question6__DOT__i_data[2U] = 0x6eU;
     vlSelf->tb_Question6__DOT__i_data[3U] = 0U;
-    vlSelf->tb_Question6__DOT__i_data[4U] = 0x37U;
-    vlSelf->tb_Question6__DOT__i_data[5U] = 0x64U;
+    vlSelf->tb_Question6__DOT__i_data[4U] = 0x9bU;
+    vlSelf->tb_Question6__DOT__i_data[5U] = 0x87U;
     vlSelf->tb_Question6__DOT__i_data[6U] = 0x4dU;
     vlSelf->tb_Question6__DOT__i_data[7U] = 5U;
     VL_WRITEF_NX("========================================\nInput data before sorting:\n  i_data[0] = %0#\n",0,
@@ -130,17 +130,113 @@ VL_INLINE_OPT VlCoroutine Vtb_Question6___024root___eval_initial__TOP__Vtiming__
     }
 }
 
-void Vtb_Question6___024root___act_sequent__TOP__0(Vtb_Question6___024root* vlSelf);
+void Vtb_Question6___024root___ico_sequent__TOP__0(Vtb_Question6___024root* vlSelf);
 
-void Vtb_Question6___024root___eval_act(Vtb_Question6___024root* vlSelf) {
+void Vtb_Question6___024root___eval_ico(Vtb_Question6___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtb_Question6__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___eval_act\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___eval_ico\n"); );
     // Body
-    if ((2ULL & vlSelf->__VactTriggered.word(0U))) {
-        Vtb_Question6___024root___act_sequent__TOP__0(vlSelf);
-        vlSelf->__Vm_traceActivity[3U] = 1U;
+    if ((1ULL & vlSelf->__VicoTriggered.word(0U))) {
+        Vtb_Question6___024root___ico_sequent__TOP__0(vlSelf);
     }
+}
+
+VL_INLINE_OPT void Vtb_Question6___024root___ico_sequent__TOP__0(Vtb_Question6___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vtb_Question6__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___ico_sequent__TOP__0\n"); );
+    // Body
+    vlSelf->COMP_less__DOT__u_high__DOT__w_equal_high 
+        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->i_data_a) 
+                                          ^ (IData)(vlSelf->i_data_b)) 
+                                         >> 6U))))));
+    vlSelf->o_less = (1U & ((((IData)(((0U == (0xc0U 
+                                               & (IData)(vlSelf->i_data_a))) 
+                                       & ((IData)(vlSelf->i_data_b) 
+                                          >> 6U))) 
+                              | (((~ ((IData)(vlSelf->i_data_a) 
+                                      >> 6U)) & (IData)(
+                                                        (0xc0U 
+                                                         == 
+                                                         (0xc0U 
+                                                          & (IData)(vlSelf->i_data_b))))) 
+                                 | ((~ ((IData)(vlSelf->i_data_a) 
+                                        >> 7U)) & ((IData)(vlSelf->i_data_b) 
+                                                   >> 7U)))) 
+                             | ((IData)(vlSelf->COMP_less__DOT__u_high__DOT__w_equal_high) 
+                                & ((IData)(((0U == 
+                                             (0x30U 
+                                              & (IData)(vlSelf->i_data_a))) 
+                                            & ((IData)(vlSelf->i_data_b) 
+                                               >> 4U))) 
+                                   | (((~ ((IData)(vlSelf->i_data_a) 
+                                           >> 4U)) 
+                                       & (IData)((0x30U 
+                                                  == 
+                                                  (0x30U 
+                                                   & (IData)(vlSelf->i_data_b))))) 
+                                      | ((~ ((IData)(vlSelf->i_data_a) 
+                                             >> 5U)) 
+                                         & ((IData)(vlSelf->i_data_b) 
+                                            >> 5U)))))) 
+                            | (((IData)(vlSelf->COMP_less__DOT__u_high__DOT__w_equal_high) 
+                                & (~ (IData)((0U != 
+                                              (3U & 
+                                               (((IData)(vlSelf->i_data_a) 
+                                                 ^ (IData)(vlSelf->i_data_b)) 
+                                                >> 4U)))))) 
+                               & (((IData)(((0U == 
+                                             (0xcU 
+                                              & (IData)(vlSelf->i_data_a))) 
+                                            & ((IData)(vlSelf->i_data_b) 
+                                               >> 2U))) 
+                                   | (((~ ((IData)(vlSelf->i_data_a) 
+                                           >> 2U)) 
+                                       & (IData)((0xcU 
+                                                  == 
+                                                  (0xcU 
+                                                   & (IData)(vlSelf->i_data_b))))) 
+                                      | ((~ ((IData)(vlSelf->i_data_a) 
+                                             >> 3U)) 
+                                         & ((IData)(vlSelf->i_data_b) 
+                                            >> 3U)))) 
+                                  | ((~ (IData)((0U 
+                                                 != 
+                                                 (3U 
+                                                  & (((IData)(vlSelf->i_data_a) 
+                                                      ^ (IData)(vlSelf->i_data_b)) 
+                                                     >> 2U))))) 
+                                     & ((IData)(((0U 
+                                                  == 
+                                                  (3U 
+                                                   & (IData)(vlSelf->i_data_a))) 
+                                                 & (IData)(vlSelf->i_data_b))) 
+                                        | (((~ (IData)(vlSelf->i_data_a)) 
+                                            & (((IData)(vlSelf->i_data_b) 
+                                                >> 1U) 
+                                               & (IData)(vlSelf->i_data_b))) 
+                                           | ((~ ((IData)(vlSelf->i_data_a) 
+                                                  >> 1U)) 
+                                              & ((IData)(vlSelf->i_data_b) 
+                                                 >> 1U)))))))));
+}
+
+void Vtb_Question6___024root___eval_triggers__ico(Vtb_Question6___024root* vlSelf);
+
+bool Vtb_Question6___024root___eval_phase__ico(Vtb_Question6___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vtb_Question6__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___eval_phase__ico\n"); );
+    // Init
+    CData/*0:0*/ __VicoExecute;
+    // Body
+    Vtb_Question6___024root___eval_triggers__ico(vlSelf);
+    __VicoExecute = vlSelf->__VicoTriggered.any();
+    if (__VicoExecute) {
+        Vtb_Question6___024root___eval_ico(vlSelf);
+    }
+    return (__VicoExecute);
 }
 
 VL_INLINE_OPT void Vtb_Question6___024root___act_sequent__TOP__0(Vtb_Question6___024root* vlSelf) {
@@ -164,1595 +260,6 @@ VL_INLINE_OPT void Vtb_Question6___024root___act_sequent__TOP__0(Vtb_Question6__
         = vlSelf->tb_Question6__DOT__i_data[6U];
     vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_i_data[7U] 
         = vlSelf->tb_Question6__DOT__i_data[7U];
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & ((vlSelf->tb_Question6__DOT__i_data
-                                          [0U] ^ vlSelf->tb_Question6__DOT__i_data
-                                          [1U]) >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & ((vlSelf->tb_Question6__DOT__i_data
-                                          [2U] ^ vlSelf->tb_Question6__DOT__i_data
-                                          [3U]) >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & ((vlSelf->tb_Question6__DOT__i_data
-                                          [4U] ^ vlSelf->tb_Question6__DOT__i_data
-                                          [5U]) >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & ((vlSelf->tb_Question6__DOT__i_data
-                                          [6U] ^ vlSelf->tb_Question6__DOT__i_data
-                                          [7U]) >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_0__DOT__w_compare 
-        = (1U & (((((~ (vlSelf->tb_Question6__DOT__i_data
-                        [0U] >> 7U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                            [0U] >> 6U)) 
-                                        & (vlSelf->tb_Question6__DOT__i_data
-                                           [1U] >> 6U))) 
-                   | (((~ (vlSelf->tb_Question6__DOT__i_data
-                           [0U] >> 6U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                            [1U] >> 7U) 
-                                           & (vlSelf->tb_Question6__DOT__i_data
-                                              [1U] 
-                                              >> 6U))) 
-                      | ((~ (vlSelf->tb_Question6__DOT__i_data
-                             [0U] >> 7U)) & (vlSelf->tb_Question6__DOT__i_data
-                                             [1U] >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (((~ (vlSelf->tb_Question6__DOT__i_data
-                             [0U] >> 5U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                                 [0U] 
-                                                 >> 4U)) 
-                                             & (vlSelf->tb_Question6__DOT__i_data
-                                                [1U] 
-                                                >> 4U))) 
-                        | (((~ (vlSelf->tb_Question6__DOT__i_data
-                                [0U] >> 4U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [1U] 
-                                                 >> 5U) 
-                                                & (vlSelf->tb_Question6__DOT__i_data
-                                                   [1U] 
-                                                   >> 4U))) 
-                           | ((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [0U] >> 5U)) & (vlSelf->tb_Question6__DOT__i_data
-                                                  [1U] 
-                                                  >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [0U] 
-                                                 ^ 
-                                                 vlSelf->tb_Question6__DOT__i_data
-                                                 [1U]) 
-                                                >> 4U)))))) 
-                    & ((((~ (vlSelf->tb_Question6__DOT__i_data
-                             [0U] >> 3U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                                 [0U] 
-                                                 >> 2U)) 
-                                             & (vlSelf->tb_Question6__DOT__i_data
-                                                [1U] 
-                                                >> 2U))) 
-                        | (((~ (vlSelf->tb_Question6__DOT__i_data
-                                [0U] >> 2U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [1U] 
-                                                 >> 3U) 
-                                                & (vlSelf->tb_Question6__DOT__i_data
-                                                   [1U] 
-                                                   >> 2U))) 
-                           | ((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [0U] >> 3U)) & (vlSelf->tb_Question6__DOT__i_data
-                                                  [1U] 
-                                                  >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   (vlSelf->tb_Question6__DOT__i_data
-                                                    [0U] 
-                                                    ^ 
-                                                    vlSelf->tb_Question6__DOT__i_data
-                                                    [1U]) 
-                                                   >> 2U))))) 
-                          & (((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [0U] >> 1U)) & ((~ 
-                                                   vlSelf->tb_Question6__DOT__i_data
-                                                   [0U]) 
-                                                  & vlSelf->tb_Question6__DOT__i_data
-                                                  [1U])) 
-                             | (((~ vlSelf->tb_Question6__DOT__i_data
-                                  [0U]) & ((vlSelf->tb_Question6__DOT__i_data
-                                            [1U] >> 1U) 
-                                           & vlSelf->tb_Question6__DOT__i_data
-                                           [1U])) | 
-                                ((~ (vlSelf->tb_Question6__DOT__i_data
-                                     [0U] >> 1U)) & 
-                                 (vlSelf->tb_Question6__DOT__i_data
-                                  [1U] >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_1__DOT__w_compare 
-        = (1U & (((((~ (vlSelf->tb_Question6__DOT__i_data
-                        [2U] >> 7U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                            [2U] >> 6U)) 
-                                        & (vlSelf->tb_Question6__DOT__i_data
-                                           [3U] >> 6U))) 
-                   | (((~ (vlSelf->tb_Question6__DOT__i_data
-                           [2U] >> 6U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                            [3U] >> 7U) 
-                                           & (vlSelf->tb_Question6__DOT__i_data
-                                              [3U] 
-                                              >> 6U))) 
-                      | ((~ (vlSelf->tb_Question6__DOT__i_data
-                             [2U] >> 7U)) & (vlSelf->tb_Question6__DOT__i_data
-                                             [3U] >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (((~ (vlSelf->tb_Question6__DOT__i_data
-                             [2U] >> 5U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                                 [2U] 
-                                                 >> 4U)) 
-                                             & (vlSelf->tb_Question6__DOT__i_data
-                                                [3U] 
-                                                >> 4U))) 
-                        | (((~ (vlSelf->tb_Question6__DOT__i_data
-                                [2U] >> 4U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [3U] 
-                                                 >> 5U) 
-                                                & (vlSelf->tb_Question6__DOT__i_data
-                                                   [3U] 
-                                                   >> 4U))) 
-                           | ((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [2U] >> 5U)) & (vlSelf->tb_Question6__DOT__i_data
-                                                  [3U] 
-                                                  >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [2U] 
-                                                 ^ 
-                                                 vlSelf->tb_Question6__DOT__i_data
-                                                 [3U]) 
-                                                >> 4U)))))) 
-                    & ((((~ (vlSelf->tb_Question6__DOT__i_data
-                             [2U] >> 3U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                                 [2U] 
-                                                 >> 2U)) 
-                                             & (vlSelf->tb_Question6__DOT__i_data
-                                                [3U] 
-                                                >> 2U))) 
-                        | (((~ (vlSelf->tb_Question6__DOT__i_data
-                                [2U] >> 2U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [3U] 
-                                                 >> 3U) 
-                                                & (vlSelf->tb_Question6__DOT__i_data
-                                                   [3U] 
-                                                   >> 2U))) 
-                           | ((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [2U] >> 3U)) & (vlSelf->tb_Question6__DOT__i_data
-                                                  [3U] 
-                                                  >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   (vlSelf->tb_Question6__DOT__i_data
-                                                    [2U] 
-                                                    ^ 
-                                                    vlSelf->tb_Question6__DOT__i_data
-                                                    [3U]) 
-                                                   >> 2U))))) 
-                          & (((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [2U] >> 1U)) & ((~ 
-                                                   vlSelf->tb_Question6__DOT__i_data
-                                                   [2U]) 
-                                                  & vlSelf->tb_Question6__DOT__i_data
-                                                  [3U])) 
-                             | (((~ vlSelf->tb_Question6__DOT__i_data
-                                  [2U]) & ((vlSelf->tb_Question6__DOT__i_data
-                                            [3U] >> 1U) 
-                                           & vlSelf->tb_Question6__DOT__i_data
-                                           [3U])) | 
-                                ((~ (vlSelf->tb_Question6__DOT__i_data
-                                     [2U] >> 1U)) & 
-                                 (vlSelf->tb_Question6__DOT__i_data
-                                  [3U] >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_0__DOT__w_compare 
-        = (1U & (((((~ (vlSelf->tb_Question6__DOT__i_data
-                        [4U] >> 7U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                            [4U] >> 6U)) 
-                                        & (vlSelf->tb_Question6__DOT__i_data
-                                           [5U] >> 6U))) 
-                   | (((~ (vlSelf->tb_Question6__DOT__i_data
-                           [4U] >> 6U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                            [5U] >> 7U) 
-                                           & (vlSelf->tb_Question6__DOT__i_data
-                                              [5U] 
-                                              >> 6U))) 
-                      | ((~ (vlSelf->tb_Question6__DOT__i_data
-                             [4U] >> 7U)) & (vlSelf->tb_Question6__DOT__i_data
-                                             [5U] >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (((~ (vlSelf->tb_Question6__DOT__i_data
-                             [4U] >> 5U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                                 [4U] 
-                                                 >> 4U)) 
-                                             & (vlSelf->tb_Question6__DOT__i_data
-                                                [5U] 
-                                                >> 4U))) 
-                        | (((~ (vlSelf->tb_Question6__DOT__i_data
-                                [4U] >> 4U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [5U] 
-                                                 >> 5U) 
-                                                & (vlSelf->tb_Question6__DOT__i_data
-                                                   [5U] 
-                                                   >> 4U))) 
-                           | ((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [4U] >> 5U)) & (vlSelf->tb_Question6__DOT__i_data
-                                                  [5U] 
-                                                  >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [4U] 
-                                                 ^ 
-                                                 vlSelf->tb_Question6__DOT__i_data
-                                                 [5U]) 
-                                                >> 4U)))))) 
-                    & ((((~ (vlSelf->tb_Question6__DOT__i_data
-                             [4U] >> 3U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                                 [4U] 
-                                                 >> 2U)) 
-                                             & (vlSelf->tb_Question6__DOT__i_data
-                                                [5U] 
-                                                >> 2U))) 
-                        | (((~ (vlSelf->tb_Question6__DOT__i_data
-                                [4U] >> 2U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [5U] 
-                                                 >> 3U) 
-                                                & (vlSelf->tb_Question6__DOT__i_data
-                                                   [5U] 
-                                                   >> 2U))) 
-                           | ((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [4U] >> 3U)) & (vlSelf->tb_Question6__DOT__i_data
-                                                  [5U] 
-                                                  >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   (vlSelf->tb_Question6__DOT__i_data
-                                                    [4U] 
-                                                    ^ 
-                                                    vlSelf->tb_Question6__DOT__i_data
-                                                    [5U]) 
-                                                   >> 2U))))) 
-                          & (((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [4U] >> 1U)) & ((~ 
-                                                   vlSelf->tb_Question6__DOT__i_data
-                                                   [4U]) 
-                                                  & vlSelf->tb_Question6__DOT__i_data
-                                                  [5U])) 
-                             | (((~ vlSelf->tb_Question6__DOT__i_data
-                                  [4U]) & ((vlSelf->tb_Question6__DOT__i_data
-                                            [5U] >> 1U) 
-                                           & vlSelf->tb_Question6__DOT__i_data
-                                           [5U])) | 
-                                ((~ (vlSelf->tb_Question6__DOT__i_data
-                                     [4U] >> 1U)) & 
-                                 (vlSelf->tb_Question6__DOT__i_data
-                                  [5U] >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_1__DOT__w_compare 
-        = (1U & (((((~ (vlSelf->tb_Question6__DOT__i_data
-                        [6U] >> 7U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                            [6U] >> 6U)) 
-                                        & (vlSelf->tb_Question6__DOT__i_data
-                                           [7U] >> 6U))) 
-                   | (((~ (vlSelf->tb_Question6__DOT__i_data
-                           [6U] >> 6U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                            [7U] >> 7U) 
-                                           & (vlSelf->tb_Question6__DOT__i_data
-                                              [7U] 
-                                              >> 6U))) 
-                      | ((~ (vlSelf->tb_Question6__DOT__i_data
-                             [6U] >> 7U)) & (vlSelf->tb_Question6__DOT__i_data
-                                             [7U] >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (((~ (vlSelf->tb_Question6__DOT__i_data
-                             [6U] >> 5U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                                 [6U] 
-                                                 >> 4U)) 
-                                             & (vlSelf->tb_Question6__DOT__i_data
-                                                [7U] 
-                                                >> 4U))) 
-                        | (((~ (vlSelf->tb_Question6__DOT__i_data
-                                [6U] >> 4U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [7U] 
-                                                 >> 5U) 
-                                                & (vlSelf->tb_Question6__DOT__i_data
-                                                   [7U] 
-                                                   >> 4U))) 
-                           | ((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [6U] >> 5U)) & (vlSelf->tb_Question6__DOT__i_data
-                                                  [7U] 
-                                                  >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [6U] 
-                                                 ^ 
-                                                 vlSelf->tb_Question6__DOT__i_data
-                                                 [7U]) 
-                                                >> 4U)))))) 
-                    & ((((~ (vlSelf->tb_Question6__DOT__i_data
-                             [6U] >> 3U)) & ((~ (vlSelf->tb_Question6__DOT__i_data
-                                                 [6U] 
-                                                 >> 2U)) 
-                                             & (vlSelf->tb_Question6__DOT__i_data
-                                                [7U] 
-                                                >> 2U))) 
-                        | (((~ (vlSelf->tb_Question6__DOT__i_data
-                                [6U] >> 2U)) & ((vlSelf->tb_Question6__DOT__i_data
-                                                 [7U] 
-                                                 >> 3U) 
-                                                & (vlSelf->tb_Question6__DOT__i_data
-                                                   [7U] 
-                                                   >> 2U))) 
-                           | ((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [6U] >> 3U)) & (vlSelf->tb_Question6__DOT__i_data
-                                                  [7U] 
-                                                  >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   (vlSelf->tb_Question6__DOT__i_data
-                                                    [6U] 
-                                                    ^ 
-                                                    vlSelf->tb_Question6__DOT__i_data
-                                                    [7U]) 
-                                                   >> 2U))))) 
-                          & (((~ (vlSelf->tb_Question6__DOT__i_data
-                                  [6U] >> 1U)) & ((~ 
-                                                   vlSelf->tb_Question6__DOT__i_data
-                                                   [6U]) 
-                                                  & vlSelf->tb_Question6__DOT__i_data
-                                                  [7U])) 
-                             | (((~ vlSelf->tb_Question6__DOT__i_data
-                                  [6U]) & ((vlSelf->tb_Question6__DOT__i_data
-                                            [7U] >> 1U) 
-                                           & vlSelf->tb_Question6__DOT__i_data
-                                           [7U])) | 
-                                ((~ (vlSelf->tb_Question6__DOT__i_data
-                                     [6U] >> 1U)) & 
-                                 (vlSelf->tb_Question6__DOT__i_data
-                                  [7U] >> 1U)))))))));
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_0__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0 
-            = vlSelf->tb_Question6__DOT__i_data[1U];
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0 
-            = vlSelf->tb_Question6__DOT__i_data[0U];
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0 
-            = vlSelf->tb_Question6__DOT__i_data[0U];
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0 
-            = vlSelf->tb_Question6__DOT__i_data[1U];
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_1__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1 
-            = vlSelf->tb_Question6__DOT__i_data[3U];
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1 
-            = vlSelf->tb_Question6__DOT__i_data[2U];
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1 
-            = vlSelf->tb_Question6__DOT__i_data[2U];
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1 
-            = vlSelf->tb_Question6__DOT__i_data[3U];
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_0__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0 
-            = vlSelf->tb_Question6__DOT__i_data[5U];
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0 
-            = vlSelf->tb_Question6__DOT__i_data[4U];
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0 
-            = vlSelf->tb_Question6__DOT__i_data[4U];
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0 
-            = vlSelf->tb_Question6__DOT__i_data[5U];
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_1__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1 
-            = vlSelf->tb_Question6__DOT__i_data[7U];
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1 
-            = vlSelf->tb_Question6__DOT__i_data[6U];
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1 
-            = vlSelf->tb_Question6__DOT__i_data[6U];
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1 
-            = vlSelf->tb_Question6__DOT__i_data[7U];
-    }
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_0__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_1__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_0__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_1__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1) 
-                                                  >> 1U)))))))));
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_0__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_1__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_0__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_1__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0;
-    }
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_0_data[0U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_0_data[3U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_0_data[4U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_0_data[7U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_3__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_2_0__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_0__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_3__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_3__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_3__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_2_0__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1) 
-                                                  >> 1U)))))))));
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_2_0__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_0__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_3__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_3 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_3 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_2_0__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1;
-    }
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_0_data[1U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_0_data[2U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__t_o_sorted[0U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_sorted[0U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__t_o_sorted[7U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_3;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_sorted[7U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_3;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_0_data[5U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_0_data[6U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_2__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_1__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_2__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_2__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_2__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0) 
-                                                  >> 1U)))))))));
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_1__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_2__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0;
-    }
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_2__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_0__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_2__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_2__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_2__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_1__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2) 
-                                                  >> 1U)))))))));
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_0__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_2__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_2 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_2 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_1__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2;
-    }
-    vlSelf->tb_Question6__DOT__dut__DOT__t_o_sorted[1U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_sorted[1U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__t_o_sorted[6U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_2;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_sorted[6U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_2;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high 
-        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                          ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2)) 
-                                         >> 6U))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_0__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1) 
-                                                  >> 1U)))))))));
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_1__DOT__w_compare 
-        = (1U & ((((IData)(((0U == (0xc0U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1))) 
-                            & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2) 
-                               >> 6U))) | (((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                                >> 6U)) 
-                                            & (IData)(
-                                                      (0xc0U 
-                                                       == 
-                                                       (0xc0U 
-                                                        & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2))))) 
-                                           | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                                  >> 7U)) 
-                                              & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2) 
-                                                 >> 7U)))) 
-                  | ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & ((IData)(((0U == (0x30U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2) 
-                                    >> 4U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                                   >> 4U)) 
-                                                 & (IData)(
-                                                           (0x30U 
-                                                            == 
-                                                            (0x30U 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                                     >> 5U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2) 
-                                                      >> 5U)))))) 
-                 | (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high) 
-                     & (~ (IData)((0U != (3U & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                                 ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2)) 
-                                                >> 4U)))))) 
-                    & (((IData)(((0U == (0xcU & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1))) 
-                                 & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2) 
-                                    >> 2U))) | (((~ 
-                                                  ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                                   >> 2U)) 
-                                                 & (IData)(
-                                                           (0xcU 
-                                                            == 
-                                                            (0xcU 
-                                                             & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2))))) 
-                                                | ((~ 
-                                                    ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                                     >> 3U)) 
-                                                   & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2) 
-                                                      >> 3U)))) 
-                       | ((~ (IData)((0U != (3U & (
-                                                   ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                                    ^ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2)) 
-                                                   >> 2U))))) 
-                          & ((IData)(((0U == (3U & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1))) 
-                                      & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2))) 
-                             | (((~ (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1)) 
-                                 & (((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2) 
-                                     >> 1U) & (IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2))) 
-                                | ((~ ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1) 
-                                       >> 1U)) & ((IData)(vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2) 
-                                                  >> 1U)))))))));
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_0__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_0 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1;
-    }
-    if (vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_1__DOT__w_compare) {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1;
-    } else {
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1;
-        vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_1 
-            = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2;
-    }
-    vlSelf->tb_Question6__DOT__dut__DOT__t_o_sorted[2U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_sorted[2U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__t_o_sorted[3U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_sorted[3U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_0;
-    vlSelf->tb_Question6__DOT__dut__DOT__t_o_sorted[4U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_1;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_sorted[4U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_1;
-    vlSelf->tb_Question6__DOT__dut__DOT__t_o_sorted[5U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_1;
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_sorted[5U] 
-        = vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_1;
-}
-
-void Vtb_Question6___024root___nba_sequent__TOP__0(Vtb_Question6___024root* vlSelf);
-
-void Vtb_Question6___024root___eval_nba(Vtb_Question6___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtb_Question6__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___eval_nba\n"); );
-    // Body
-    if ((1ULL & vlSelf->__VnbaTriggered.word(0U))) {
-        Vtb_Question6___024root___nba_sequent__TOP__0(vlSelf);
-        vlSelf->__Vm_traceActivity[4U] = 1U;
-    }
-    if ((2ULL & vlSelf->__VnbaTriggered.word(0U))) {
-        Vtb_Question6___024root___act_sequent__TOP__0(vlSelf);
-        vlSelf->__Vm_traceActivity[5U] = 1U;
-    }
 }
 
 VL_INLINE_OPT void Vtb_Question6___024root___nba_sequent__TOP__0(Vtb_Question6___024root* vlSelf) {
@@ -1833,6 +340,7 @@ void Vtb_Question6___024root___timing_resume(Vtb_Question6___024root* vlSelf) {
 }
 
 void Vtb_Question6___024root___eval_triggers__act(Vtb_Question6___024root* vlSelf);
+void Vtb_Question6___024root___eval_act(Vtb_Question6___024root* vlSelf);
 
 bool Vtb_Question6___024root___eval_phase__act(Vtb_Question6___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
@@ -1853,6 +361,8 @@ bool Vtb_Question6___024root___eval_phase__act(Vtb_Question6___024root* vlSelf) 
     return (__VactExecute);
 }
 
+void Vtb_Question6___024root___eval_nba(Vtb_Question6___024root* vlSelf);
+
 bool Vtb_Question6___024root___eval_phase__nba(Vtb_Question6___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtb_Question6__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
@@ -1869,6 +379,9 @@ bool Vtb_Question6___024root___eval_phase__nba(Vtb_Question6___024root* vlSelf) 
 }
 
 #ifdef VL_DEBUG
+VL_ATTR_COLD void Vtb_Question6___024root___dump_triggers__ico(Vtb_Question6___024root* vlSelf);
+#endif  // VL_DEBUG
+#ifdef VL_DEBUG
 VL_ATTR_COLD void Vtb_Question6___024root___dump_triggers__nba(Vtb_Question6___024root* vlSelf);
 #endif  // VL_DEBUG
 #ifdef VL_DEBUG
@@ -1880,9 +393,28 @@ void Vtb_Question6___024root___eval(Vtb_Question6___024root* vlSelf) {
     Vtb_Question6__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___eval\n"); );
     // Init
+    IData/*31:0*/ __VicoIterCount;
+    CData/*0:0*/ __VicoContinue;
     IData/*31:0*/ __VnbaIterCount;
     CData/*0:0*/ __VnbaContinue;
     // Body
+    __VicoIterCount = 0U;
+    vlSelf->__VicoFirstIteration = 1U;
+    __VicoContinue = 1U;
+    while (__VicoContinue) {
+        if (VL_UNLIKELY((0x64U < __VicoIterCount))) {
+#ifdef VL_DEBUG
+            Vtb_Question6___024root___dump_triggers__ico(vlSelf);
+#endif
+            VL_FATAL_MT("/home/noname/Documents/project_tiny/Ex3/03_verif/Question6/tb_Question6.sv", 3, "", "Input combinational region did not converge.");
+        }
+        __VicoIterCount = ((IData)(1U) + __VicoIterCount);
+        __VicoContinue = 0U;
+        if (Vtb_Question6___024root___eval_phase__ico(vlSelf)) {
+            __VicoContinue = 1U;
+        }
+        vlSelf->__VicoFirstIteration = 0U;
+    }
     __VnbaIterCount = 0U;
     __VnbaContinue = 1U;
     while (__VnbaContinue) {

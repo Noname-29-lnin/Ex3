@@ -26,6 +26,7 @@ VM_CLASSES_FAST += \
 	Vtb_Question6 \
 	Vtb_Question6___024root__DepSet_hef99d23f__0 \
 	Vtb_Question6___024root__DepSet_h1c0de493__0 \
+	Vtb_Question6_Compare_and_Swap_unit__I0__DepSet_h814d0950__0 \
 	Vtb_Question6__main \
 
 # Generated module classes, non-fast-path, compile with low/medium optimization
@@ -33,6 +34,8 @@ VM_CLASSES_SLOW += \
 	Vtb_Question6___024root__Slow \
 	Vtb_Question6___024root__DepSet_hef99d23f__0__Slow \
 	Vtb_Question6___024root__DepSet_h1c0de493__0__Slow \
+	Vtb_Question6_Compare_and_Swap_unit__I0__Slow \
+	Vtb_Question6_Compare_and_Swap_unit__I0__DepSet_h42219d33__0__Slow \
 
 # Generated support classes, fast-path, compile with highest optimization
 VM_SUPPORT_FAST += \

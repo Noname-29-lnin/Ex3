@@ -17,6 +17,13 @@ COMP_less #(
     .i_data_b       (i_data_b),
     .o_less         (w_compare) 
 );
+// COMP_parallel_prefix_binary #(
+//     .SIZE_DATA  (SIZE_DATA)
+// ) COMP_UNT (
+//     .i_data_a       (i_data_a),
+//     .i_data_b       (i_data_b),
+//     .o_less         (w_compare) 
+// );
 
 generate
     if(IS_ASC) begin

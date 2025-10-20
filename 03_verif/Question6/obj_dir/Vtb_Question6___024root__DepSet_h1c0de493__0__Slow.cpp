@@ -72,25 +72,104 @@ VL_ATTR_COLD void Vtb_Question6___024root___dump_triggers__stl(Vtb_Question6___0
 }
 #endif  // VL_DEBUG
 
-void Vtb_Question6___024root___act_sequent__TOP__0(Vtb_Question6___024root* vlSelf);
-
-VL_ATTR_COLD void Vtb_Question6___024root___eval_stl(Vtb_Question6___024root* vlSelf) {
+VL_ATTR_COLD void Vtb_Question6___024root___stl_sequent__TOP__0(Vtb_Question6___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtb_Question6__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___eval_stl\n"); );
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___stl_sequent__TOP__0\n"); );
     // Body
-    if ((1ULL & vlSelf->__VstlTriggered.word(0U))) {
-        Vtb_Question6___024root___act_sequent__TOP__0(vlSelf);
-        vlSelf->__Vm_traceActivity[5U] = 1U;
-        vlSelf->__Vm_traceActivity[4U] = 1U;
-        vlSelf->__Vm_traceActivity[3U] = 1U;
-        vlSelf->__Vm_traceActivity[2U] = 1U;
-        vlSelf->__Vm_traceActivity[1U] = 1U;
-        vlSelf->__Vm_traceActivity[0U] = 1U;
-    }
+    vlSelf->COMP_less__DOT__u_high__DOT__w_equal_high 
+        = (1U & (~ (IData)((0U != (3U & (((IData)(vlSelf->i_data_a) 
+                                          ^ (IData)(vlSelf->i_data_b)) 
+                                         >> 6U))))));
+    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_i_data[0U] 
+        = vlSelf->tb_Question6__DOT__i_data[0U];
+    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_i_data[1U] 
+        = vlSelf->tb_Question6__DOT__i_data[1U];
+    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_i_data[2U] 
+        = vlSelf->tb_Question6__DOT__i_data[2U];
+    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_i_data[3U] 
+        = vlSelf->tb_Question6__DOT__i_data[3U];
+    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_i_data[4U] 
+        = vlSelf->tb_Question6__DOT__i_data[4U];
+    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_i_data[5U] 
+        = vlSelf->tb_Question6__DOT__i_data[5U];
+    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_i_data[6U] 
+        = vlSelf->tb_Question6__DOT__i_data[6U];
+    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_i_data[7U] 
+        = vlSelf->tb_Question6__DOT__i_data[7U];
+    vlSelf->o_less = (1U & ((((IData)(((0U == (0xc0U 
+                                               & (IData)(vlSelf->i_data_a))) 
+                                       & ((IData)(vlSelf->i_data_b) 
+                                          >> 6U))) 
+                              | (((~ ((IData)(vlSelf->i_data_a) 
+                                      >> 6U)) & (IData)(
+                                                        (0xc0U 
+                                                         == 
+                                                         (0xc0U 
+                                                          & (IData)(vlSelf->i_data_b))))) 
+                                 | ((~ ((IData)(vlSelf->i_data_a) 
+                                        >> 7U)) & ((IData)(vlSelf->i_data_b) 
+                                                   >> 7U)))) 
+                             | ((IData)(vlSelf->COMP_less__DOT__u_high__DOT__w_equal_high) 
+                                & ((IData)(((0U == 
+                                             (0x30U 
+                                              & (IData)(vlSelf->i_data_a))) 
+                                            & ((IData)(vlSelf->i_data_b) 
+                                               >> 4U))) 
+                                   | (((~ ((IData)(vlSelf->i_data_a) 
+                                           >> 4U)) 
+                                       & (IData)((0x30U 
+                                                  == 
+                                                  (0x30U 
+                                                   & (IData)(vlSelf->i_data_b))))) 
+                                      | ((~ ((IData)(vlSelf->i_data_a) 
+                                             >> 5U)) 
+                                         & ((IData)(vlSelf->i_data_b) 
+                                            >> 5U)))))) 
+                            | (((IData)(vlSelf->COMP_less__DOT__u_high__DOT__w_equal_high) 
+                                & (~ (IData)((0U != 
+                                              (3U & 
+                                               (((IData)(vlSelf->i_data_a) 
+                                                 ^ (IData)(vlSelf->i_data_b)) 
+                                                >> 4U)))))) 
+                               & (((IData)(((0U == 
+                                             (0xcU 
+                                              & (IData)(vlSelf->i_data_a))) 
+                                            & ((IData)(vlSelf->i_data_b) 
+                                               >> 2U))) 
+                                   | (((~ ((IData)(vlSelf->i_data_a) 
+                                           >> 2U)) 
+                                       & (IData)((0xcU 
+                                                  == 
+                                                  (0xcU 
+                                                   & (IData)(vlSelf->i_data_b))))) 
+                                      | ((~ ((IData)(vlSelf->i_data_a) 
+                                             >> 3U)) 
+                                         & ((IData)(vlSelf->i_data_b) 
+                                            >> 3U)))) 
+                                  | ((~ (IData)((0U 
+                                                 != 
+                                                 (3U 
+                                                  & (((IData)(vlSelf->i_data_a) 
+                                                      ^ (IData)(vlSelf->i_data_b)) 
+                                                     >> 2U))))) 
+                                     & ((IData)(((0U 
+                                                  == 
+                                                  (3U 
+                                                   & (IData)(vlSelf->i_data_a))) 
+                                                 & (IData)(vlSelf->i_data_b))) 
+                                        | (((~ (IData)(vlSelf->i_data_a)) 
+                                            & (((IData)(vlSelf->i_data_b) 
+                                                >> 1U) 
+                                               & (IData)(vlSelf->i_data_b))) 
+                                           | ((~ ((IData)(vlSelf->i_data_a) 
+                                                  >> 1U)) 
+                                              & ((IData)(vlSelf->i_data_b) 
+                                                 >> 1U)))))))));
 }
 
 VL_ATTR_COLD void Vtb_Question6___024root___eval_triggers__stl(Vtb_Question6___024root* vlSelf);
+VL_ATTR_COLD void Vtb_Question6___024root___eval_stl(Vtb_Question6___024root* vlSelf);
 
 VL_ATTR_COLD bool Vtb_Question6___024root___eval_phase__stl(Vtb_Question6___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
@@ -106,6 +185,21 @@ VL_ATTR_COLD bool Vtb_Question6___024root___eval_phase__stl(Vtb_Question6___024r
     }
     return (__VstlExecute);
 }
+
+#ifdef VL_DEBUG
+VL_ATTR_COLD void Vtb_Question6___024root___dump_triggers__ico(Vtb_Question6___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vtb_Question6__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___dump_triggers__ico\n"); );
+    // Body
+    if ((1U & (~ vlSelf->__VicoTriggered.any()))) {
+        VL_DBG_MSGF("         No triggers active\n");
+    }
+    if ((1ULL & vlSelf->__VicoTriggered.word(0U))) {
+        VL_DBG_MSGF("         'ico' region trigger index 0 is active: Internal 'ico' trigger - first iteration\n");
+    }
+}
+#endif  // VL_DEBUG
 
 #ifdef VL_DEBUG
 VL_ATTR_COLD void Vtb_Question6___024root___dump_triggers__act(Vtb_Question6___024root* vlSelf) {
@@ -148,6 +242,9 @@ VL_ATTR_COLD void Vtb_Question6___024root___ctor_var_reset(Vtb_Question6___024ro
     Vtb_Question6__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question6___024root___ctor_var_reset\n"); );
     // Body
+    vlSelf->i_data_a = VL_RAND_RESET_I(8);
+    vlSelf->i_data_b = VL_RAND_RESET_I(8);
+    vlSelf->o_less = VL_RAND_RESET_I(1);
     vlSelf->tb_Question6__DOT__i_clk = VL_RAND_RESET_I(1);
     vlSelf->tb_Question6__DOT__i_rst_n = VL_RAND_RESET_I(1);
     for (int __Vi0 = 0; __Vi0 < 8; ++__Vi0) {
@@ -169,82 +266,7 @@ VL_ATTR_COLD void Vtb_Question6___024root___ctor_var_reset(Vtb_Question6___024ro
     for (int __Vi0 = 0; __Vi0 < 8; ++__Vi0) {
         vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__w_sorted[__Vi0] = VL_RAND_RESET_I(8);
     }
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_0_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_0_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_1_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_1_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_max_2_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__w_data_min_2_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_0__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_1__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_0__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_1__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_2_0__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_0_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_0_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_1_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_1_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_max_2_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__w_data_min_2_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_0__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_1__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_0__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_1__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_2_0__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_2 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_0_3 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_2 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_0_3 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_1_2 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_1_2 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_max_2_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_0 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__w_data_min_2_1 = VL_RAND_RESET_I(8);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_0__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_1__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_2__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_2__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_3__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_3__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_0__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_1__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_2__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_2__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_0__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_0__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_1__DOT__w_compare = VL_RAND_RESET_I(1);
-    vlSelf->tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_1__DOT__COMP_UNIT__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
+    vlSelf->COMP_less__DOT__u_high__DOT__w_equal_high = VL_RAND_RESET_I(1);
     vlSelf->__Vtrigprevexpr___TOP__tb_Question6__DOT__i_clk__0 = VL_RAND_RESET_I(1);
     vlSelf->__Vtrigprevexpr___TOP__tb_Question6__DOT__i_rst_n__0 = VL_RAND_RESET_I(1);
     for (int __Vi0 = 0; __Vi0 < 6; ++__Vi0) {

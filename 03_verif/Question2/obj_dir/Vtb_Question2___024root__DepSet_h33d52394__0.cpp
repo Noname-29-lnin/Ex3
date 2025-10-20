@@ -5,22 +5,52 @@
 #include "Vtb_Question2__pch.h"
 #include "Vtb_Question2___024root.h"
 
-void Vtb_Question2___024root___eval_triggers__ico(Vtb_Question2___024root* vlSelf);
-void Vtb_Question2___024root___eval_ico(Vtb_Question2___024root* vlSelf);
+VL_ATTR_COLD void Vtb_Question2___024root___eval_initial__TOP(Vtb_Question2___024root* vlSelf);
+VlCoroutine Vtb_Question2___024root___eval_initial__TOP__Vtiming__0(Vtb_Question2___024root* vlSelf);
+VlCoroutine Vtb_Question2___024root___eval_initial__TOP__Vtiming__1(Vtb_Question2___024root* vlSelf);
 
-bool Vtb_Question2___024root___eval_phase__ico(Vtb_Question2___024root* vlSelf) {
+void Vtb_Question2___024root___eval_initial(Vtb_Question2___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtb_Question2__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question2___024root___eval_phase__ico\n"); );
-    // Init
-    CData/*0:0*/ __VicoExecute;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question2___024root___eval_initial\n"); );
     // Body
-    Vtb_Question2___024root___eval_triggers__ico(vlSelf);
-    __VicoExecute = vlSelf->__VicoTriggered.any();
-    if (__VicoExecute) {
-        Vtb_Question2___024root___eval_ico(vlSelf);
+    Vtb_Question2___024root___eval_initial__TOP(vlSelf);
+    vlSelf->__Vm_traceActivity[1U] = 1U;
+    Vtb_Question2___024root___eval_initial__TOP__Vtiming__0(vlSelf);
+    Vtb_Question2___024root___eval_initial__TOP__Vtiming__1(vlSelf);
+    vlSelf->__Vtrigprevexpr___TOP__tb_Question2__DOT__i_clk__0 
+        = vlSelf->tb_Question2__DOT__i_clk;
+}
+
+void Vtb_Question2___024root___act_sequent__TOP__0(Vtb_Question2___024root* vlSelf);
+void Vtb_Question2___024root___act_comb__TOP__0(Vtb_Question2___024root* vlSelf);
+
+void Vtb_Question2___024root___eval_act(Vtb_Question2___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vtb_Question2__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question2___024root___eval_act\n"); );
+    // Body
+    if ((1ULL & vlSelf->__VactTriggered.word(0U))) {
+        Vtb_Question2___024root___act_sequent__TOP__0(vlSelf);
     }
-    return (__VicoExecute);
+    if ((3ULL & vlSelf->__VactTriggered.word(0U))) {
+        Vtb_Question2___024root___act_comb__TOP__0(vlSelf);
+        vlSelf->__Vm_traceActivity[3U] = 1U;
+    }
+}
+
+void Vtb_Question2___024root___eval_nba(Vtb_Question2___024root* vlSelf) {
+    (void)vlSelf;  // Prevent unused variable warning
+    Vtb_Question2__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question2___024root___eval_nba\n"); );
+    // Body
+    if ((1ULL & vlSelf->__VnbaTriggered.word(0U))) {
+        Vtb_Question2___024root___act_sequent__TOP__0(vlSelf);
+    }
+    if ((3ULL & vlSelf->__VnbaTriggered.word(0U))) {
+        Vtb_Question2___024root___act_comb__TOP__0(vlSelf);
+        vlSelf->__Vm_traceActivity[4U] = 1U;
+    }
 }
 
 void Vtb_Question2___024root___timing_resume(Vtb_Question2___024root* vlSelf) {
@@ -28,10 +58,10 @@ void Vtb_Question2___024root___timing_resume(Vtb_Question2___024root* vlSelf) {
     Vtb_Question2__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question2___024root___timing_resume\n"); );
     // Body
-    if ((0x10000ULL & vlSelf->__VactTriggered.word(0U))) {
+    if ((2ULL & vlSelf->__VactTriggered.word(0U))) {
         vlSelf->__VtrigSched_h7131ccb1__0.resume("@(posedge tb_Question2.i_clk)");
     }
-    if ((0x8000ULL & vlSelf->__VactTriggered.word(0U))) {
+    if ((1ULL & vlSelf->__VactTriggered.word(0U))) {
         vlSelf->__VdlySched.resume();
     }
 }
@@ -41,20 +71,19 @@ void Vtb_Question2___024root___timing_commit(Vtb_Question2___024root* vlSelf) {
     Vtb_Question2__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question2___024root___timing_commit\n"); );
     // Body
-    if ((! (0x10000ULL & vlSelf->__VactTriggered.word(0U)))) {
+    if ((! (2ULL & vlSelf->__VactTriggered.word(0U)))) {
         vlSelf->__VtrigSched_h7131ccb1__0.commit("@(posedge tb_Question2.i_clk)");
     }
 }
 
 void Vtb_Question2___024root___eval_triggers__act(Vtb_Question2___024root* vlSelf);
-void Vtb_Question2___024root___eval_act(Vtb_Question2___024root* vlSelf);
 
 bool Vtb_Question2___024root___eval_phase__act(Vtb_Question2___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
     Vtb_Question2__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question2___024root___eval_phase__act\n"); );
     // Init
-    VlTriggerVec<17> __VpreTriggered;
+    VlTriggerVec<2> __VpreTriggered;
     CData/*0:0*/ __VactExecute;
     // Body
     Vtb_Question2___024root___eval_triggers__act(vlSelf);
@@ -68,8 +97,6 @@ bool Vtb_Question2___024root___eval_phase__act(Vtb_Question2___024root* vlSelf) 
     }
     return (__VactExecute);
 }
-
-void Vtb_Question2___024root___eval_nba(Vtb_Question2___024root* vlSelf);
 
 bool Vtb_Question2___024root___eval_phase__nba(Vtb_Question2___024root* vlSelf) {
     (void)vlSelf;  // Prevent unused variable warning
@@ -87,9 +114,6 @@ bool Vtb_Question2___024root___eval_phase__nba(Vtb_Question2___024root* vlSelf) 
 }
 
 #ifdef VL_DEBUG
-VL_ATTR_COLD void Vtb_Question2___024root___dump_triggers__ico(Vtb_Question2___024root* vlSelf);
-#endif  // VL_DEBUG
-#ifdef VL_DEBUG
 VL_ATTR_COLD void Vtb_Question2___024root___dump_triggers__nba(Vtb_Question2___024root* vlSelf);
 #endif  // VL_DEBUG
 #ifdef VL_DEBUG
@@ -101,28 +125,9 @@ void Vtb_Question2___024root___eval(Vtb_Question2___024root* vlSelf) {
     Vtb_Question2__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtb_Question2___024root___eval\n"); );
     // Init
-    IData/*31:0*/ __VicoIterCount;
-    CData/*0:0*/ __VicoContinue;
     IData/*31:0*/ __VnbaIterCount;
     CData/*0:0*/ __VnbaContinue;
     // Body
-    __VicoIterCount = 0U;
-    vlSelf->__VicoFirstIteration = 1U;
-    __VicoContinue = 1U;
-    while (__VicoContinue) {
-        if (VL_UNLIKELY((0x64U < __VicoIterCount))) {
-#ifdef VL_DEBUG
-            Vtb_Question2___024root___dump_triggers__ico(vlSelf);
-#endif
-            VL_FATAL_MT("/home/noname/Documents/project_tiny/Ex3/03_verif/Question2/tb_Question2.sv", 3, "", "Input combinational region did not converge.");
-        }
-        __VicoIterCount = ((IData)(1U) + __VicoIterCount);
-        __VicoContinue = 0U;
-        if (Vtb_Question2___024root___eval_phase__ico(vlSelf)) {
-            __VicoContinue = 1U;
-        }
-        vlSelf->__VicoFirstIteration = 0U;
-    }
     __VnbaIterCount = 0U;
     __VnbaContinue = 1U;
     while (__VnbaContinue) {
@@ -130,7 +135,7 @@ void Vtb_Question2___024root___eval(Vtb_Question2___024root* vlSelf) {
 #ifdef VL_DEBUG
             Vtb_Question2___024root___dump_triggers__nba(vlSelf);
 #endif
-            VL_FATAL_MT("/home/noname/Documents/project_tiny/Ex3/03_verif/Question2/tb_Question2.sv", 3, "", "NBA region did not converge.");
+            VL_FATAL_MT("/home/noname/Documents/project_tiny/Ex3/03_verif/Question2/tb_Question2.sv", 2, "", "NBA region did not converge.");
         }
         __VnbaIterCount = ((IData)(1U) + __VnbaIterCount);
         __VnbaContinue = 0U;
@@ -141,7 +146,7 @@ void Vtb_Question2___024root___eval(Vtb_Question2___024root* vlSelf) {
 #ifdef VL_DEBUG
                 Vtb_Question2___024root___dump_triggers__act(vlSelf);
 #endif
-                VL_FATAL_MT("/home/noname/Documents/project_tiny/Ex3/03_verif/Question2/tb_Question2.sv", 3, "", "Active region did not converge.");
+                VL_FATAL_MT("/home/noname/Documents/project_tiny/Ex3/03_verif/Question2/tb_Question2.sv", 2, "", "Active region did not converge.");
             }
             vlSelf->__VactIterCount = ((IData)(1U) 
                                        + vlSelf->__VactIterCount);

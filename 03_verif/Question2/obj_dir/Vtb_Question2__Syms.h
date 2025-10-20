@@ -16,7 +16,6 @@
 
 // INCLUDE MODULE CLASSES
 #include "Vtb_Question2___024root.h"
-#include "Vtb_Question2_LOPD_16bit.h"
 
 // SYMS CLASS (contains all model state)
 class alignas(VL_CACHE_LINE_BYTES)Vtb_Question2__Syms final : public VerilatedSyms {
@@ -33,12 +32,9 @@ class alignas(VL_CACHE_LINE_BYTES)Vtb_Question2__Syms final : public VerilatedSy
 
     // MODULE INSTANCE STATE
     Vtb_Question2___024root        TOP;
-    Vtb_Question2_LOPD_16bit       TOP__LOPD_32bit__DOT__LOPD_16bit_unit_0;
-    Vtb_Question2_LOPD_16bit       TOP__LOPD_32bit__DOT__LOPD_16bit_unit_1;
-    Vtb_Question2_LOPD_16bit       TOP__tb_Question2__DOT__DUT__DOT__DUT__DOT__LOPD_16bit_UNIT_LSB;
 
     // COVERAGE
-    uint32_t __Vcoverage[226];
+    uint32_t __Vcoverage[129];
 
     // CONSTRUCTORS
     Vtb_Question2__Syms(VerilatedContext* contextp, const char* namep, Vtb_Question2* modelp);

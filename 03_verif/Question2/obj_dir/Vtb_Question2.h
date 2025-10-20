@@ -14,8 +14,6 @@
 class Vtb_Question2__Syms;
 class Vtb_Question2___024root;
 class VerilatedVcdC;
-class Vtb_Question2_LOPD_16bit;
-
 
 // This class is the main interface to the Verilated model
 class alignas(VL_CACHE_LINE_BYTES) Vtb_Question2 VL_NOT_FINAL : public VerilatedModel {
@@ -28,16 +26,10 @@ class alignas(VL_CACHE_LINE_BYTES) Vtb_Question2 VL_NOT_FINAL : public Verilated
     // PORTS
     // The application code writes and reads these signals to
     // propagate new values into/out from the Verilated model.
-    VL_OUT8(&o_pos_one,4,0);
-    VL_OUT8(&o_zero_flag,0,0);
-    VL_IN(&i_data,31,0);
 
     // CELLS
     // Public to allow access to /* verilator public */ items.
     // Otherwise the application code can consider these internals.
-    Vtb_Question2_LOPD_16bit* const __PVT__tb_Question2__DOT__DUT__DOT__DUT__DOT__LOPD_16bit_UNIT_LSB;
-    Vtb_Question2_LOPD_16bit* const __PVT__LOPD_32bit__DOT__LOPD_16bit_unit_0;
-    Vtb_Question2_LOPD_16bit* const __PVT__LOPD_32bit__DOT__LOPD_16bit_unit_1;
 
     // Root instance pointer to allow access to model internals,
     // including inlined /* verilator public_flat_* */ items.

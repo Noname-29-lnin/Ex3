@@ -1,5 +1,5 @@
 Fitter report for Question6_unit
-Sun Oct 19 14:55:31 2025
+Mon Oct 20 19:32:24 2025
 Quartus Prime Version 24.1std.0 Build 1077 03/04/2025 SC Lite Edition
 
 
@@ -60,7 +60,7 @@ on the Quartus Prime software download page.
 +-----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                    ;
 +---------------------------------+-------------------------------------------------+
-; Fitter Status                   ; Successful - Sun Oct 19 14:55:31 2025           ;
+; Fitter Status                   ; Successful - Mon Oct 20 19:32:24 2025           ;
 ; Quartus Prime Version           ; 24.1std.0 Build 1077 03/04/2025 SC Lite Edition ;
 ; Revision Name                   ; Question6_unit                                  ;
 ; Top-level Entity Name           ; Question6_unit                                  ;
@@ -2419,16 +2419,16 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:09
-Info (11888): Total time spent on timing analysis during the Fitter is 0.50 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.56 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:04
 Info: Quartus Prime Fitter was successful. 0 errors, 7 warnings
-    Info: Peak virtual memory: 1931 megabytes
-    Info: Processing ended: Sun Oct 19 14:55:32 2025
-    Info: Elapsed time: 00:00:39
-    Info: Total CPU time (on all processors): 00:01:12
+    Info: Peak virtual memory: 1926 megabytes
+    Info: Processing ended: Mon Oct 20 19:32:25 2025
+    Info: Elapsed time: 00:00:40
+    Info: Total CPU time (on all processors): 00:01:15
 
 

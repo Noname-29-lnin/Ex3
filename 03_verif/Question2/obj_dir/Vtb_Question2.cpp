@@ -10,12 +10,6 @@
 Vtb_Question2::Vtb_Question2(VerilatedContext* _vcontextp__, const char* _vcname__)
     : VerilatedModel{*_vcontextp__}
     , vlSymsp{new Vtb_Question2__Syms(contextp(), _vcname__, this)}
-    , o_pos_one{vlSymsp->TOP.o_pos_one}
-    , o_zero_flag{vlSymsp->TOP.o_zero_flag}
-    , i_data{vlSymsp->TOP.i_data}
-    , __PVT__tb_Question2__DOT__DUT__DOT__DUT__DOT__LOPD_16bit_UNIT_LSB{vlSymsp->TOP.__PVT__tb_Question2__DOT__DUT__DOT__DUT__DOT__LOPD_16bit_UNIT_LSB}
-    , __PVT__LOPD_32bit__DOT__LOPD_16bit_unit_0{vlSymsp->TOP.__PVT__LOPD_32bit__DOT__LOPD_16bit_unit_0}
-    , __PVT__LOPD_32bit__DOT__LOPD_16bit_unit_1{vlSymsp->TOP.__PVT__LOPD_32bit__DOT__LOPD_16bit_unit_1}
     , rootp{&(vlSymsp->TOP)}
 {
     // Register model with the context

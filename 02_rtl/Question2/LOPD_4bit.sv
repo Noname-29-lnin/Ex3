@@ -21,6 +21,6 @@ module LOPD_4bit(
 
 assign o_zero_flag = ~((o_pos_one[1])|(i_data[1]|i_data[0])) ;
 assign o_pos_one[1] = i_data[3] | i_data[2];
-assign o_pos_one[0] = ((~o_pos_one[1]) & (i_data[1])) |  (i_data[3]);
+assign o_pos_one[0] = ((~(i_data[3] | i_data[2])) & (i_data[1])) |  (i_data[3]);
 
 endmodule

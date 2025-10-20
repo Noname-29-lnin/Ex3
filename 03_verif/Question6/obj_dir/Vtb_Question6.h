@@ -13,6 +13,8 @@
 class Vtb_Question6__Syms;
 class Vtb_Question6___024root;
 class VerilatedVcdC;
+class Vtb_Question6_Compare_and_Swap_unit__I0;
+
 
 // This class is the main interface to the Verilated model
 class alignas(VL_CACHE_LINE_BYTES) Vtb_Question6 VL_NOT_FINAL : public VerilatedModel {
@@ -25,10 +27,32 @@ class alignas(VL_CACHE_LINE_BYTES) Vtb_Question6 VL_NOT_FINAL : public Verilated
     // PORTS
     // The application code writes and reads these signals to
     // propagate new values into/out from the Verilated model.
+    VL_IN8(&i_data_a,7,0);
+    VL_IN8(&i_data_b,7,0);
+    VL_OUT8(&o_less,0,0);
 
     // CELLS
     // Public to allow access to /* verilator public */ items.
     // Otherwise the application code can consider these internals.
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_0;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_0_1;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_0;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_1_1;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_0__DOT__CAS_2_0;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_0;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_0_1;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_0;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_1_1;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_4_UNIT_1__DOT__CAS_2_0;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_0;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_1;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_2;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_0_3;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_0;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_1;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_1_2;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_0;
+    Vtb_Question6_Compare_and_Swap_unit__I0* const __PVT__tb_Question6__DOT__dut__DOT__DUT__DOT__BN_8_UNIT_0__DOT__CAS_2_1;
 
     // Root instance pointer to allow access to model internals,
     // including inlined /* verilator public_flat_* */ items.

@@ -5,7 +5,7 @@ module tb_Question6();
     //================================================================
     // Parameter
     //================================================================
-    parameter IS_ASC    = 1;      // 1 = tăng dần, 0 = giảm dần
+    parameter IS_ASC    = 0;      // 1 = tăng dần, 0 = giảm dần
     parameter NUM_ELEM  = 8;
     parameter SIZE_DATA = 8;
 
@@ -41,7 +41,9 @@ module tb_Question6();
     // Test Procedure
     //================================================================
     integer k;
-
+    int test_count = 0;
+    int test_pass  = 0;
+    
     initial begin
         // Khởi tạo
         i_rst_n = 0;
@@ -57,12 +59,12 @@ module tb_Question6();
         // Gán giá trị đầu vào (có thể ngẫu nhiên hoặc cố định)
         //================================================================
         // Ví dụ cố định để dễ xem kết quả:
-        i_data[0] = 8'd35;
-        i_data[1] = 8'd120;
-        i_data[2] = 8'd0;
+        i_data[0] = 8'd135;
+        i_data[1] = 8'd220;
+        i_data[2] = 8'd110;
         i_data[3] = 8'd0;
-        i_data[4] = 8'd55;
-        i_data[5] = 8'd100;
+        i_data[4] = 8'd155;
+        i_data[5] = 8'd135;
         i_data[6] = 8'd77;
         i_data[7] = 8'd5;
 

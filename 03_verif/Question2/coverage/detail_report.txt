@@ -1,2 +1,2 @@
-Total coverage (53/92) 57.00%
-See lines with '%00' in ./Question2/coverage/annotated_src
+Total coverage (59/93) 63.00%
+See lines with '%00' in Question2/coverage/annotated_src
