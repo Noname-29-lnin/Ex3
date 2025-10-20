@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  19 OCT 2025 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  20 OCT 2025 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1685,7 +1685,7 @@ l.76 \include{./my-chapters/Question6.tex}
                                            [2]
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251019171553 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251020173457 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
 (main.aux (my-chapters/Question6.aux))
@@ -1697,11 +1697,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 0B6AA83F41272135D531C4734C52A5E5;144.
  ) 
 Here is how much of TeX's memory you used:
- 32315 strings out of 468134
- 632295 string characters out of 5430740
+ 32318 strings out of 468134
+ 632328 string characters out of 5430740
  1149768 words of memory out of 5000000
- 60372 multiletter control sequences out of 15000+600000
- 646924 words of font info for 85 fonts, out of 8000000 for 9000
+ 60374 multiletter control sequences out of 15000+600000
+ 648717 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,14n,101p,1065b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
@@ -1709,10 +1709,11 @@ cmmi12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmr8.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vnt
 ex/vnr/vnbx12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vnt
 ex/vnr/vnr12.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vnte
-x/vnr/vnr17.pfb>
-Output written on main.pdf (4 pages, 208355 bytes).
+x/vnr/vnr17.pfb><C:/Users/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex
+/vnr/vnti12.pfb>
+Output written on main.pdf (4 pages, 219991 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  5 named destinations out of 1000 (max. 500000)
  54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
