@@ -5,4 +5,5 @@
 \contentsline {subsection}{c)}{8}{lstnumber.4.37}%
 \contentsline {section}{Câu 6}{9}{lstnumber.5.20}%
 \contentsline {subsection}{a)}{10}{figure.caption.8}%
-\contentsline {subsection}{b)}{10}{figure.caption.8}%
+\contentsline {subsection}{b)}{14}{figure.caption.14}%
+\contentsline {subsection}{c)}{21}{lstnumber.12.77}%

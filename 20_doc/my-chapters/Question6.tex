@@ -18,11 +18,107 @@ Cho các standard cell là: Cổng NOT, các cổng logic 2 ngõ vào, Mux 2-1, 
 
 \answer{a}{Giả sử các mẫu ngõ vào có độ rộng là 8bit. Thiết kế mạch trên theo phương pháp đã cho và chỉ được sử dụng các standard cell trên.}
 
-\subsubsection*{Bộ so sánh 8bit}
+\begin{itemize}[label=-]
+	\item \textbf{Bộ so sánh 8bit}
+	
+	\begin{itemize}[label=+]
+		\item Triển khai bộ so sánh 2-bit
+		
+		\begin{table}[H]
+			\centering
+			\begin{tabular}{|c|c|c|c|c|c|}
+				\hline 
+				\multicolumn{4}{|c|}{Input} & \multicolumn{2}{c|}{Output}\\
+				\hline
+				$ a_{1} $ & $ a_{0} $ & $ b_{1} $ & $ b_{0} $ & less & equal \\
+				\hline
+				0 & 0 & 0 & 0 & 0 & 1\\
+				\hline
+				0 & 0 & 0 & 1 & 1 & 0\\
+				\hline
+				0 & 0 & 1 & 0 & 1 & 0\\
+				\hline
+				0 & 0 & 1 & 1 & 1 & 0\\
+				\hline
+				0 & 1 & 0 & 0 & 0 & 0\\
+				\hline
+				0 & 1 & 0 & 1 & 0 & 1\\
+				\hline
+				0 & 1 & 1 & 0 & 1 & 0\\
+				\hline
+				0 & 1 & 1 & 1 & 1 & 0\\
+				\hline
+				1 & 0 & 0 & 0 & 0 & 0\\
+				\hline
+				1 & 0 & 0 & 1 & 0 & 0\\
+				\hline
+				1 & 0 & 1 & 0 & 0 & 1\\
+				\hline
+				1 & 0 & 1 & 1 & 0 & 0\\
+				\hline
+				1 & 1 & 0 & 0 & 0 & 0\\
+				\hline
+				1 & 1 & 0 & 1 & 0 & 0\\
+				\hline
+				1 & 1 & 1 & 0 & 0 & 0\\
+				\hline
+				1 & 1 & 1 & 1 & 0 & 1\\
+				\hline
+			\end{tabular}
+			\caption{Bảng sự thật cho bộ so sánh 2-bit $ A \,<\, B $.}
+			\label{tab: comparator 2bit}
+		\end{table}
+	
+		Từ bộ bảng sự thật \ref{tab: comparator 2bit}, ta rút gọn kìa K về dạng như sau:
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=.9\linewidth]{/home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Question6/comparator_2bit.png}
+			\caption{Sơ đồ logic của bộ Comparator 2-bit.}
+		\end{figure}
+	
+		\item Triển khai bộ so sánh 4-bit
+		
+		\begin{minipage}{.4\linewidth}
+			\includegraphics[width=.7\linewidth]{/home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Question6/propagation.png}
+		\end{minipage}
+		\begin{minipage}{.4\linewidth}
+			Sử dụng bộ lan truyền dấu so sánh trên, với nếu các bit trên có có xuất hiện bit less thì ngõ ra lan truyền bit less, còn nếu bit thấp thì nếu tầng trên bằng nhau và các tầng thấp có bit less ngõ ra lan truyền bit less.
+		\end{minipage}
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=.9\linewidth]{/home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Question6/comparator_4bit.png}
+			\caption{Sơ đồ logic của bộ Comparator 4-bit.}
+		\end{figure}
+	
+		\item Triển khai bộ so sánh 8-bit
+		
+		Tương tự với bộ 4-bit, thì 8-bit được triển khai với 2 bộ 4-bit.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=.9\linewidth]{/home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Question6/comparator_8bit.png}
+			\caption{Sơ đồ logic của bộ Comparator 8-bit.}
+		\end{figure}
+	\end{itemize}
 
-\subsubsection*{Bộ Swap 8bit}
+	\item \textbf{Bộ Swap 8bit}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=.4\linewidth]{./my-chapters/my-diagrams/Question6/Swap_and_compare.png}
+		\caption{Bộ so sánh và swap giá trị trong Bitonic Sort.}
+	\end{figure}
 
-\subsubsection*{Bitonic Sort}
+	\item \textbf{Bitonic Sort}
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\linewidth]{./my-chapters/my-diagrams/Question6/debai.png}
+		\caption{Bộ sắp xếp Bitonic Sort.}
+	\end{figure}
+\end{itemize}
 
 \answer{b}{Viết chương trình HDL mô tả mạch đã cho.}
 
@@ -39,3 +135,48 @@ Cho các standard cell là: Cổng NOT, các cổng logic 2 ngõ vào, Mux 2-1, 
 \lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ Bitonic Sort Block-8.}]{/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block8.sv}
 
 \lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ Bitonic Sort 8 phần tử đầu vào.}]{/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv}
+
+\answer{c}{Viết chương trình testbench cho mạch.}
+
+Đầu tiên nhóm em thực hiện triển khai chứng minh giải thuật kết quả đúng của bài toán sau:
+
+\begin{lstlisting}[style=StyleCode, language=SystemVerilog, caption={Giải thuật chứng minh bộ Bitonic Sort 8 phần tử.}]
+	function automatic logic [SIZE_DATA*NUM_ELEM-1:0] f_ARR_sorted(
+		int                                  f_is_acs   ,
+		input logic [SIZE_DATA*NUM_ELEM-1:0] f_i_data
+	);
+		logic [SIZE_DATA-1:0] arr   [0:NUM_ELEM-1];
+		logic [SIZE_DATA-1:0] temp;
+		int i, j;
+	
+		begin
+			for (i = 0; i < NUM_ELEM; i++) begin
+				arr[i] = f_i_data[i*SIZE_DATA +: SIZE_DATA];
+			end
+			
+			for (i = 0; i < NUM_ELEM-1; i++) begin
+				for (j = 0; j < NUM_ELEM-1-i; j++) begin
+					if(f_is_acs) begin
+						if (arr[j] > arr[j+1]) begin
+							temp     = arr[j];
+							arr[j]   = arr[j+1];
+							arr[j+1] = temp;
+						end 
+					end else begin
+						if (arr[j] < arr[j+1]) begin
+							temp     = arr[j];
+							arr[j]   = arr[j+1];
+							arr[j+1] = temp;
+						end
+					end
+				end
+			end
+	
+		for (i = 0; i < NUM_ELEM; i++) begin
+			f_ARR_sorted[i*SIZE_DATA +: SIZE_DATA] = arr[i];
+		end
+	end
+	endfunction
+\end{lstlisting}
+
+Nhóm em sử dụng giải thuật của Bubble Sort gần giống với giải thuật parallel của Bitonic Sort.

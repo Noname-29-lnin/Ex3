@@ -50,7 +50,7 @@
 `include "scoreboard.sv"
 
 module tb_top;
-    import P_INITVALUE::*; // nếu có
+    // import P_INITVALUE::*; // nếu có
 
     parameter NUM_ELEM = 8;
     parameter SIZE_DATA = 8;
