@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  21 OCT 2025 21:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.11)  22 OCT 2025 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1614,7 +1614,7 @@ Package hyperref Warning: The anchor of a bookmark and its parent's must not
 (hyperref)                be the same. Added a new anchor on input line 5.
 
 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Questio
-n2/spec.png, id=113, 765.86125pt x 336.25626pt>
+n2/spec.png, id=123, 765.86125pt x 336.25626pt>
 File: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Qu
 estion2/spec.png Graphic file (type png)
 <use /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
@@ -1623,7 +1623,7 @@ Package pdftex.def Info: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chap
 ters/my-diagrams/Question2/spec.png  used on input line 36.
 (pdftex.def)             Requested size: 386.95897pt x 169.89786pt.
 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Questio
-n2/LOPD_8bit.png, id=114, 764.8575pt x 697.60625pt>
+n2/LOPD_8bit.png, id=124, 764.8575pt x 697.60625pt>
 File: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Qu
 estion2/LOPD_8bit.png Graphic file (type png)
 <use /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
@@ -1633,7 +1633,7 @@ ters/my-diagrams/Question2/LOPD_8bit.png  used on input line 44.
 (pdftex.def)             Requested size: 386.95897pt x 352.93237pt.
 
 
-<./my-chapters/my-images/logo_DEE.png, id=115, 76.03406pt x 75.28125pt>
+<./my-chapters/my-images/logo_DEE.png, id=125, 76.03406pt x 75.28125pt>
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
@@ -1650,7 +1650,7 @@ l.46 \end{figure}
  </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Questi
 on2/spec.png> <./my-chapters/my-images/logo_DEE.png>]
 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Questio
-n2/LOPD_16bit.png, id=124, 845.1575pt x 1105.12875pt>
+n2/LOPD_16bit.png, id=134, 845.1575pt x 1105.12875pt>
 File: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Qu
 estion2/LOPD_16bit.png Graphic file (type png)
 <use /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
@@ -1674,7 +1674,7 @@ l.53
       [2 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagram
 s/Question2/LOPD_8bit.png>]
 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Questio
-n2/LOPD_24bit.png, id=130, 885.3075pt x 1285.80376pt>
+n2/LOPD_24bit.png, id=140, 885.3075pt x 1285.80376pt>
 File: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Qu
 estion2/LOPD_24bit.png Graphic file (type png)
 <use /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
@@ -1735,25 +1735,39 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 15.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[7]))
+[7])
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 102.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[8]
+
+File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
+<use ./my-chapters/my-images/logo_DEE.png>
+Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
+ne 151.
+(pdftex.def)             Requested size: 9.676pt x 9.58012pt.
+[9])
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 76.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[8]
+[10]
 \openout2 = `./my-chapters/Question6.aux'.
 
  (my-chapters/Question6.tex
-<./my-chapters/my-diagrams/Question6/debai.png, id=389, 1452.42625pt x 674.52pt
+<./my-chapters/my-diagrams/Question6/debai.png, id=481, 1452.42625pt x 674.52pt
 >
 File: ./my-chapters/my-diagrams/Question6/debai.png Graphic file (type png)
 <use ./my-chapters/my-diagrams/Question6/debai.png>
 Package pdftex.def Info: ./my-chapters/my-diagrams/Question6/debai.png  used on
  input line 7.
 (pdftex.def)             Requested size: 483.69687pt x 224.63017pt.
-<./my-chapters/my-diagrams/Question6/Swap_and_compare.png, id=390, 512.91624pt 
+<./my-chapters/my-diagrams/Question6/Swap_and_compare.png, id=482, 512.91624pt 
 x 533.995pt>
 File: ./my-chapters/my-diagrams/Question6/Swap_and_compare.png Graphic file (ty
 pe png)
@@ -1768,14 +1782,14 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 25.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[9
+[11
 
 
 
  <./my-chapters/my-diagrams/Question6/debai.png> <./my-chapters/my-diagrams/Que
 stion6/Swap_and_compare.png>]
 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Questio
-n6/comparator_2bit.png, id=400, 1005.7575pt x 763.85374pt>
+n6/comparator_2bit.png, id=492, 1005.7575pt x 763.85374pt>
 File: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Qu
 estion6/comparator_2bit.png Graphic file (type png)
 <use /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
@@ -1790,9 +1804,9 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 78.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[10]
+[12]
 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Questio
-n6/propagation.png, id=407, 273.02pt x 142.5325pt>
+n6/propagation.png, id=498, 273.02pt x 142.5325pt>
 File: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Qu
 estion6/propagation.png Graphic file (type png)
 <use /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
@@ -1801,7 +1815,7 @@ Package pdftex.def Info: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chap
 ters/my-diagrams/Question6/propagation.png  used on input line 83.
 (pdftex.def)             Requested size: 119.96992pt x 62.63184pt.
 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Questio
-n6/comparator_4bit.png, id=408, 844.15375pt x 544.0325pt>
+n6/comparator_4bit.png, id=499, 844.15375pt x 544.0325pt>
 File: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Qu
 estion6/comparator_4bit.png Graphic file (type png)
 <use /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
@@ -1816,11 +1830,11 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 94.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[11 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
+[13 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
 stion6/comparator_2bit.png> </home/noname/Documents/project_tiny/Ex3/20_doc/my-
 chapters/my-diagrams/Question6/propagation.png>]
 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Questio
-n6/comparator_8bit.png, id=416, 844.15375pt x 844.15375pt>
+n6/comparator_8bit.png, id=507, 844.15375pt x 844.15375pt>
 File: /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Qu
 estion6/comparator_8bit.png Graphic file (type png)
 <use /home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
@@ -1835,7 +1849,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 104.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[12 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
+[14 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
 stion6/comparator_4bit.png>]
 File: ./my-chapters/my-diagrams/Question6/Swap_and_compare.png Graphic file (ty
 pe png)
@@ -1850,7 +1864,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 113.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[13 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
+[15 </home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Que
 stion6/comparator_8bit.png>]
 File: ./my-chapters/my-diagrams/Question6/debai.png Graphic file (type png)
 <use ./my-chapters/my-diagrams/Question6/debai.png>
@@ -1865,7 +1879,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 8.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[14]) (/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_4bit.sv)
+[16]) (/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_4bit.sv)
 (/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_less.sv
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
@@ -1873,7 +1887,7 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 25.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[15])
+[17])
 (/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Compare_and_Swap_unit
 .sv)
 (/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block4.sv
@@ -1883,14 +1897,14 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 16.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[16]
+[18]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 80.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[17])
+[19])
 (/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block8.sv
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
@@ -1898,14 +1912,14 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 57.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[18]
+[20]
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 121.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[19]) (/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv
+[21]) (/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv
 
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
@@ -1913,23 +1927,23 @@ File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 52.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[20])
+[22])
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 169.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[21])
+[23])
 
 File: ./my-chapters/my-images/logo_DEE.png Graphic file (type png)
 <use ./my-chapters/my-images/logo_DEE.png>
 Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 77.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
-[22] 
+[24] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251021213100 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251022140341 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
 (main.aux (my-chapters/Question2.aux) (my-chapters/Question6.aux))
@@ -1938,16 +1952,16 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-07-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: E84B72CA8EC4048FC2D97CB4C0CC0D3E;584.
+(rerunfilecheck)             Checksum: 19C17CF1312B2E0DB1E6EB64BCDCA96F;584.
  ) 
 Here is how much of TeX's memory you used:
- 33748 strings out of 470046
- 655997 string characters out of 5482220
- 1887893 words of memory out of 5000000
- 60827 multiletter control sequences out of 15000+600000
+ 33852 strings out of 470046
+ 657407 string characters out of 5482220
+ 1887891 words of memory out of 5000000
+ 60853 multiletter control sequences out of 15000+600000
  649790 words of font info for 90 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 99i,15n,101p,1078b,2211s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,101p,1078b,2290s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </home/noname/.miktex/texmfs/data/fonts/pk/ljfour/jknappen/ec/dpi525/tctt080
 0.pk></home/noname/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi12
 .pfb></home/noname/.miktex/texmfs/install/fonts/type1/public/amsfonts/cm/cmr12.
@@ -1958,9 +1972,9 @@ noname/.miktex/texmfs/install/fonts/type1/vntex/vnr/vnr12.pfb></home/noname/.mi
 ktex/texmfs/install/fonts/type1/vntex/vnr/vnr17.pfb></home/noname/.miktex/texmf
 s/install/fonts/type1/vntex/vnr/vnr6.pfb></home/noname/.miktex/texmfs/install/f
 onts/type1/vntex/vnr/vntt8.pfb>
-Output written on main.pdf (25 pages, 648016 bytes).
+Output written on main.pdf (27 pages, 669451 bytes).
 PDF statistics:
- 1086 PDF objects out of 1200 (max. 8388607)
- 699 named destinations out of 1000 (max. 500000)
+ 1192 PDF objects out of 1200 (max. 8388607)
+ 777 named destinations out of 1000 (max. 500000)
  142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

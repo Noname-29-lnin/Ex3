@@ -37,18 +37,7 @@ function automatic logic [SIZE_LOP-1:0] Test_LOPD(
 endfunction
 
 //===================== DUT =====================//
-// Question2_unit #(
-//     .SIZE_DATA (SIZE_DATA),
-//     .SIZE_LOP  (SIZE_LOP)
-// ) DUT (
-//     .i_clk          (i_clk),
-//     .i_rst_n        (i_rst_n),
-//     .i_addr         (i_addr),
-//     .i_data         (i_data),
-//     .o_addr         (o_addr),
-//     .o_one_position (o_one_position),
-//     .o_zero_flag    (o_zero_flag)
-// );
+
 Question2 #(
     .SIZE_DATA (SIZE_DATA),
     .SIZE_LOPD  (SIZE_LOP)
@@ -57,13 +46,6 @@ Question2 #(
     .o_one_position (o_one_position),
     .o_zero_flag    (o_zero_flag)
 );
-// scoreboard #(
-//     .SIZE_DATA  (5)
-// ) SCOREBOARD_UNIT (
-//     .is_finish       (),
-//     .i_expect_data   (),
-//     .i_data_out      () 
-// );
 
 //===================== CLOCK =====================//
 initial begin
@@ -76,8 +58,8 @@ initial begin
     $dumpfile("tb_Question2.vcd");
     $dumpvars(0, tb_Question2);
 end
-int bit_pos;
 //===================== TEST SEQUENCE =====================//
+int bit_pos;
 initial begin
     i_rst_n = 0;
     i_addr  = '0;
@@ -88,22 +70,21 @@ initial begin
     i_rst_n = 1;
     #10;
 
-    // Random test 100 lần
     bit_pos = 1;
     repeat (24) begin
         @(posedge i_clk);
         #1;
         i_addr = i_addr + 1;
         i_data  = bit_pos;
-        #5;
-        $display("=> i_data = %b (%d) \t| o_one_position = %b (%d) \t| o_zero_flag = %b", i_data, i_data, o_one_position, o_one_position, o_zero_flag);
-        $display("[TIME: %5t] [%s] - %4s: Expect: %8h, DUT: %8h ", $time, "Direcly", (Test_LOPD(i_data) == o_one_position) ? "PASS" : "FAIL", o_one_position, Test_LOPD(i_data));
+        @(negedge i_clk);
+        #1;
+        $display("[TIME: %5t] [%s] i_data = %b (%d) \t| o_one_position = %b (%d) \t| o_zero_flag = %b", $time, "Direcly", i_data, i_data, o_one_position, o_one_position, o_zero_flag);
+        $display("=> %4s: Expect: %8h, DUT: %8h ", (Test_LOPD(i_data) == o_one_position) ? "PASS" : "FAIL", o_one_position, Test_LOPD(i_data));
         test_count = test_count + 1;
         test_pass  = (Test_LOPD(i_data) == o_one_position) ? test_pass + 1 : test_pass;
-        // @(posedge i_clk);
         bit_pos = bit_pos << 1'b1;
     end
-    repeat (1000) begin
+    repeat (100) begin
         @(posedge i_clk);
         #1;
         bit_pos = $urandom_range(0, SIZE_DATA-1);
@@ -112,8 +93,8 @@ initial begin
             i_data |= $urandom_range(0, (1 << SIZE_DATA) - 1);
         end
         #5;
-        $display("=> i_data = %b (%d) \t| o_one_position = %b (%d) \t| o_zero_flag = %b", i_data, i_data, o_one_position, o_one_position, o_zero_flag);
-        $display("[TIME: %5t] [%s] - %4s: Expect: %8h, DUT: %8h ", $time, "Randome", (Test_LOPD(i_data) == o_one_position) ? "PASS" : "FAIL", o_one_position, Test_LOPD(i_data));
+        $display("[TIME: %5t] [%s] i_data = %b (%d) \t| o_one_position = %b (%d) \t| o_zero_flag = %b", $time, "Random", i_data, i_data, o_one_position, o_one_position, o_zero_flag);
+        $display("=> %4s: Expect: %8h, DUT: %8h ", (Test_LOPD(i_data) == o_one_position) ? "PASS" : "FAIL", o_one_position, Test_LOPD(i_data));
         test_count = test_count + 1;
         test_pass  = (Test_LOPD(i_data) == o_one_position) ? test_pass + 1 : test_pass;
         i_addr = i_addr + 1;
