@@ -1,0 +1,3 @@
+Vtb_Question6___024root__DepSet_h1c0de493__1.o: \
+ Vtb_Question6___024root__DepSet_h1c0de493__1.cpp Vtb_Question6__pch.h \
+ Vtb_Question6___024root.h

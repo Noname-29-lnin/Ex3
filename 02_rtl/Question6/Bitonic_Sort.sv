@@ -27,6 +27,7 @@ module Bitonic_Sort #(
         .i_data_1       (w_i_data[1]),
         .i_data_2       (w_i_data[2]),
         .i_data_3       (w_i_data[3]),
+
         .o_data_0       (w_0_data[0]),
         .o_data_1       (w_0_data[1]),
         .o_data_2       (w_0_data[2]),
@@ -40,6 +41,7 @@ module Bitonic_Sort #(
         .i_data_1       (w_i_data[5]),
         .i_data_2       (w_i_data[6]),
         .i_data_3       (w_i_data[7]),
+
         .o_data_0       (w_0_data[4]),
         .o_data_1       (w_0_data[5]),
         .o_data_2       (w_0_data[6]),
@@ -58,6 +60,7 @@ module Bitonic_Sort #(
         .i_data_5       (w_0_data[6]),
         .i_data_6       (w_0_data[3]),
         .i_data_7       (w_0_data[7]),
+
         .o_data_0       (w_sorted[0]),
         .o_data_1       (w_sorted[1]),
         .o_data_2       (w_sorted[2]),

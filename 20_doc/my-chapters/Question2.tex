@@ -97,6 +97,29 @@ Từ bộ LOPD 8-bit và LOPD 16-bit trên, ta ghép lại thành 24-bit với L
 \end{lstlisting}
 
 \begin{itemize}[label=-]
+	\item TestCase0: Thực hiện test với đầu vào là \textsf{24'b0}.
+	
+	\begin{lstlisting}[style=StyleCode, language=SystemVerilog, caption={Test trường hợp 24-bit không có bit 1.}]
+		repeat (1) begin
+			@(posedge i_clk);
+			#1;
+			i_addr = i_addr + 1;
+			i_data  = 24'b0;
+			@(negedge i_clk);
+			#1;
+			$display("[TIME: %5t] [%s] i_data = %b (%d) \t| o_one_position = %b (%d) \t| o_zero_flag = %b", $time, "Zero", i_data, i_data, o_one_position, o_one_position, o_zero_flag);
+			$display("=> %4s: Expect: %8h, DUT: %8h ", (Test_LOPD(i_data) == o_one_position) ? "PASS" : "FAIL", o_one_position, Test_LOPD(i_data));
+			test_count = test_count + 1;
+			test_pass  = (Test_LOPD(i_data) == o_one_position) ? test_pass + 1 : test_pass;
+		end
+	\end{lstlisting}
+
+	Kết quả
+	
+	\begin{lstlisting}[style=StyleResult, language=Result, caption={Kết quả của trường hợp 24-bit không có bit 1.}]
+		[TIME: 41000] [Zero] i_data = 000000000000000000000000 (       0)       | o_one_position = 00000 ( 0)   | o_zero_flag = 1
+		=> PASS: Expect: 00000000, DUT: 00000000
+	\end{lstlisting}
 	\item TestCase1: Thực hiện test tất cả các giá trị bit 1 với dùng phương pháp shift left để test tất cả các vị trí bit 1 trong 24-bit.
 	
 	\begin{lstlisting}[style=StyleCode, language=SystemVerilog, caption={Test 24 trường hợp vị trí bit 1 cho bộ LOPD 24-bit.}]
@@ -118,7 +141,7 @@ Từ bộ LOPD 8-bit và LOPD 16-bit trên, ta ghép lại thành 24-bit với L
 	
 	Kết quả
 	
-	\begin{lstlisting}[style=StyleResult, language=SystemVerilog, caption={Kết quả của TestCase1.}]
+	\begin{lstlisting}[style=StyleResult, language=Result, caption={Kết quả của TestCase1.}]
 		[TIME: 41000] [Direcly] i_data = 000000000000000000000001 (       1) 	| o_one_position = 00000 ( 0) 	| o_zero_flag = 0
 		=> PASS: Expect: 00000000, DUT: 00000000 
 		[TIME: 51000] [Direcly] i_data = 000000000000000000000010 (       2) 	| o_one_position = 00001 ( 1) 	| o_zero_flag = 0
@@ -156,7 +179,7 @@ Từ bộ LOPD 8-bit và LOPD 16-bit trên, ta ghép lại thành 24-bit với L
 
 	Kết quả
 	
-	\begin{lstlisting}[style=StyleResult, language=SystemVerilog, caption={Kết quả của TestCase2.}]
+	\begin{lstlisting}[style=StyleResult, language=Result, caption={Kết quả của TestCase2.}]
 		[TIME: 281000] [Random] i_data = 000100000000000000000000 ( 1048576) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
 		=> PASS: Expect: 00000014, DUT: 00000014 
 		[TIME: 291000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
@@ -181,10 +204,11 @@ Từ bộ LOPD 8-bit và LOPD 16-bit trên, ta ghép lại thành 24-bit với L
 	\begin{lstlisting}[style=StyleResult, language=SystemVerilog, caption={Kết quả của tổng kết của bài test.}]
 		================================
 		==========TEST SUMMARY==========
-		Total test cases:    124    
-		Passed          :    124    
-		Failed          :      0    
+		Total test cases:    125
+		Passed          :    125
+		Failed          :      0
 		Pass rate       : 100.00%
 		================================
+		
 	\end{lstlisting}
 \end{itemize}

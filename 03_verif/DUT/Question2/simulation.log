@@ -1,260 +1,262 @@
-[TIME: 41000] [Direcly] i_data = 000000000000000000000001 (       1) 	| o_one_position = 00000 ( 0) 	| o_zero_flag = 0
+[TIME: 41000] [Zero] i_data = 000000000000000000000000 (       0) 	| o_one_position = 00000 ( 0) 	| o_zero_flag = 1
 => PASS: Expect: 00000000, DUT: 00000000 
-[TIME: 51000] [Direcly] i_data = 000000000000000000000010 (       2) 	| o_one_position = 00001 ( 1) 	| o_zero_flag = 0
+[TIME: 51000] [Direcly] i_data = 000000000000000000000001 (       1) 	| o_one_position = 00000 ( 0) 	| o_zero_flag = 0
+=> PASS: Expect: 00000000, DUT: 00000000 
+[TIME: 61000] [Direcly] i_data = 000000000000000000000010 (       2) 	| o_one_position = 00001 ( 1) 	| o_zero_flag = 0
 => PASS: Expect: 00000001, DUT: 00000001 
-[TIME: 61000] [Direcly] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
+[TIME: 71000] [Direcly] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
 => PASS: Expect: 00000002, DUT: 00000002 
-[TIME: 71000] [Direcly] i_data = 000000000000000000001000 (       8) 	| o_one_position = 00011 ( 3) 	| o_zero_flag = 0
+[TIME: 81000] [Direcly] i_data = 000000000000000000001000 (       8) 	| o_one_position = 00011 ( 3) 	| o_zero_flag = 0
 => PASS: Expect: 00000003, DUT: 00000003 
-[TIME: 81000] [Direcly] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
+[TIME: 91000] [Direcly] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
 => PASS: Expect: 00000004, DUT: 00000004 
-[TIME: 91000] [Direcly] i_data = 000000000000000000100000 (      32) 	| o_one_position = 00101 ( 5) 	| o_zero_flag = 0
+[TIME: 101000] [Direcly] i_data = 000000000000000000100000 (      32) 	| o_one_position = 00101 ( 5) 	| o_zero_flag = 0
 => PASS: Expect: 00000005, DUT: 00000005 
-[TIME: 101000] [Direcly] i_data = 000000000000000001000000 (      64) 	| o_one_position = 00110 ( 6) 	| o_zero_flag = 0
+[TIME: 111000] [Direcly] i_data = 000000000000000001000000 (      64) 	| o_one_position = 00110 ( 6) 	| o_zero_flag = 0
 => PASS: Expect: 00000006, DUT: 00000006 
-[TIME: 111000] [Direcly] i_data = 000000000000000010000000 (     128) 	| o_one_position = 00111 ( 7) 	| o_zero_flag = 0
+[TIME: 121000] [Direcly] i_data = 000000000000000010000000 (     128) 	| o_one_position = 00111 ( 7) 	| o_zero_flag = 0
 => PASS: Expect: 00000007, DUT: 00000007 
-[TIME: 121000] [Direcly] i_data = 000000000000000100000000 (     256) 	| o_one_position = 01000 ( 8) 	| o_zero_flag = 0
+[TIME: 131000] [Direcly] i_data = 000000000000000100000000 (     256) 	| o_one_position = 01000 ( 8) 	| o_zero_flag = 0
 => PASS: Expect: 00000008, DUT: 00000008 
-[TIME: 131000] [Direcly] i_data = 000000000000001000000000 (     512) 	| o_one_position = 01001 ( 9) 	| o_zero_flag = 0
+[TIME: 141000] [Direcly] i_data = 000000000000001000000000 (     512) 	| o_one_position = 01001 ( 9) 	| o_zero_flag = 0
 => PASS: Expect: 00000009, DUT: 00000009 
-[TIME: 141000] [Direcly] i_data = 000000000000010000000000 (    1024) 	| o_one_position = 01010 (10) 	| o_zero_flag = 0
+[TIME: 151000] [Direcly] i_data = 000000000000010000000000 (    1024) 	| o_one_position = 01010 (10) 	| o_zero_flag = 0
 => PASS: Expect: 0000000a, DUT: 0000000a 
-[TIME: 151000] [Direcly] i_data = 000000000000100000000000 (    2048) 	| o_one_position = 01011 (11) 	| o_zero_flag = 0
+[TIME: 161000] [Direcly] i_data = 000000000000100000000000 (    2048) 	| o_one_position = 01011 (11) 	| o_zero_flag = 0
 => PASS: Expect: 0000000b, DUT: 0000000b 
-[TIME: 161000] [Direcly] i_data = 000000000001000000000000 (    4096) 	| o_one_position = 01100 (12) 	| o_zero_flag = 0
+[TIME: 171000] [Direcly] i_data = 000000000001000000000000 (    4096) 	| o_one_position = 01100 (12) 	| o_zero_flag = 0
 => PASS: Expect: 0000000c, DUT: 0000000c 
-[TIME: 171000] [Direcly] i_data = 000000000010000000000000 (    8192) 	| o_one_position = 01101 (13) 	| o_zero_flag = 0
+[TIME: 181000] [Direcly] i_data = 000000000010000000000000 (    8192) 	| o_one_position = 01101 (13) 	| o_zero_flag = 0
 => PASS: Expect: 0000000d, DUT: 0000000d 
-[TIME: 181000] [Direcly] i_data = 000000000100000000000000 (   16384) 	| o_one_position = 01110 (14) 	| o_zero_flag = 0
+[TIME: 191000] [Direcly] i_data = 000000000100000000000000 (   16384) 	| o_one_position = 01110 (14) 	| o_zero_flag = 0
 => PASS: Expect: 0000000e, DUT: 0000000e 
-[TIME: 191000] [Direcly] i_data = 000000001000000000000000 (   32768) 	| o_one_position = 01111 (15) 	| o_zero_flag = 0
+[TIME: 201000] [Direcly] i_data = 000000001000000000000000 (   32768) 	| o_one_position = 01111 (15) 	| o_zero_flag = 0
 => PASS: Expect: 0000000f, DUT: 0000000f 
-[TIME: 201000] [Direcly] i_data = 000000010000000000000000 (   65536) 	| o_one_position = 10000 (16) 	| o_zero_flag = 0
+[TIME: 211000] [Direcly] i_data = 000000010000000000000000 (   65536) 	| o_one_position = 10000 (16) 	| o_zero_flag = 0
 => PASS: Expect: 00000010, DUT: 00000010 
-[TIME: 211000] [Direcly] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
+[TIME: 221000] [Direcly] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
 => PASS: Expect: 00000011, DUT: 00000011 
-[TIME: 221000] [Direcly] i_data = 000001000000000000000000 (  262144) 	| o_one_position = 10010 (18) 	| o_zero_flag = 0
+[TIME: 231000] [Direcly] i_data = 000001000000000000000000 (  262144) 	| o_one_position = 10010 (18) 	| o_zero_flag = 0
 => PASS: Expect: 00000012, DUT: 00000012 
-[TIME: 231000] [Direcly] i_data = 000010000000000000000000 (  524288) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
+[TIME: 241000] [Direcly] i_data = 000010000000000000000000 (  524288) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
 => PASS: Expect: 00000013, DUT: 00000013 
-[TIME: 241000] [Direcly] i_data = 000100000000000000000000 ( 1048576) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
+[TIME: 251000] [Direcly] i_data = 000100000000000000000000 ( 1048576) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
 => PASS: Expect: 00000014, DUT: 00000014 
-[TIME: 251000] [Direcly] i_data = 001000000000000000000000 ( 2097152) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
+[TIME: 261000] [Direcly] i_data = 001000000000000000000000 ( 2097152) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
 => PASS: Expect: 00000015, DUT: 00000015 
-[TIME: 261000] [Direcly] i_data = 010000000000000000000000 ( 4194304) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+[TIME: 271000] [Direcly] i_data = 010000000000000000000000 ( 4194304) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
 => PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 271000] [Direcly] i_data = 100000000000000000000000 ( 8388608) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+[TIME: 281000] [Direcly] i_data = 100000000000000000000000 ( 8388608) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
 => PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 281000] [Random] i_data = 000100000000000000000000 ( 1048576) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
+[TIME: 291000] [Random] i_data = 000100000000000000000000 ( 1048576) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
 => PASS: Expect: 00000014, DUT: 00000014 
-[TIME: 291000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
+[TIME: 301000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
 => PASS: Expect: 00000002, DUT: 00000002 
-[TIME: 301000] [Random] i_data = 000000000000000000000001 (       1) 	| o_one_position = 00000 ( 0) 	| o_zero_flag = 0
+[TIME: 311000] [Random] i_data = 000000000000000000000001 (       1) 	| o_one_position = 00000 ( 0) 	| o_zero_flag = 0
 => PASS: Expect: 00000000, DUT: 00000000 
-[TIME: 311000] [Random] i_data = 010000000000000000000000 ( 4194304) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+[TIME: 321000] [Random] i_data = 010000000000000000000000 ( 4194304) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
 => PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 321000] [Random] i_data = 100111100001011110100001 (10360737) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+[TIME: 331000] [Random] i_data = 100111100001011110100001 (10360737) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
 => PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 331000] [Random] i_data = 010100111111001110000010 ( 5501826) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+[TIME: 341000] [Random] i_data = 010100111111001110000010 ( 5501826) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
 => PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 341000] [Random] i_data = 111110111100110100010010 (16502034) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+[TIME: 351000] [Random] i_data = 111110111100110100010010 (16502034) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
 => PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 351000] [Random] i_data = 011010110100000111110100 ( 7029236) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+[TIME: 361000] [Random] i_data = 011010110100000111110100 ( 7029236) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
 => PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 361000] [Random] i_data = 000000000000100000000000 (    2048) 	| o_one_position = 01011 (11) 	| o_zero_flag = 0
+[TIME: 371000] [Random] i_data = 000000000000100000000000 (    2048) 	| o_one_position = 01011 (11) 	| o_zero_flag = 0
 => PASS: Expect: 0000000b, DUT: 0000000b 
-[TIME: 371000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
+[TIME: 381000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
 => PASS: Expect: 00000002, DUT: 00000002 
-[TIME: 381000] [Random] i_data = 000000000000000001000000 (      64) 	| o_one_position = 00110 ( 6) 	| o_zero_flag = 0
-=> PASS: Expect: 00000006, DUT: 00000006 
 [TIME: 391000] [Random] i_data = 000000000000000001000000 (      64) 	| o_one_position = 00110 ( 6) 	| o_zero_flag = 0
 => PASS: Expect: 00000006, DUT: 00000006 
-[TIME: 401000] [Random] i_data = 000000010000000000000000 (   65536) 	| o_one_position = 10000 (16) 	| o_zero_flag = 0
-=> PASS: Expect: 00000010, DUT: 00000010 
-[TIME: 411000] [Random] i_data = 000000000000000000001000 (       8) 	| o_one_position = 00011 ( 3) 	| o_zero_flag = 0
-=> PASS: Expect: 00000003, DUT: 00000003 
-[TIME: 421000] [Random] i_data = 000000000010000000000000 (    8192) 	| o_one_position = 01101 (13) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000d, DUT: 0000000d 
-[TIME: 431000] [Random] i_data = 011011010011001001100011 ( 7156323) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 441000] [Random] i_data = 010101011101101011001110 ( 5626574) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 451000] [Random] i_data = 110110011011001110011110 (14267294) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 461000] [Random] i_data = 000000001000000000000000 (   32768) 	| o_one_position = 01111 (15) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000f, DUT: 0000000f 
-[TIME: 471000] [Random] i_data = 111100111001000010111011 (15962299) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 481000] [Random] i_data = 000100000000000000000000 ( 1048576) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
-=> PASS: Expect: 00000014, DUT: 00000014 
-[TIME: 491000] [Random] i_data = 010101001011001101001001 ( 5550921) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 501000] [Random] i_data = 101011011010111110001100 (11382668) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 511000] [Random] i_data = 011100101110101001101011 ( 7531115) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 521000] [Random] i_data = 101100110010110011001001 (11742409) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 531000] [Random] i_data = 001000000000000000000000 ( 2097152) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
-=> PASS: Expect: 00000015, DUT: 00000015 
-[TIME: 541000] [Random] i_data = 111001011110110100100100 (15068452) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 551000] [Random] i_data = 111010001101100101101101 (15260013) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 561000] [Random] i_data = 000000000000001000000000 (     512) 	| o_one_position = 01001 ( 9) 	| o_zero_flag = 0
-=> PASS: Expect: 00000009, DUT: 00000009 
-[TIME: 571000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
-=> PASS: Expect: 00000002, DUT: 00000002 
-[TIME: 581000] [Random] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
-=> PASS: Expect: 00000004, DUT: 00000004 
-[TIME: 591000] [Random] i_data = 000010000100101110110011 (  543667) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
-=> PASS: Expect: 00000013, DUT: 00000013 
-[TIME: 601000] [Random] i_data = 101110010111101100101110 (12155694) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 611000] [Random] i_data = 101110001001010111010111 (12096983) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 621000] [Random] i_data = 000000000000000000000010 (       2) 	| o_one_position = 00001 ( 1) 	| o_zero_flag = 0
-=> PASS: Expect: 00000001, DUT: 00000001 
-[TIME: 631000] [Random] i_data = 111000000010011110011101 (14690205) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 641000] [Random] i_data = 011101011110001110101010 ( 7725994) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 651000] [Random] i_data = 000000001000000000000000 (   32768) 	| o_one_position = 01111 (15) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000f, DUT: 0000000f 
-[TIME: 661000] [Random] i_data = 011110000100001010101111 ( 7881391) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 671000] [Random] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
-=> PASS: Expect: 00000004, DUT: 00000004 
-[TIME: 681000] [Random] i_data = 000000000000000000001000 (       8) 	| o_one_position = 00011 ( 3) 	| o_zero_flag = 0
-=> PASS: Expect: 00000003, DUT: 00000003 
-[TIME: 691000] [Random] i_data = 011011000100000111001000 ( 7094728) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 701000] [Random] i_data = 100100010011101011100101 ( 9517797) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 711000] [Random] i_data = 011100010000011001011001 ( 7407193) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 721000] [Random] i_data = 101101000001101101111110 (11803518) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 731000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
-=> PASS: Expect: 00000002, DUT: 00000002 
-[TIME: 741000] [Random] i_data = 011100011110000101011000 ( 7463256) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 751000] [Random] i_data = 000000000000000000000001 (       1) 	| o_one_position = 00000 ( 0) 	| o_zero_flag = 0
-=> PASS: Expect: 00000000, DUT: 00000000 
-[TIME: 761000] [Random] i_data = 000000000000100000000000 (    2048) 	| o_one_position = 01011 (11) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000b, DUT: 0000000b 
-[TIME: 771000] [Random] i_data = 000000000010000000000000 (    8192) 	| o_one_position = 01101 (13) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000d, DUT: 0000000d 
-[TIME: 781000] [Random] i_data = 011110100101001000110111 ( 8016439) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 791000] [Random] i_data = 100000000000000000000000 ( 8388608) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 801000] [Random] i_data = 000010000000000000000000 (  524288) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
-=> PASS: Expect: 00000013, DUT: 00000013 
-[TIME: 811000] [Random] i_data = 011101001110010101111010 ( 7660922) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 821000] [Random] i_data = 000011111011111010000100 ( 1031812) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
-=> PASS: Expect: 00000013, DUT: 00000013 
-[TIME: 831000] [Random] i_data = 000000000001000000000000 (    4096) 	| o_one_position = 01100 (12) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000c, DUT: 0000000c 
-[TIME: 841000] [Random] i_data = 001111111101100010010101 ( 4184213) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
-=> PASS: Expect: 00000015, DUT: 00000015 
-[TIME: 851000] [Random] i_data = 000100000000000000000000 ( 1048576) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
-=> PASS: Expect: 00000014, DUT: 00000014 
-[TIME: 861000] [Random] i_data = 001000000000000000000000 ( 2097152) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
-=> PASS: Expect: 00000015, DUT: 00000015 
-[TIME: 871000] [Random] i_data = 100110000011100101011011 ( 9976155) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 881000] [Random] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
-=> PASS: Expect: 00000004, DUT: 00000004 
-[TIME: 891000] [Random] i_data = 010000000000000000000000 ( 4194304) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 901000] [Random] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
-=> PASS: Expect: 00000011, DUT: 00000011 
-[TIME: 911000] [Random] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
-=> PASS: Expect: 00000004, DUT: 00000004 
-[TIME: 921000] [Random] i_data = 110111010011001100000010 (14496514) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 931000] [Random] i_data = 110100101011000001100011 (13807715) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 941000] [Random] i_data = 000000000000000001000000 (      64) 	| o_one_position = 00110 ( 6) 	| o_zero_flag = 0
+[TIME: 401000] [Random] i_data = 000000000000000001000000 (      64) 	| o_one_position = 00110 ( 6) 	| o_zero_flag = 0
 => PASS: Expect: 00000006, DUT: 00000006 
-[TIME: 951000] [Random] i_data = 011100011001010011111000 ( 7443704) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+[TIME: 411000] [Random] i_data = 000000010000000000000000 (   65536) 	| o_one_position = 10000 (16) 	| o_zero_flag = 0
+=> PASS: Expect: 00000010, DUT: 00000010 
+[TIME: 421000] [Random] i_data = 000000000000000000001000 (       8) 	| o_one_position = 00011 ( 3) 	| o_zero_flag = 0
+=> PASS: Expect: 00000003, DUT: 00000003 
+[TIME: 431000] [Random] i_data = 000000000010000000000000 (    8192) 	| o_one_position = 01101 (13) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000d, DUT: 0000000d 
+[TIME: 441000] [Random] i_data = 011011010011001001100011 ( 7156323) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
 => PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 961000] [Random] i_data = 000010000000000000000000 (  524288) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
-=> PASS: Expect: 00000013, DUT: 00000013 
-[TIME: 971000] [Random] i_data = 111001101100001001010111 (15123031) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+[TIME: 451000] [Random] i_data = 010101011101101011001110 ( 5626574) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 461000] [Random] i_data = 110110011011001110011110 (14267294) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
 => PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 981000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
-=> PASS: Expect: 00000002, DUT: 00000002 
-[TIME: 991000] [Random] i_data = 011101010001101100110001 ( 7674673) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1001000] [Random] i_data = 011010011111100101100100 ( 6945124) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1011000] [Random] i_data = 010110101100000100010100 ( 5947668) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1021000] [Random] i_data = 010110100011001011011011 ( 5911259) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1031000] [Random] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
-=> PASS: Expect: 00000011, DUT: 00000011 
-[TIME: 1041000] [Random] i_data = 000000000001000000000000 (    4096) 	| o_one_position = 01100 (12) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000c, DUT: 0000000c 
-[TIME: 1051000] [Random] i_data = 100000000000000000000000 ( 8388608) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+[TIME: 471000] [Random] i_data = 000000001000000000000000 (   32768) 	| o_one_position = 01111 (15) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000f, DUT: 0000000f 
+[TIME: 481000] [Random] i_data = 111100111001000010111011 (15962299) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
 => PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 1061000] [Random] i_data = 001000000111110101111001 ( 2129273) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
-=> PASS: Expect: 00000015, DUT: 00000015 
-[TIME: 1071000] [Random] i_data = 001101111101111101111010 ( 3661690) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
-=> PASS: Expect: 00000015, DUT: 00000015 
-[TIME: 1081000] [Random] i_data = 000000000100000000000000 (   16384) 	| o_one_position = 01110 (14) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000e, DUT: 0000000e 
-[TIME: 1091000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
-=> PASS: Expect: 00000002, DUT: 00000002 
-[TIME: 1101000] [Random] i_data = 110000010100000100100111 (12665127) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
-=> PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 1111000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
-=> PASS: Expect: 00000002, DUT: 00000002 
-[TIME: 1121000] [Random] i_data = 000110101000101001001111 ( 1739343) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
+[TIME: 491000] [Random] i_data = 000100000000000000000000 ( 1048576) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
 => PASS: Expect: 00000014, DUT: 00000014 
-[TIME: 1131000] [Random] i_data = 000000000001000000000000 (    4096) 	| o_one_position = 01100 (12) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000c, DUT: 0000000c 
-[TIME: 1141000] [Random] i_data = 010001100110101010101110 ( 4614830) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+[TIME: 501000] [Random] i_data = 010101001011001101001001 ( 5550921) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
 => PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1151000] [Random] i_data = 010010101001000011101011 ( 4886763) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1161000] [Random] i_data = 111100101111100010001001 (15923337) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+[TIME: 511000] [Random] i_data = 101011011010111110001100 (11382668) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
 => PASS: Expect: 00000017, DUT: 00000017 
-[TIME: 1171000] [Random] i_data = 000000000000000100000000 (     256) 	| o_one_position = 01000 ( 8) 	| o_zero_flag = 0
-=> PASS: Expect: 00000008, DUT: 00000008 
-[TIME: 1181000] [Random] i_data = 011010001110101001111000 ( 6875768) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+[TIME: 521000] [Random] i_data = 011100101110101001101011 ( 7531115) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
 => PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1191000] [Random] i_data = 010110011111101001011010 ( 5896794) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1201000] [Random] i_data = 011010001100001111011001 ( 6865881) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
-=> PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1211000] [Random] i_data = 000000000000000000000010 (       2) 	| o_one_position = 00001 ( 1) 	| o_zero_flag = 0
-=> PASS: Expect: 00000001, DUT: 00000001 
-[TIME: 1221000] [Random] i_data = 001111110001011000101010 ( 4134442) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
+[TIME: 531000] [Random] i_data = 101100110010110011001001 (11742409) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 541000] [Random] i_data = 001000000000000000000000 ( 2097152) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
 => PASS: Expect: 00000015, DUT: 00000015 
-[TIME: 1231000] [Random] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
-=> PASS: Expect: 00000011, DUT: 00000011 
-[TIME: 1241000] [Random] i_data = 010000000000000000000000 ( 4194304) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+[TIME: 551000] [Random] i_data = 111001011110110100100100 (15068452) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 561000] [Random] i_data = 111010001101100101101101 (15260013) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 571000] [Random] i_data = 000000000000001000000000 (     512) 	| o_one_position = 01001 ( 9) 	| o_zero_flag = 0
+=> PASS: Expect: 00000009, DUT: 00000009 
+[TIME: 581000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
+=> PASS: Expect: 00000002, DUT: 00000002 
+[TIME: 591000] [Random] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
+=> PASS: Expect: 00000004, DUT: 00000004 
+[TIME: 601000] [Random] i_data = 000010000100101110110011 (  543667) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
+=> PASS: Expect: 00000013, DUT: 00000013 
+[TIME: 611000] [Random] i_data = 101110010111101100101110 (12155694) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 621000] [Random] i_data = 101110001001010111010111 (12096983) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 631000] [Random] i_data = 000000000000000000000010 (       2) 	| o_one_position = 00001 ( 1) 	| o_zero_flag = 0
+=> PASS: Expect: 00000001, DUT: 00000001 
+[TIME: 641000] [Random] i_data = 111000000010011110011101 (14690205) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 651000] [Random] i_data = 011101011110001110101010 ( 7725994) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
 => PASS: Expect: 00000016, DUT: 00000016 
-[TIME: 1251000] [Random] i_data = 000000000100000000000000 (   16384) 	| o_one_position = 01110 (14) 	| o_zero_flag = 0
-=> PASS: Expect: 0000000e, DUT: 0000000e 
-[TIME: 1261000] [Random] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
+[TIME: 661000] [Random] i_data = 000000001000000000000000 (   32768) 	| o_one_position = 01111 (15) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000f, DUT: 0000000f 
+[TIME: 671000] [Random] i_data = 011110000100001010101111 ( 7881391) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 681000] [Random] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
+=> PASS: Expect: 00000004, DUT: 00000004 
+[TIME: 691000] [Random] i_data = 000000000000000000001000 (       8) 	| o_one_position = 00011 ( 3) 	| o_zero_flag = 0
+=> PASS: Expect: 00000003, DUT: 00000003 
+[TIME: 701000] [Random] i_data = 011011000100000111001000 ( 7094728) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 711000] [Random] i_data = 100100010011101011100101 ( 9517797) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 721000] [Random] i_data = 011100010000011001011001 ( 7407193) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 731000] [Random] i_data = 101101000001101101111110 (11803518) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 741000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
+=> PASS: Expect: 00000002, DUT: 00000002 
+[TIME: 751000] [Random] i_data = 011100011110000101011000 ( 7463256) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 761000] [Random] i_data = 000000000000000000000001 (       1) 	| o_one_position = 00000 ( 0) 	| o_zero_flag = 0
+=> PASS: Expect: 00000000, DUT: 00000000 
+[TIME: 771000] [Random] i_data = 000000000000100000000000 (    2048) 	| o_one_position = 01011 (11) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000b, DUT: 0000000b 
+[TIME: 781000] [Random] i_data = 000000000010000000000000 (    8192) 	| o_one_position = 01101 (13) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000d, DUT: 0000000d 
+[TIME: 791000] [Random] i_data = 011110100101001000110111 ( 8016439) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 801000] [Random] i_data = 100000000000000000000000 ( 8388608) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 811000] [Random] i_data = 000010000000000000000000 (  524288) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
+=> PASS: Expect: 00000013, DUT: 00000013 
+[TIME: 821000] [Random] i_data = 011101001110010101111010 ( 7660922) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 831000] [Random] i_data = 000011111011111010000100 ( 1031812) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
+=> PASS: Expect: 00000013, DUT: 00000013 
+[TIME: 841000] [Random] i_data = 000000000001000000000000 (    4096) 	| o_one_position = 01100 (12) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000c, DUT: 0000000c 
+[TIME: 851000] [Random] i_data = 001111111101100010010101 ( 4184213) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
+=> PASS: Expect: 00000015, DUT: 00000015 
+[TIME: 861000] [Random] i_data = 000100000000000000000000 ( 1048576) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
+=> PASS: Expect: 00000014, DUT: 00000014 
+[TIME: 871000] [Random] i_data = 001000000000000000000000 ( 2097152) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
+=> PASS: Expect: 00000015, DUT: 00000015 
+[TIME: 881000] [Random] i_data = 100110000011100101011011 ( 9976155) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 891000] [Random] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
+=> PASS: Expect: 00000004, DUT: 00000004 
+[TIME: 901000] [Random] i_data = 010000000000000000000000 ( 4194304) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 911000] [Random] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
 => PASS: Expect: 00000011, DUT: 00000011 
-[TIME: 1271000] [Random] i_data = 000000000010000000000000 (    8192) 	| o_one_position = 01101 (13) 	| o_zero_flag = 0
+[TIME: 921000] [Random] i_data = 000000000000000000010000 (      16) 	| o_one_position = 00100 ( 4) 	| o_zero_flag = 0
+=> PASS: Expect: 00000004, DUT: 00000004 
+[TIME: 931000] [Random] i_data = 110111010011001100000010 (14496514) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 941000] [Random] i_data = 110100101011000001100011 (13807715) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 951000] [Random] i_data = 000000000000000001000000 (      64) 	| o_one_position = 00110 ( 6) 	| o_zero_flag = 0
+=> PASS: Expect: 00000006, DUT: 00000006 
+[TIME: 961000] [Random] i_data = 011100011001010011111000 ( 7443704) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 971000] [Random] i_data = 000010000000000000000000 (  524288) 	| o_one_position = 10011 (19) 	| o_zero_flag = 0
+=> PASS: Expect: 00000013, DUT: 00000013 
+[TIME: 981000] [Random] i_data = 111001101100001001010111 (15123031) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 991000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
+=> PASS: Expect: 00000002, DUT: 00000002 
+[TIME: 1001000] [Random] i_data = 011101010001101100110001 ( 7674673) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1011000] [Random] i_data = 011010011111100101100100 ( 6945124) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1021000] [Random] i_data = 010110101100000100010100 ( 5947668) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1031000] [Random] i_data = 010110100011001011011011 ( 5911259) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1041000] [Random] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
+=> PASS: Expect: 00000011, DUT: 00000011 
+[TIME: 1051000] [Random] i_data = 000000000001000000000000 (    4096) 	| o_one_position = 01100 (12) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000c, DUT: 0000000c 
+[TIME: 1061000] [Random] i_data = 100000000000000000000000 ( 8388608) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 1071000] [Random] i_data = 001000000111110101111001 ( 2129273) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
+=> PASS: Expect: 00000015, DUT: 00000015 
+[TIME: 1081000] [Random] i_data = 001101111101111101111010 ( 3661690) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
+=> PASS: Expect: 00000015, DUT: 00000015 
+[TIME: 1091000] [Random] i_data = 000000000100000000000000 (   16384) 	| o_one_position = 01110 (14) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000e, DUT: 0000000e 
+[TIME: 1101000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
+=> PASS: Expect: 00000002, DUT: 00000002 
+[TIME: 1111000] [Random] i_data = 110000010100000100100111 (12665127) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 1121000] [Random] i_data = 000000000000000000000100 (       4) 	| o_one_position = 00010 ( 2) 	| o_zero_flag = 0
+=> PASS: Expect: 00000002, DUT: 00000002 
+[TIME: 1131000] [Random] i_data = 000110101000101001001111 ( 1739343) 	| o_one_position = 10100 (20) 	| o_zero_flag = 0
+=> PASS: Expect: 00000014, DUT: 00000014 
+[TIME: 1141000] [Random] i_data = 000000000001000000000000 (    4096) 	| o_one_position = 01100 (12) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000c, DUT: 0000000c 
+[TIME: 1151000] [Random] i_data = 010001100110101010101110 ( 4614830) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1161000] [Random] i_data = 010010101001000011101011 ( 4886763) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1171000] [Random] i_data = 111100101111100010001001 (15923337) 	| o_one_position = 10111 (23) 	| o_zero_flag = 0
+=> PASS: Expect: 00000017, DUT: 00000017 
+[TIME: 1181000] [Random] i_data = 000000000000000100000000 (     256) 	| o_one_position = 01000 ( 8) 	| o_zero_flag = 0
+=> PASS: Expect: 00000008, DUT: 00000008 
+[TIME: 1191000] [Random] i_data = 011010001110101001111000 ( 6875768) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1201000] [Random] i_data = 010110011111101001011010 ( 5896794) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1211000] [Random] i_data = 011010001100001111011001 ( 6865881) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1221000] [Random] i_data = 000000000000000000000010 (       2) 	| o_one_position = 00001 ( 1) 	| o_zero_flag = 0
+=> PASS: Expect: 00000001, DUT: 00000001 
+[TIME: 1231000] [Random] i_data = 001111110001011000101010 ( 4134442) 	| o_one_position = 10101 (21) 	| o_zero_flag = 0
+=> PASS: Expect: 00000015, DUT: 00000015 
+[TIME: 1241000] [Random] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
+=> PASS: Expect: 00000011, DUT: 00000011 
+[TIME: 1251000] [Random] i_data = 010000000000000000000000 ( 4194304) 	| o_one_position = 10110 (22) 	| o_zero_flag = 0
+=> PASS: Expect: 00000016, DUT: 00000016 
+[TIME: 1261000] [Random] i_data = 000000000100000000000000 (   16384) 	| o_one_position = 01110 (14) 	| o_zero_flag = 0
+=> PASS: Expect: 0000000e, DUT: 0000000e 
+[TIME: 1271000] [Random] i_data = 000000100000000000000000 (  131072) 	| o_one_position = 10001 (17) 	| o_zero_flag = 0
+=> PASS: Expect: 00000011, DUT: 00000011 
+[TIME: 1281000] [Random] i_data = 000000000010000000000000 (    8192) 	| o_one_position = 01101 (13) 	| o_zero_flag = 0
 => PASS: Expect: 0000000d, DUT: 0000000d 
 
 ================================
 ==========TEST SUMMARY==========
-Total test cases:    124    
-Passed          :    124    
+Total test cases:    125    
+Passed          :    125    
 Failed          :      0    
 Pass rate       : 100.00%
 ================================
-- /home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question2/tb_Question2.sv:113: Verilog $finish
+- /home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question2/tb_Question2.sv:126: Verilog $finish
 - S i m u l a t i o n   R e p o r t: Verilator 5.024 2024-04-05
-- Verilator: $finish at 1us; walltime 0.002 s; speed 0.000 s/s
+- Verilator: $finish at 1us; walltime 0.001 s; speed 0.000 s/s
 - Verilator: cpu 0.000 s on 1 threads; alloced 57 MB

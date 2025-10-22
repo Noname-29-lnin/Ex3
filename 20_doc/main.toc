@@ -3,7 +3,7 @@
 \contentsline {subsection}{a)}{1}{section*.1}%
 \contentsline {subsection}{b)}{4}{figure.caption.6}%
 \contentsline {subsection}{c)}{8}{lstnumber.4.37}%
-\contentsline {section}{Câu 6}{11}{lstnumber.10.8}%
-\contentsline {subsection}{a)}{12}{figure.caption.8}%
-\contentsline {subsection}{b)}{16}{figure.caption.14}%
-\contentsline {subsection}{c)}{23}{lstnumber.17.77}%
+\contentsline {section}{Câu 6}{12}{lstnumber.12.9}%
+\contentsline {subsection}{a)}{13}{figure.caption.8}%
+\contentsline {subsection}{b)}{17}{figure.caption.14}%
+\contentsline {subsection}{c)}{24}{lstnumber.19.80}%

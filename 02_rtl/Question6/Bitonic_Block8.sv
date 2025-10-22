@@ -29,7 +29,7 @@ wire [SIZE_DATA-1:0] w_data_max_1_0, w_data_max_1_1, w_data_max_1_2;
 wire [SIZE_DATA-1:0] w_data_min_1_0, w_data_min_1_1, w_data_min_1_2;
 wire [SIZE_DATA-1:0] w_data_max_2_0, w_data_max_2_1;
 wire [SIZE_DATA-1:0] w_data_min_2_0, w_data_min_2_1;
-
+wire [SIZE_DATA-1:0] w_data_min_3_0, w_data_max_3_0;
 ////////////////////////////////////////////////////////
 // SubModules
 ////////////////////////////////////////////////////////
@@ -118,11 +118,21 @@ Compare_and_Swap_unit #(
     .o_data_min     (w_data_min_2_1) 
 );
 
+Compare_and_Swap_unit #(
+    .IS_ASC         (IS_ASC),
+    .SIZE_DATA      (SIZE_DATA)
+) CAS_3_0 (
+    .i_data_a       (w_data_min_2_0),
+    .i_data_b       (w_data_max_2_1),
+    .o_data_max     (w_data_max_3_0),
+    .o_data_min     (w_data_min_3_0) 
+);
+
 assign o_data_0 = w_data_max_0_0;
 assign o_data_1 = w_data_max_1_0;
 assign o_data_2 = w_data_max_2_0;
-assign o_data_3 = w_data_min_2_0;
-assign o_data_4 = w_data_max_2_1;
+assign o_data_3 = w_data_max_3_0;
+assign o_data_4 = w_data_min_3_0;
 assign o_data_5 = w_data_min_2_1;
 assign o_data_6 = w_data_min_1_2;
 assign o_data_7 = w_data_min_0_3;

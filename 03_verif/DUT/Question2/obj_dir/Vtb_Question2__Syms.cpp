@@ -43,7 +43,7 @@ Vtb_Question2__Syms::Vtb_Question2__Syms(VerilatedContext* contextp, const char*
     , TOP{this, namep}
 {
         // Check resources
-        Verilated::stackCheck(220);
+        Verilated::stackCheck(263);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-9);
     _vm_contextp__->timeprecision(-12);
