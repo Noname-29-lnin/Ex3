@@ -1,0 +1,13 @@
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+Start time: 23:18:40 on Oct 24,2025
+vlog -f ./../Question2/flist.f 
+-- Compiling module tb_Question2
+-- Compiling module Question2
+-- Compiling module LOPD_4bit
+-- Compiling module LOPD_8bit
+-- Compiling module LOPD_16bit
+
+Top level modules:
+	tb_Question2
+End time: 23:18:40 on Oct 24,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

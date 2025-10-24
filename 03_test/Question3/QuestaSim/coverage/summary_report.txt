@@ -1,0 +1,107 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[7]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        39         0   100.00%
+    Statements                      13        13         0   100.00%
+    Toggles                         40        40         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[6]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        38         1    97.43%
+    Statements                      13        13         0   100.00%
+    Toggles                         40        40         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[5]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        39         0   100.00%
+    Statements                      13        13         0   100.00%
+    Toggles                         40        40         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[4]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        38         1    97.43%
+    Statements                      13        13         0   100.00%
+    Toggles                         40        40         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[3]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        39         0   100.00%
+    Statements                      13        13         0   100.00%
+    Toggles                         40        40         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[2]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        39         0   100.00%
+    Statements                      13        13         0   100.00%
+    Toggles                         40        40         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[1]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        38         1    97.43%
+    Statements                      13        13         0   100.00%
+    Toggles                         40        40         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[0]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        38         1    97.43%
+    Statements                      13        13         0   100.00%
+    Toggles                         40        40         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question3/DUT
+=== Design Unit: work.cla_32bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                     24        24         0   100.00%
+    Statements                      20        20         0   100.00%
+    Toggles                        312       312         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question3
+=== Design Unit: work.tb_Question3
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+    Conditions                       1         0         1     0.00%
+    Statements                      39        37         2    94.87%
+    Toggles                        328       212       116    64.63%
+
+
+Total Coverage By Instance (filtered view): 73.76%
+

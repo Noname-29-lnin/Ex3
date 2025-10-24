@@ -1,0 +1,131 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_16bit_UNIT_LSB/LOPD_8bit_unit_0/LOPD_4bit_unit_0
+=== Design Unit: work.LOPD_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      8         8         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                          6         6         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_16bit_UNIT_LSB/LOPD_8bit_unit_0/LOPD_4bit_unit_1
+=== Design Unit: work.LOPD_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      8         8         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                          6         6         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_16bit_UNIT_LSB/LOPD_8bit_unit_0
+=== Design Unit: work.LOPD_8bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                      8         8         0   100.00%
+    Statements                       4         4         0   100.00%
+    Toggles                         20        20         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_16bit_UNIT_LSB/LOPD_8bit_unit_1/LOPD_4bit_unit_0
+=== Design Unit: work.LOPD_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      8         8         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                          6         6         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_16bit_UNIT_LSB/LOPD_8bit_unit_1/LOPD_4bit_unit_1
+=== Design Unit: work.LOPD_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      8         8         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                          6         6         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_16bit_UNIT_LSB/LOPD_8bit_unit_1
+=== Design Unit: work.LOPD_8bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                      8         8         0   100.00%
+    Statements                       4         4         0   100.00%
+    Toggles                         20        20         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_16bit_UNIT_LSB
+=== Design Unit: work.LOPD_16bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         6         6         0   100.00%
+    Expressions                     11        11         0   100.00%
+    Statements                       5         5         0   100.00%
+    Toggles                         26        26         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_8bit_UNIT_MSB/LOPD_4bit_unit_0
+=== Design Unit: work.LOPD_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      8         8         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                          6         6         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_8bit_UNIT_MSB/LOPD_4bit_unit_1
+=== Design Unit: work.LOPD_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      8         8         0   100.00%
+    Statements                       3         3         0   100.00%
+    Toggles                          6         6         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT/LOPD_8bit_UNIT_MSB
+=== Design Unit: work.LOPD_8bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Expressions                      8         8         0   100.00%
+    Statements                       4         4         0   100.00%
+    Toggles                         20        20         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question2/DUT
+=== Design Unit: work.Question2
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         8         8         0   100.00%
+    Expressions                     13        13         0   100.00%
+    Statements                       8         8         0   100.00%
+    Toggles                         78        77         1    98.71%
+
+=================================================================================
+=== Instance: /tb_Question2
+=== Design Unit: work.tb_Question2
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        10         7         3    70.00%
+    Conditions                       4         1         3    25.00%
+    Statements                      64        64         0   100.00%
+    Toggles                        304       151       153    49.67%
+
+
+Total Coverage By Instance (filtered view): 77.22%
+

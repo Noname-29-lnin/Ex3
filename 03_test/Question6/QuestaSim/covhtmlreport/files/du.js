@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.Bitonic_Block8","id":8,"zf":1,"tc":50.00,"t":50.00},{"n":"work.Bitonic_Sort","id":2,"zf":1,"tc":75.00,"t":50.00},{"n":"work.tb_Question6","id":1,"zf":1,"tc":51.69,"s":96.29,"b":50.00,"fc":20.00,"t":40.46}]};
+processDuData(g_data);

@@ -1,0 +1,176 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/noname/Documents/project_tiny/Ex3/03_test/Questasim
+T_opt
+!s110 1761321155
+VKn>=QfHA>?_5]>5P`l9;;2
+Z2 04 12 4 work tb_Question2 fast 0
+=1-000ae431a4f1-68fba0c3-5f5bb-30ce
+R0
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM10U12 
+Z6 !s135 nogc
+o-quiet -auto_acc_if_foreign -work ./../Question2/QuestaSim/work -debugdb +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2024.3;79
+R1
+T_opt1
+!s110 1761321265
+VRDhQPmb^82Ae7>FaVgj_i3
+R2
+=1-000ae431a4f1-68fba131-30c8b-415f
+!s102 +cover=bcesft
+R0
+R3
+R4
+R5
+R6
+o-quiet -auto_acc_if_foreign -work ./../Question2/QuestaSim/work +cover=bcesft
+R7
+n@_opt1
+R8
+R1
+vLOPD_16bit
+Z9 2/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question2/tb_Question2.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/Question2.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_4bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_8bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_16bit_temp.sv
+Z10 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z11 !s110 1761322720
+!i10b 1
+!s100 ;EWB8SkUjG;dE8Rine7ZK1
+IZaWG]ezQE3XBSAG>O7X3i3
+S1
+R1
+w1761116255
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_16bit_temp.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_16bit_temp.sv
+!i122 3
+L0 1 108
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z14 !s108 1761322720.000000
+!s107 /home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_16bit_temp.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_8bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_4bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/Question2.sv|/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question2/tb_Question2.sv|
+Z15 !s90 -f|./../Question2/flist.f|
+!i113 0
+Z16 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+n@l@o@p@d_16bit
+vLOPD_4bit
+R9
+R10
+R11
+!i10b 1
+!s100 WHh_Y4?ebfb[UiiFOj0:k1
+IPIEoLY`lo=XYbPOaboz4`3
+S1
+R1
+w1760980999
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_4bit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_4bit.sv
+!i122 3
+L0 1 26
+R12
+R13
+r1
+!s85 0
+31
+R14
+Z17 !s107 /home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_16bit_temp.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_8bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_4bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/Question2.sv|/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question2/tb_Question2.sv|
+R15
+!i113 0
+R16
+R7
+n@l@o@p@d_4bit
+vLOPD_8bit
+R9
+R10
+R11
+!i10b 1
+!s100 Tz2b_og`MYbTP>8ZT?[XH0
+I@VmRJlR:cA;F8OEkJOZNY2
+S1
+R1
+w1760845976
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_8bit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/LOPD_8bit.sv
+!i122 3
+Z18 L0 1 37
+R12
+R13
+r1
+!s85 0
+31
+R14
+R17
+R15
+!i113 0
+R16
+R7
+n@l@o@p@d_8bit
+vQuestion2
+R9
+R10
+R11
+!i10b 1
+!s100 1e:<KSQgAefg3]Z13`Vm;3
+I;cB8oOJ_?BhGR9A_;oJA_2
+S1
+R1
+w1761020378
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/Question2.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question2/Question2.sv
+!i122 3
+R18
+R12
+R13
+r1
+!s85 0
+31
+R14
+R17
+R15
+!i113 0
+R16
+R7
+n@question2
+vtb_Question2
+R9
+R10
+R11
+!i10b 1
+!s100 ];MlR5^0>Sd1?bO1jPVH>0
+IRA@C9k`3mI0mW:4=YT;:]2
+S1
+R1
+w1761117449
+8/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question2/tb_Question2.sv
+F/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question2/tb_Question2.sv
+!i122 3
+L0 2 128
+R12
+R13
+r1
+!s85 0
+31
+R14
+R17
+R15
+!i113 0
+R16
+R7
+ntb_@question2

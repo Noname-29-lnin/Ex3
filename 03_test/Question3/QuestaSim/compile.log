@@ -1,0 +1,11 @@
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+Start time: 23:32:31 on Oct 24,2025
+vlog "+cover=bcesft" -f ./../Question3/flist.f 
+-- Compiling module tb_Question3
+-- Compiling module cla_32bit
+-- Compiling module cla_4bit
+
+Top level modules:
+	tb_Question3
+End time: 23:32:32 on Oct 24,2025, Elapsed time: 0:00:01
+Errors: 0, Warnings: 0

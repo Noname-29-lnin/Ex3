@@ -1,0 +1,16 @@
+Questa Intel Starter FPGA Edition-64 vlog 2024.3 Compiler 2024.09 Sep 10 2024
+Start time: 23:17:32 on Oct 24,2025
+vlog "+cover=bcesft" -f ./../Question6/flist.f 
+-- Compiling module tb_Question6
+-- Compiling module Bitonic_Sort
+-- Compiling module Bitonic_Block8
+-- Compiling module Bitonic_Block4
+-- Compiling module Compare_and_Swap_unit
+-- Compiling module COMP_less
+-- Compiling module COMP_2bit
+-- Compiling module COMP_4bit
+
+Top level modules:
+	tb_Question6
+End time: 23:17:32 on Oct 24,2025, Elapsed time: 0:00:00
+Errors: 0, Warnings: 0

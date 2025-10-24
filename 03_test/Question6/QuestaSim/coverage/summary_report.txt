@@ -1,0 +1,1649 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         3         0   100.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10        10         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        34         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_1/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_1/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_1/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_1/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_1/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_1/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_1/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         3         0   100.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10        10         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_0_1
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        34         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         3         0   100.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10        10         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        34         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_1/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_1/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_1/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_1/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_1/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_1/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_1/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         3         0   100.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10        10         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_1_1
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        34         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_2_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_2_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_2_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_2_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_2_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_2_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_2_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         3         0   100.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10        10         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0/CAS_2_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        34         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_0
+=== Design Unit: work.Bitonic_Block4
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        224       224         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         0         3     0.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         0        10     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34         0        34     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_1/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_1/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_1/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_1/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_1/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_1/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_1/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         0         3     0.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         0        10     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_0_1
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34         0        34     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         0         3     0.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         0        10     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34         0        34     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_1/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_1/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_1/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_1/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_1/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_1/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_1/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         0         3     0.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         0        10     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_1_1
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34         0        34     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_2_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_2_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_2_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_2_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_2_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         0         4     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_2_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         0         5     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         0        12     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_2_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         0         3     0.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         0        10     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1/CAS_2_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34         0        34     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_4_UNIT_1
+=== Design Unit: work.Bitonic_Block4
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        224         0       224     0.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         2         3    40.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         6         6    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         2         3    40.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         5         7    41.66%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         0         3     0.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         3         7    30.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        16        18    47.05%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_1/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_1/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_1/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         2         3    40.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         6         6    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_1/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_1/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_1/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         2         3    40.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         5         7    41.66%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_1/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         0         3     0.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         3         7    30.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_1
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        16        18    47.05%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_2/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_2/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_2/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         2         3    40.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         6         6    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_2/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_2/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_2/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         2         3    40.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         6         6    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_2/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         0         3     0.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         4         6    40.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_2
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        16        18    47.05%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_3/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_3/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_3/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         2         3    40.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         6         6    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_3/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_3/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         0         4     0.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         2         2    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_3/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         2         3    40.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12         6         6    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_3/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         0         3     0.00%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         4         6    40.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_0_3
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        16        18    47.05%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         4         1    80.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         4         1    80.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        10         2    83.33%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         2         1    66.66%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         7         3    70.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        17        17    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_1/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_1/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_1/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         4         1    80.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_1/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_1/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_1/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         4         1    80.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_1/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         2         1    66.66%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         9         1    90.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_1
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        17        17    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_2/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_2/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_2/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         4         1    80.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_2/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_2/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_2/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         4         1    80.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_2/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         2         1    66.66%
+    Statements                       1         1         0   100.00%
+    Toggles                         10        10         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_1_2
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        18        16    52.94%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         3         1    75.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         2         1    66.66%
+    Statements                       1         1         0   100.00%
+    Toggles                         10         9         1    90.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        17        17    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_1/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         3         1    75.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_1/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         3         1    75.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_1/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_1/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_1/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         3         1    75.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_1/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         5         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_1/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         2         1    66.66%
+    Statements                       1         1         0   100.00%
+    Toggles                         10        10         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_2_1
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        18        16    52.94%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_3_0/COMP_UNIT/u_low/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_3_0/COMP_UNIT/u_low/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_3_0/COMP_UNIT/u_low
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         4         1    80.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_3_0/COMP_UNIT/u_high/u_low
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_3_0/COMP_UNIT/u_high/u_high
+=== Design Unit: work.COMP_2bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      4         2         2    50.00%
+    Statements                       2         2         0   100.00%
+    Toggles                          4         4         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_3_0/COMP_UNIT/u_high
+=== Design Unit: work.COMP_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      5         4         1    80.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         12        12         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_3_0/COMP_UNIT
+=== Design Unit: work.COMP_less
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      3         2         1    66.66%
+    Statements                       1         1         0   100.00%
+    Toggles                         10        10         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0/CAS_3_0
+=== Design Unit: work.Compare_and_Swap_unit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         4         4         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         34        18        16    52.94%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT/BN_8_UNIT_0
+=== Design Unit: work.Bitonic_Block8
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        448       224       224    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6/DUT
+=== Design Unit: work.Bitonic_Sort
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      16        16         0   100.00%
+    Toggles                        128        64        64    50.00%
+
+=================================================================================
+=== Instance: /tb_Question6
+=== Design Unit: work.tb_Question6
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        12         6         6    50.00%
+    Conditions                       5         1         4    20.00%
+    Statements                      81        78         3    96.29%
+    Toggles                        388       157       231    40.46%
+
+
+Total Coverage By Instance (filtered view): 58.87%
+

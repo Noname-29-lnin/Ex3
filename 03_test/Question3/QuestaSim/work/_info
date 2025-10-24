@@ -1,0 +1,107 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/noname/Documents/project_tiny/Ex3/03_test/Questasim
+T_opt
+Z2 !s110 1761323552
+V`>2a9e^Vn01Df`aU]m0ji3
+04 12 4 work tb_Question3 fast 0
+=1-000ae431a4f1-68fbaa20-7f935-c8a8
+Z3 !s102 +cover=bcesft
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U10 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work ./../Question3/QuestaSim/work +cover=bcesft
+Z4 tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+vcla_32bit
+Z5 2/home/noname/Documents/project_tiny/Ex3/03_test/Question3/tb_Question3.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_32bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_4bit.sv
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 zDm:8kOY?]n?TmzI733Ja3
+ICeh^3jL2C8GgJ?[<1EHeX3
+S1
+R1
+w1761323508
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_32bit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_32bit.sv
+!i122 0
+L0 1 60
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z9 !s108 1761323551.000000
+Z10 !s107 /home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_4bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_32bit.sv|/home/noname/Documents/project_tiny/Ex3/03_test/Question3/tb_Question3.sv|
+Z11 !s90 +cover=bcesft|-f|./../Question3/flist.f|
+!i113 0
+R3
+Z12 o+cover=bcesft -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vcla_4bit
+R5
+R6
+R2
+!i10b 1
+!s100 hM0YT<2Tn[W<ZWVne9Tl62
+IKgRBj?[BUe>HoYU9Ef:IS3
+S1
+R1
+w1761320720
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_4bit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_4bit.sv
+!i122 0
+L0 1 32
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R3
+R12
+R4
+vtb_Question3
+R5
+R6
+R2
+!i10b 1
+!s100 ]8a3hBQ3fnDWJ]aA3KE?W3
+IoTPh1k]6e`I_Y0>3YnFV22
+S1
+R1
+w1761323141
+8/home/noname/Documents/project_tiny/Ex3/03_test/Question3/tb_Question3.sv
+F/home/noname/Documents/project_tiny/Ex3/03_test/Question3/tb_Question3.sv
+!i122 0
+L0 2 104
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R3
+R12
+R4
+ntb_@question3

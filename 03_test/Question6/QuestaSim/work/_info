@@ -1,0 +1,262 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+!s12c _opt
+R0
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/noname/Documents/project_tiny/Ex3/03_test/Questasim
+T_opt
+!s110 1761322258
+VmEGjXebczSj[^ohi<Y^En3
+Z2 04 12 4 work tb_Question6 fast 0
+=1-000ae431a4f1-68fba512-2c5e4-6a42
+R0
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM10U165 
+Z6 !s135 nogc
+o-quiet -auto_acc_if_foreign -work ./../Question6/QuestaSim/work -debugdb +acc
+Z7 tCvgOpt 0
+n@_opt
+Z8 OL;O;2024.3;79
+R1
+T_opt1
+!s110 1761322370
+V?@g1aEMJo8;@==KN6<Yc32
+R2
+=1-000ae431a4f1-68fba582-20886-7193
+Z9 !s102 +cover=bcesft
+R0
+R3
+R4
+R5
+R6
+o-quiet -auto_acc_if_foreign -work ./../Question6/QuestaSim/work +cover=bcesft
+R7
+n@_opt1
+R8
+R1
+vBitonic_Block4
+Z10 2/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question6/tb_Question6.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block8.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block4.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Compare_and_Swap_unit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_less.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_2bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_4bit.sv
+Z11 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z12 !s110 1761322652
+!i10b 1
+!s100 ngJ08m0V3>>Yj>0liLo[:3
+I3dd8a`k7C>H9Q57TW2SGP2
+S1
+R1
+w1761121736
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block4.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block4.sv
+!i122 3
+L0 1 83
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z15 !s108 1761322652.000000
+!s107 /home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_4bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_2bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_less.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Compare_and_Swap_unit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block4.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block8.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv|/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question6/tb_Question6.sv|
+Z16 !s90 +cover=bcesft|-f|./../Question6/flist.f|
+!i113 0
+R9
+Z17 o+cover=bcesft -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R7
+n@bitonic_@block4
+vBitonic_Block8
+R10
+R11
+R12
+!i10b 1
+!s100 H_RzN@F49:9HXJ8o7]LU]0
+ISV[MmBj1UfHPf2A[iohh<3
+S1
+R1
+w1761121732
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block8.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block8.sv
+!i122 3
+L0 1 139
+R13
+R14
+r1
+!s85 0
+31
+R15
+Z18 !s107 /home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_4bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_2bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_less.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Compare_and_Swap_unit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block4.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block8.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv|/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question6/tb_Question6.sv|
+R16
+!i113 0
+R9
+R17
+R7
+n@bitonic_@block8
+vBitonic_Sort
+R10
+R11
+R12
+!i10b 1
+!s100 4zViWWBST:o?YQ:S7VaVR2
+IM@<kD;`8Gd9<Kb3=MSJUT1
+S1
+R1
+w1761121726
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv
+!i122 3
+L0 1 80
+R13
+R14
+r1
+!s85 0
+31
+R15
+R18
+R16
+!i113 0
+R9
+R17
+R7
+n@bitonic_@sort
+vCOMP_2bit
+R10
+R11
+R12
+!i10b 1
+!s100 d4iFLO4YodoMWf;_G@:982
+IBn^UHg>U1Ki:UF6Fg1ljW2
+S1
+R1
+w1761121294
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_2bit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_2bit.sv
+!i122 3
+L0 1 11
+R13
+R14
+r1
+!s85 0
+31
+R15
+R18
+R16
+!i113 0
+R9
+R17
+R7
+n@c@o@m@p_2bit
+vCOMP_4bit
+R10
+R11
+R12
+!i10b 1
+!s100 dj@NkHh87k3Z2>3iEJ^Ai3
+IXL8d]j5Om20^VKVc_^``F1
+S1
+R1
+w1760860109
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_4bit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_4bit.sv
+!i122 3
+Z19 L0 1 26
+R13
+R14
+r1
+!s85 0
+31
+R15
+R18
+R16
+!i113 0
+R9
+R17
+R7
+n@c@o@m@p_4bit
+vCOMP_less
+R10
+R11
+R12
+!i10b 1
+!s100 `z^naFLEeAR>?lN@8d`Sc0
+IQFNZC]aZBkP9MSQjAKFG03
+S1
+R1
+w1761121190
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_less.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_less.sv
+!i122 3
+R19
+R13
+R14
+r1
+!s85 0
+31
+R15
+R18
+R16
+!i113 0
+R9
+R17
+R7
+n@c@o@m@p_less
+vCompare_and_Swap_unit
+R10
+R11
+R12
+!i10b 1
+!s100 4NjMjjk7BBO<[04X^6=0W2
+I]TFLZ]@8fmbgOiMSIO;<J3
+S1
+R1
+w1761121742
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Compare_and_Swap_unit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Compare_and_Swap_unit.sv
+!i122 3
+L0 1 38
+R13
+R14
+r1
+!s85 0
+31
+R15
+R18
+R16
+!i113 0
+R9
+R17
+R7
+n@compare_and_@swap_unit
+vtb_Question6
+R10
+R11
+R12
+!i10b 1
+!s100 I1EHgWHXIA;mJki>]P8CB1
+IG<6@McBFm^@zKYZO3U@?L3
+S1
+R1
+w1761122426
+8/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question6/tb_Question6.sv
+F/home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question6/tb_Question6.sv
+!i122 3
+L0 2 164
+R13
+R14
+r1
+!s85 0
+31
+R15
+R18
+R16
+!i113 0
+R9
+R17
+R7
+ntb_@question6

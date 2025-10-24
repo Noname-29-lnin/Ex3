@@ -1,0 +1,110 @@
+=== Start run_test (100 samples) ===
+PASS [0] A=0x797673c4 B=0x0b1e5d9c Cin=0 => {Cout,Sum}=0x08494d160
+PASS [1] A=0x48c2e0e4 B=0x92178378 Cin=0 => {Cout,Sum}=0x0dada645c
+PASS [2] A=0xcaa49eb6 B=0x2a14ffe4 Cin=1 => {Cout,Sum}=0x0f4b99e9b
+PASS [3] A=0xfcc47153 B=0x6f9e1721 Cin=1 => {Cout,Sum}=0x16c628875
+PASS [4] A=0xdf8cafc5 B=0x1253f382 Cin=0 => {Cout,Sum}=0x0f1e0a347
+PASS [5] A=0x73581635 B=0xadfbc912 Cin=0 => {Cout,Sum}=0x12153df47
+PASS [6] A=0xb4323bfd B=0xdc6b41f4 Cin=1 => {Cout,Sum}=0x1909d7df2
+PASS [7] A=0xc66d4d58 B=0xe9cf04b2 Cin=0 => {Cout,Sum}=0x1b03c520a
+PASS [8] A=0x5a1b851e B=0xad1f459e Cin=0 => {Cout,Sum}=0x1073acabc
+PASS [9] A=0x7b331cee B=0x983b6b10 Cin=0 => {Cout,Sum}=0x1136e87fe
+PASS [10] A=0x5a50ed63 B=0x599fa2c0 Cin=1 => {Cout,Sum}=0x0b3f09024
+PASS [11] A=0xc11b0f22 B=0xef938f06 Cin=1 => {Cout,Sum}=0x1b0ae9e29
+PASS [12] A=0x792d3263 B=0xc454c278 Cin=1 => {Cout,Sum}=0x13d81f4dc
+PASS [13] A=0x6354dace B=0x9383fef7 Cin=1 => {Cout,Sum}=0x0f6d8d9c6
+PASS [14] A=0x3cd9b39e B=0x9c43d877 Cin=0 => {Cout,Sum}=0x0d91d8c15
+PASS [15] A=0xf1a80ca8 B=0xa4b8e34f Cin=1 => {Cout,Sum}=0x19660eff8
+PASS [16] A=0x19b28994 B=0xbd0b2ee2 Cin=0 => {Cout,Sum}=0x0d6bdb876
+PASS [17] A=0xeffc1b1f B=0xbd54b309 Cin=1 => {Cout,Sum}=0x1ad50ce29
+PASS [18] A=0x57b0f61f B=0x81adaf84 Cin=1 => {Cout,Sum}=0x0d95ea5a4
+PASS [19] A=0x7921a633 B=0xdf72ea4b Cin=0 => {Cout,Sum}=0x15894907e
+PASS [20] A=0x86c8a8f3 B=0xceb32cc9 Cin=1 => {Cout,Sum}=0x1557bd5bd
+PASS [21] A=0x1bb965ca B=0x7c49d55d Cin=1 => {Cout,Sum}=0x098033b28
+PASS [22] A=0x43e5ed24 B=0xc349b2ef Cin=1 => {Cout,Sum}=0x1072fa014
+PASS [23] A=0xdbe8d96d B=0x66083739 Cin=0 => {Cout,Sum}=0x141f110a6
+PASS [24] A=0x0a87e8ea B=0x7de738c2 Cin=0 => {Cout,Sum}=0x0886f21ac
+PASS [25] A=0x22aa4954 B=0x68a0cb23 Cin=1 => {Cout,Sum}=0x08b4b1478
+PASS [26] A=0x270843b3 B=0x39bc7fad Cin=1 => {Cout,Sum}=0x060c4c361
+PASS [27] A=0xceb97b2e B=0x0a87b8cf Cin=1 => {Cout,Sum}=0x0d94133fe
+PASS [28] A=0x20b895d7 B=0x2fda0489 Cin=0 => {Cout,Sum}=0x050929a60
+PASS [29] A=0x86589faf B=0x80f9f5ef Cin=1 => {Cout,Sum}=0x10752959f
+PASS [30] A=0x94fe433f B=0xdb1ccecf Cin=0 => {Cout,Sum}=0x1701b120e
+PASS [31] A=0x0914e377 B=0x4b949a9a Cin=1 => {Cout,Sum}=0x054a97e12
+PASS [32] A=0x248c1f53 B=0x1b7842af Cin=0 => {Cout,Sum}=0x040046202
+PASS [33] A=0x11dab302 B=0xca972bfb Cin=0 => {Cout,Sum}=0x0dc71defd
+PASS [34] A=0x900fd9c2 B=0x6e6dcddd Cin=0 => {Cout,Sum}=0x0fe7da79f
+PASS [35] A=0x9368d864 B=0x0976a661 Cin=1 => {Cout,Sum}=0x09cdf7ec6
+PASS [36] A=0x05e9dd21 B=0x90c027f3 Cin=1 => {Cout,Sum}=0x096aa0515
+PASS [37] A=0x026918f5 B=0x9c1016bd Cin=0 => {Cout,Sum}=0x09e792fb2
+PASS [38] A=0x57aa2662 B=0x45769fca Cin=0 => {Cout,Sum}=0x09d20c62c
+PASS [39] A=0x1c90c745 B=0x6371e058 Cin=0 => {Cout,Sum}=0x08002a79d
+PASS [40] A=0xffcfde60 B=0x8db80373 Cin=0 => {Cout,Sum}=0x18d87e1d3
+PASS [41] A=0x1351c13d B=0x95cfa46c Cin=0 => {Cout,Sum}=0x0a92165a9
+PASS [42] A=0x56539ae7 B=0x403a5237 Cin=1 => {Cout,Sum}=0x0968ded1f
+PASS [43] A=0x3dc79340 B=0x57054833 Cin=0 => {Cout,Sum}=0x094ccdb73
+PASS [44] A=0xdac71ab6 B=0xedc1e2d7 Cin=0 => {Cout,Sum}=0x1c888fd8d
+PASS [45] A=0xac034a67 B=0x4d45f653 Cin=0 => {Cout,Sum}=0x0f94940ba
+PASS [46] A=0x386de8f4 B=0x5eee86e4 Cin=0 => {Cout,Sum}=0x0975c6fd8
+PASS [47] A=0xd2fd4367 B=0x8d3fd895 Cin=0 => {Cout,Sum}=0x1603d1bfc
+PASS [48] A=0xd4b91b64 B=0xdedc4195 Cin=0 => {Cout,Sum}=0x1b3955cf9
+PASS [49] A=0x91af473d B=0x04c6707f Cin=1 => {Cout,Sum}=0x09675b7bd
+PASS [50] A=0x30eaa8dc B=0x805acbec Cin=0 => {Cout,Sum}=0x0b14574c8
+PASS [51] A=0x091f0046 B=0x1916f079 Cin=0 => {Cout,Sum}=0x02235f0bf
+PASS [52] A=0xf38048d4 B=0x7d02c934 Cin=1 => {Cout,Sum}=0x170831209
+PASS [53] A=0xb7a25b1b B=0xc2dd1302 Cin=1 => {Cout,Sum}=0x17a7f6e1e
+PASS [54] A=0x7e42ce53 B=0x8dd0b063 Cin=0 => {Cout,Sum}=0x10c137eb6
+PASS [55] A=0x982928f0 B=0x8ee0b004 Cin=1 => {Cout,Sum}=0x12709d8f5
+PASS [56] A=0x926194f8 B=0x4e88ac23 Cin=0 => {Cout,Sum}=0x0e0ea411b
+PASS [57] A=0x3a187961 B=0x2e53ff61 Cin=1 => {Cout,Sum}=0x0686c78c3
+PASS [58] A=0x774c90d2 B=0x67f06afc Cin=0 => {Cout,Sum}=0x0df3cfbce
+PASS [59] A=0xf1d3b67b B=0xd2751b31 Cin=0 => {Cout,Sum}=0x1c448d1ac
+PASS [60] A=0x4f715aed B=0xbe69f964 Cin=0 => {Cout,Sum}=0x10ddb5451
+PASS [61] A=0xaae955bd B=0x165ac114 Cin=1 => {Cout,Sum}=0x0c14416d2
+PASS [62] A=0x35100acb B=0x525a32db Cin=1 => {Cout,Sum}=0x0876a3da7
+PASS [63] A=0x1219054e B=0xfc047624 Cin=0 => {Cout,Sum}=0x10e1d7b72
+PASS [64] A=0xae252c07 B=0xd80a7500 Cin=0 => {Cout,Sum}=0x1862fa107
+PASS [65] A=0x0b9ce53f B=0xc4207d39 Cin=1 => {Cout,Sum}=0x0cfbd6279
+PASS [66] A=0xba8684d7 B=0xdf37df7a Cin=0 => {Cout,Sum}=0x199be6451
+PASS [67] A=0xb538f67c B=0xf1557042 Cin=0 => {Cout,Sum}=0x1a68e66be
+PASS [68] A=0x9f17e476 B=0x5b85762b Cin=1 => {Cout,Sum}=0x0fa9d5aa2
+PASS [69] A=0x343f75d2 B=0x95bd1ea2 Cin=0 => {Cout,Sum}=0x0c9fc9474
+PASS [70] A=0xc0b80509 B=0x321a8a0f Cin=0 => {Cout,Sum}=0x0f2d28f18
+PASS [71] A=0x823152e4 B=0x10866559 Cin=1 => {Cout,Sum}=0x092b7b83e
+PASS [72] A=0xb8466aac B=0x220c9a80 Cin=1 => {Cout,Sum}=0x0da53052d
+PASS [73] A=0xf34a90ea B=0x36f7828d Cin=1 => {Cout,Sum}=0x12a421378
+PASS [74] A=0x4bf2f889 B=0x0f693f10 Cin=0 => {Cout,Sum}=0x05b5c3799
+PASS [75] A=0x87e359c6 B=0xed6470ab Cin=0 => {Cout,Sum}=0x17547ca71
+PASS [76] A=0xfc8c694c B=0xcbbdc9f7 Cin=0 => {Cout,Sum}=0x1c84a3343
+PASS [77] A=0xd589c854 B=0x3ab7fc11 Cin=1 => {Cout,Sum}=0x11041c466
+PASS [78] A=0x4df98d29 B=0x0d507e10 Cin=0 => {Cout,Sum}=0x05b4a0b39
+PASS [79] A=0xbb1b7971 B=0x023f162a Cin=1 => {Cout,Sum}=0x0bd5a8f9c
+PASS [80] A=0x8146a48c B=0x464831e6 Cin=0 => {Cout,Sum}=0x0c78ed672
+PASS [81] A=0x6deaf886 B=0x46ac746e Cin=1 => {Cout,Sum}=0x0b4976cf5
+PASS [82] A=0x7435c96e B=0xe369578d Cin=0 => {Cout,Sum}=0x1579f20fb
+PASS [83] A=0xf5486054 B=0x0e4d848d Cin=1 => {Cout,Sum}=0x10395e4e2
+PASS [84] A=0x93d5dad6 B=0x89be5e6e Cin=1 => {Cout,Sum}=0x11d943945
+PASS [85] A=0xe17612b2 B=0x4a869c57 Cin=0 => {Cout,Sum}=0x12bfcaf09
+PASS [86] A=0x5c94e664 B=0x1506fc99 Cin=1 => {Cout,Sum}=0x0719be2fe
+PASS [87] A=0xc0186540 B=0xa373e743 Cin=0 => {Cout,Sum}=0x1638c4c83
+PASS [88] A=0xecea9bf6 B=0x8167c3e7 Cin=1 => {Cout,Sum}=0x16e525fde
+PASS [89] A=0x80e2bc22 B=0xa8214153 Cin=0 => {Cout,Sum}=0x12903fd75
+PASS [90] A=0x8957210e B=0xeee11fe4 Cin=1 => {Cout,Sum}=0x1783840f3
+PASS [91] A=0xeb424c40 B=0x83e41849 Cin=1 => {Cout,Sum}=0x16f26648a
+PASS [92] A=0xa9867c09 B=0x762540f8 Cin=1 => {Cout,Sum}=0x11fabbd02
+PASS [93] A=0x90f3d996 B=0xfa855610 Cin=0 => {Cout,Sum}=0x18b792fa6
+PASS [94] A=0xd09b696d B=0x8cff90de Cin=1 => {Cout,Sum}=0x15d9afa4c
+PASS [95] A=0x648d6f80 B=0x9d84bddd Cin=1 => {Cout,Sum}=0x102122d5e
+PASS [96] A=0xde550d7a B=0x9488f89f Cin=0 => {Cout,Sum}=0x172de0619
+PASS [97] A=0x081f4fb8 B=0x2d66ee9c Cin=1 => {Cout,Sum}=0x035863e55
+PASS [98] A=0xe1bcf8b4 B=0xa779d049 Cin=1 => {Cout,Sum}=0x18936c8fe
+PASS [99] A=0xce3533dc B=0x1b5718e9 Cin=0 => {Cout,Sum}=0x0e98c4cc5
+=== Test summary ===
+Total samples = 100
+PASS = 100
+FAIL = 0
+=== End run_test ===
+- /home/noname/Documents/project_tiny/Ex3/03_test/Question3/tb_Question3.sv:102: Verilog $finish
+- S i m u l a t i o n   R e p o r t: Verilator 5.024 2024-04-05
+- Verilator: $finish at 2us; walltime 0.003 s; speed 0.000 s/s
+- Verilator: cpu 0.000 s on 1 threads; alloced 57 MB

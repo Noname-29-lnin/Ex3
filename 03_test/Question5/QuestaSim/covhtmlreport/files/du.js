@@ -1,0 +1,2 @@
+var g_data = {"data":[{"n":"work.alu_8bit","id":2,"zf":1,"tc":97.24,"s":93.75,"b":95.23},{"n":"work.cla_4bit","id":4,"zf":1,"tc":99.22,"fe":97.67},{"n":"work.tb_Question5","id":1,"zf":1,"tc":60.21,"s":93.40,"b":70.58,"fc":37.50,"t":39.36}]};
+processDuData(g_data);
