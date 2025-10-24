@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  24 OCT 2025 14:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.8.10)  24 OCT 2025 14:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1982,11 +1982,6 @@ Package pdftex.def Info: ./my-chapters/my-images/logo_DEE.png  used on input li
 ne 24.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [25])
-Overfull \hbox (13.81468pt too wide) in paragraph at lines 120--120
- []|\T5/cmr/bx/n/12 Tr÷íng 
- []
-
-
 Underfull \hbox (badness 1033) in paragraph at lines 124--124
 []|\T5/cmr/m/n/12 Kiºm tra xû lþ bit 7 (MSB), v¼ $\OT1/cmr/m/n/12 0\OML/cmm/m/i
 t/12 x\OT1/cmr/m/n/12 80 =
@@ -2251,7 +2246,7 @@ ne 81.
 (pdftex.def)             Requested size: 9.676pt x 9.58012pt.
 [51] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
-runsystem(latexminted cleantemp  --timestamp 20251024143754 FAD58DE7366495DB465
+runsystem(latexminted cleantemp  --timestamp 20251024144723 FAD58DE7366495DB465
 0CFEFAC2FCD61)...disabled (restricted).
 
 (main.aux (my-chapters/Question2.aux) (my-chapters/Question3.aux)
@@ -2288,7 +2283,7 @@ rs/nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnr6.pfb><C:/Users
 /nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnss12.pfb><C:/Users
 /nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vnti12.pfb><C:/Users
 /nguye/AppData/Local/Programs/MiKTeX/fonts/type1/vntex/vnr/vntt8.pfb>
-Output written on main.pdf (56 pages, 1154022 bytes).
+Output written on main.pdf (56 pages, 1153928 bytes).
 PDF statistics:
  2433 PDF objects out of 2487 (max. 8388607)
  1603 named destinations out of 1728 (max. 500000)

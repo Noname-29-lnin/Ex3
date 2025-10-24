@@ -117,7 +117,7 @@ Nhóm sử dụng Reference Model để tính toán giá trị expected . Sau đ
 				|>{\centering\arraybackslash}m{3.5cm}
 				|>{\arraybackslash}m{8.5cm}|}
 			\hline
-			\textbf{Trường hợp} & \textbf{Giá trị test A và B} & \textbf{Tác dụng test} \\ \hline
+			\textbf{TH} & \textbf{Giá trị test A và B} & \textbf{Tác dụng test} \\ \hline
 			1 & $A = 8'h00$, $B = 8'h00$ & Kiểm tra tính cộng cơ bản $(0 + 0 = 0)$ và xác nhận không có bit rác hoặc lỗi \textit{sign extension}. \\ \hline
 			2 & $A = 8'hFF$, $B = 8'hFF$ & Kiểm tra tràn (\textit{overflow/carry}); khi $A = B = FF_h$, phép cộng cho $FE_h$ và \textit{carry} = 1. \\ \hline
 			3 & $A = 8'hFF$, $B = 8'h01$ & Kiểm tra sinh \textit{Cout} khi cộng giá trị lớn nhất với 1 và xác nhận mạch \textit{carry propagate} hoạt động đúng ở bit thấp. \\ \hline
