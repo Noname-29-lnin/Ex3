@@ -1,10 +1,6 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Sơ đồ logic của bộ LOPD 4bit.}}{1}{figure.caption.3}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Sơ đồ logic của bộ LOPD 8bit.}}{2}{figure.caption.4}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Sơ đồ logic của bộ LOPD 16bit.}}{3}{figure.caption.5}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Sơ đồ logic của bộ LOPD 24-bit.}}{4}{figure.caption.6}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Sơ đồ logic của bộ Comparator 2-bit.}}{14}{figure.caption.10}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Sơ đồ logic của bộ Comparator 4-bit.}}{15}{figure.caption.11}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Sơ đồ logic của bộ Comparator 8-bit.}}{16}{figure.caption.12}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Bộ so sánh và swap giá trị trong Bitonic Merger Sort.}}{17}{figure.caption.13}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Bộ sắp xếp Bitonic Merger Sort.}}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Sơ đồ logic của PG Generator.}}{1}{figure.caption.2}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Sơ đồ logic của Carry Generator.}}{2}{figure.caption.3}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Sơ đồ logic của bộ cộng 4-bit CLA.}}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Block diagram của bộ cộng 4-bit CLA.}}{4}{figure.caption.5}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Block diagram của bộ cộng 32-bit CLA.}}{5}{figure.caption.6}%

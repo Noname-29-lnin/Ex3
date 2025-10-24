@@ -1,0 +1,128 @@
+\question{Câu 3}
+
+Thiết kế mạch tính tổng của 2 số 32-bit sử dụng giải thuật CLA (Carry Look-Ahead Adder) trong lý thuyết. Lưu ý: tách thành các bộ cộng 4-bit CLA.
+
+Cho các standard cell là: cổng not, các cổng logic 2, 3, 4 ngõ vào.
+
+\answer{a}{Thiết kế mạch theo phương pháp đã cho và chỉ được dùng các standard cell trên.}
+
+Theo lý thuyết, ta định nghĩa được 2 tín hiệu quan trọng là:
+
+\begin{itemize}[label=-]
+	\item \textbf{Generate ($\mathbf{G_{i}}$)}: Sinh carry ngay tại bit đó: $G_{i} = A_{i} \& B_{i}$.
+	\item \textbf{Propagate ($\mathbf{P_{i}}$)}: Cho phép carry từ bit trước đi qua: $P_{i} = A_{i} \oplus B_{i}$.
+\end{itemize}
+
+Dựa vào đó, ta thiết kế PG Generator (Propagate–Generate Generator) như sau:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.4\linewidth]{./my-chapters/my-images/Question3/hình 1.png}
+	\caption{Sơ đồ logic của PG Generator.}
+\end{figure}
+
+Các tín hiệu $G_{i}$ và $P_{i}$ chính là đầu vào cho \textbf{Carry Generator} ở cấp kế tiếp. Biểu thức cho carry kế tiếp: $C_{i+1} = G_{i} | (P_{i} \& C_{in})$. Nếu thực hiện thế vào liên tục, ta được biểu thức như sau:
+\[ C_1=G_0 | (P_0 \& C_{in}) \rightarrow C_2=G_2 | (G_0 \& P_1) | (P_1 \& P_2 \& C_{in}) \dots\]
+
+Tức là \textit{tất cả các carry có thể tính song song} bằng các phép logic, không cần đợi ripple từng bit. Từ đó ta có thiết kế Carry Generator như sau:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.4\linewidth]{./my-chapters/my-images/Question3/hình 2.png}
+	\caption{Sơ đồ logic của Carry Generator.}
+\end{figure}
+
+Sau khi biết các biết carry, ta tính tổng: $S_i = P_i \oplus C_{in}$. Từ đó, ta thiết kế bộ cộng CLA 4-bit như sau:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\linewidth]{./my-chapters/my-images/Question3/hình 3.png}
+	\caption{Sơ đồ logic của bộ cộng 4-bit CLA.}
+\end{figure}
+
+Ngoài ra, cũng là sơ đồ logic ấy, ta có thể biểu diễn thiết kế khác như hình bên dưới:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question3/hình 4.png}
+	\caption{Block diagram của bộ cộng 4-bit CLA.}
+\end{figure}
+
+Từ những bộ trên, ta có được bộ tính tổng 2 số 32-bit bằng bộ cộng theo phương pháp CLA.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{./my-chapters/my-images/Question3/hình 5.png}
+	\caption{Block diagram của bộ cộng 32-bit CLA.}
+\end{figure}
+
+\answer{b}{Viết chương trình HDL mô tả mạch đã cho.}
+
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả CLA 4-bit.}]{./../02_rtl/Question3/cla_4bit.sv}
+
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả CLA 32-bit.}]{./../02_rtl/Question3/cla_32bit.sv}
+
+\answer{c}{Viết testbench cho mạch. Testbench thực hiện rải 100 mẫu và tính scoreboard của 100 mẫu đó.}
+
+Nhóm em sử dụng dụng dấu \textsf{+} làm golden model để thực hiện kiểm tra kết quả test như sau:
+
+\begin{lstlisting}[style=StyleCode, language=SystemVerilog, caption={Giải thuật chứng minh kết quả của bộ cộng CLA 32-bit.}]
+	expected = {1'b0, tv_a} + {1'b0, tv_b} + tv_cin;
+\end{lstlisting}
+
+\begin{itemize}[label=-]
+	\item Thực hiện kiểm thử (self-checking) với 100 mẫu random để áp vào DUT. So sánh với expected để cập nhật scoreboard.
+	
+	\begin{lstlisting}[style=StyleCode, language=SystemVerilog, caption={Sinh 100 mẫu random và thực hiện kiểm tra.}]
+		$display("=== Start run_test (100 samples) ===");
+		for (idx = 0; idx < 100; idx++) begin
+			// --- generate testcase ---
+			tv_a   = $urandom();
+			tv_b   = $urandom();
+			tv_cin = $urandom_range(0,1);
+			A_tb   = tv_a;
+			B_tb   = tv_b;
+			Cin_tb = tv_cin;
+			@(posedge clk);
+			@(posedge clk);
+			#1;
+			// --- compute expected ---
+			expected = {1'b0, tv_a} + {1'b0, tv_b} + tv_cin;
+			got      = {Cout_tb, Sum_tb};
+			// --- compare and display ---
+			if (got == expected) begin
+				pass_count++;
+				$display("PASS [%0d] A=0x%08h B=0x%08h Cin=%0d => {Cout,Sum}=0x%09h",
+					idx, tv_a, tv_b, tv_cin, got);
+			end else begin
+				fail_count++;
+				$display("FAIL [%0d] A=0x%08h B=0x%08h Cin=%0d => got=0x%09h (exp=0x%09h)",
+					idx, tv_a, tv_b, tv_cin, got, expected);
+			end
+		end
+	\end{lstlisting}
+	
+	Kết quả
+	
+	\begin{lstlisting}[style=StyleResult, language=Result, caption={Kết quả test từng mẫu.}]
+		# === Start run_test (100 samples) ===
+		# PASS [0] A=0x2e45b278 B=0xd7aeae53 Cin=1 => {Cout,Sum}=0x105f460cc
+		# PASS [1] A=0x1e3a4d4a B=0x4ba544f7 Cin=1 => {Cout,Sum}=0x069df9242
+		# PASS [2] A=0xf331e3ec B=0x55820c15 Cin=0 => {Cout,Sum}=0x148b3f001
+		# PASS [3] A=0xfb325326 B=0x4cd94c49 Cin=0 => {Cout,Sum}=0x1480b9f6f
+		...
+		# PASS [97] A=0xb68bc493 B=0x18b2dfcc Cin=0 => {Cout,Sum}=0x0cf3ea45f
+		# PASS [98] A=0x3662a0de B=0x9cc1dc3f Cin=0 => {Cout,Sum}=0x0d3247d1d
+		# PASS [99] A=0xafde0bca B=0xcf523f4e Cin=1 => {Cout,Sum}=0x17f304b19
+	\end{lstlisting}
+	
+	\item Kết quả tổng kết.
+	
+	\begin{lstlisting}[style=StyleResult, language=SystemVerilog, caption={Kết quả của tổng kết của bài test.}]
+		# === Test summary ===
+		# Total samples = 100
+		# PASS = 100
+		# FAIL = 0
+		# === End run_test ===
+	\end{lstlisting}
+\end{itemize}

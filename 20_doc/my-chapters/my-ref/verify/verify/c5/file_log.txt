@@ -1,0 +1,371 @@
+# Reading pref.tcl
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 win64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading project tb
+vsim -gui work.tb_ALU8 -voptargs=+acc
+# vsim -gui work.tb_ALU8 -voptargs="+acc" 
+# Start time: 13:18:59 on Oct 24,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading sv_std.std
+# Loading work.tb_ALU8(fast)
+# Loading work.alu_8bit(fast)
+# Loading work.cla_8bit(fast)
+# Loading work.cla_4bit(fast)
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$shm_open' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ALU8 File: C:/Users/DELL/Downloads/ALU/tb.sv Line: 38
+# ** Warning: (vsim-PLI-3003) [TOFD] - System task or function '$shm_probe' is not defined.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ALU8 File: C:/Users/DELL/Downloads/ALU/tb.sv Line: 39
+add wave -position insertpoint  \
+sim:/tb_ALU8/A \
+sim:/tb_ALU8/B \
+sim:/tb_ALU8/S1 \
+sim:/tb_ALU8/S0 \
+sim:/tb_ALU8/Cin \
+sim:/tb_ALU8/F \
+sim:/tb_ALU8/Cout \
+sim:/tb_ALU8/total_tests \
+sim:/tb_ALU8/errors \
+sim:/tb_ALU8/test_count \
+sim:/tb_ALU8/test_pass \
+sim:/tb_ALU8/seed
+run
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$shm_open'
+#    Time: 0 ps  Iteration: 0  Process: /tb_ALU8/#INITIAL#32,37 File: C:/Users/DELL/Downloads/ALU/tb.sv Line: 38
+# ** Error (suppressible): (vsim-12023) Cannot execute undefined system task/function '$shm_probe'
+#    Time: 0 ps  Iteration: 0  Process: /tb_ALU8/#INITIAL#32,37 File: C:/Users/DELL/Downloads/ALU/tb.sv Line: 39
+# === TB ALU8 start ===
+# 
+# ========== STARTING DIRECTED TESTS ==========
+# 
+# [TIME:   1000] [Direct] A=00 B=00 S1S0=00 Cin=0 | F=00 Cout=0
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:   2000] [Direct] A=00 B=00 S1S0=00 Cin=1 | F=01 Cout=0
+# => PASS: Expect: 01 (1), DUT: 01 (1)
+# ------------------------------------------------------------
+# [TIME:   3000] [Direct] A=00 B=00 S1S0=01 Cin=0 | F=00 Cout=0
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:   4000] [Direct] A=00 B=00 S1S0=01 Cin=1 | F=01 Cout=0
+# => PASS: Expect: 01 (1), DUT: 01 (1)
+# ------------------------------------------------------------
+# [TIME:   5000] [Direct] A=00 B=00 S1S0=10 Cin=0 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:   6000] [Direct] A=00 B=00 S1S0=10 Cin=1 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:   7000] [Direct] A=00 B=00 S1S0=11 Cin=0 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:   8000] [Direct] A=00 B=00 S1S0=11 Cin=1 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:   9000] [Direct] A=ff B=ff S1S0=00 Cin=0 | F=fe Cout=1
+# => PASS: Expect: fe (254), DUT: fe (254)
+# ------------------------------------------------------------
+# [TIME:  10000] [Direct] A=ff B=ff S1S0=00 Cin=1 | F=ff Cout=1
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:  11000] [Direct] A=ff B=ff S1S0=01 Cin=0 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:  12000] [Direct] A=ff B=ff S1S0=01 Cin=1 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  13000] [Direct] A=ff B=ff S1S0=10 Cin=0 | F=00 Cout=0
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  14000] [Direct] A=ff B=ff S1S0=10 Cin=1 | F=01 Cout=0
+# => PASS: Expect: 01 (1), DUT: 01 (1)
+# ------------------------------------------------------------
+# [TIME:  15000] [Direct] A=ff B=ff S1S0=11 Cin=0 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:  16000] [Direct] A=ff B=ff S1S0=11 Cin=1 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  17000] [Direct] A=ff B=01 S1S0=00 Cin=0 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  18000] [Direct] A=ff B=01 S1S0=00 Cin=1 | F=01 Cout=1
+# => PASS: Expect: 01 (1), DUT: 01 (1)
+# ------------------------------------------------------------
+# [TIME:  19000] [Direct] A=ff B=01 S1S0=01 Cin=0 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:  20000] [Direct] A=ff B=01 S1S0=01 Cin=1 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  21000] [Direct] A=ff B=01 S1S0=10 Cin=0 | F=fe Cout=0
+# => PASS: Expect: fe (254), DUT: fe (254)
+# ------------------------------------------------------------
+# [TIME:  22000] [Direct] A=ff B=01 S1S0=10 Cin=1 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:  23000] [Direct] A=ff B=01 S1S0=11 Cin=0 | F=fd Cout=1
+# => PASS: Expect: fd (253), DUT: fd (253)
+# ------------------------------------------------------------
+# [TIME:  24000] [Direct] A=ff B=01 S1S0=11 Cin=1 | F=fe Cout=1
+# => PASS: Expect: fe (254), DUT: fe (254)
+# ------------------------------------------------------------
+# [TIME:  25000] [Direct] A=80 B=80 S1S0=00 Cin=0 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  26000] [Direct] A=80 B=80 S1S0=00 Cin=1 | F=01 Cout=1
+# => PASS: Expect: 01 (1), DUT: 01 (1)
+# ------------------------------------------------------------
+# [TIME:  27000] [Direct] A=80 B=80 S1S0=01 Cin=0 | F=80 Cout=0
+# => PASS: Expect: 80 (128), DUT: 80 (128)
+# ------------------------------------------------------------
+# [TIME:  28000] [Direct] A=80 B=80 S1S0=01 Cin=1 | F=81 Cout=0
+# => PASS: Expect: 81 (129), DUT: 81 (129)
+# ------------------------------------------------------------
+# [TIME:  29000] [Direct] A=80 B=80 S1S0=10 Cin=0 | F=7f Cout=0
+# => PASS: Expect: 7f (127), DUT: 7f (127)
+# ------------------------------------------------------------
+# [TIME:  30000] [Direct] A=80 B=80 S1S0=10 Cin=1 | F=80 Cout=0
+# => PASS: Expect: 80 (128), DUT: 80 (128)
+# ------------------------------------------------------------
+# [TIME:  31000] [Direct] A=80 B=80 S1S0=11 Cin=0 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:  32000] [Direct] A=80 B=80 S1S0=11 Cin=1 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  33000] [Direct] A=aa B=55 S1S0=00 Cin=0 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:  34000] [Direct] A=aa B=55 S1S0=00 Cin=1 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  35000] [Direct] A=aa B=55 S1S0=01 Cin=0 | F=aa Cout=0
+# => PASS: Expect: aa (170), DUT: aa (170)
+# ------------------------------------------------------------
+# [TIME:  36000] [Direct] A=aa B=55 S1S0=01 Cin=1 | F=ab Cout=0
+# => PASS: Expect: ab (171), DUT: ab (171)
+# ------------------------------------------------------------
+# [TIME:  37000] [Direct] A=aa B=55 S1S0=10 Cin=0 | F=aa Cout=0
+# => PASS: Expect: aa (170), DUT: aa (170)
+# ------------------------------------------------------------
+# [TIME:  38000] [Direct] A=aa B=55 S1S0=10 Cin=1 | F=ab Cout=0
+# => PASS: Expect: ab (171), DUT: ab (171)
+# ------------------------------------------------------------
+# [TIME:  39000] [Direct] A=aa B=55 S1S0=11 Cin=0 | F=54 Cout=1
+# => PASS: Expect: 54 (84), DUT: 54 (84)
+# ------------------------------------------------------------
+# [TIME:  40000] [Direct] A=aa B=55 S1S0=11 Cin=1 | F=55 Cout=1
+# => PASS: Expect: 55 (85), DUT: 55 (85)
+# ------------------------------------------------------------
+# [TIME:  41000] [Direct] A=55 B=aa S1S0=00 Cin=0 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:  42000] [Direct] A=55 B=aa S1S0=00 Cin=1 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  43000] [Direct] A=55 B=aa S1S0=01 Cin=0 | F=55 Cout=0
+# => PASS: Expect: 55 (85), DUT: 55 (85)
+# ------------------------------------------------------------
+# [TIME:  44000] [Direct] A=55 B=aa S1S0=01 Cin=1 | F=56 Cout=0
+# => PASS: Expect: 56 (86), DUT: 56 (86)
+# ------------------------------------------------------------
+# [TIME:  45000] [Direct] A=55 B=aa S1S0=10 Cin=0 | F=55 Cout=0
+# => PASS: Expect: 55 (85), DUT: 55 (85)
+# ------------------------------------------------------------
+# [TIME:  46000] [Direct] A=55 B=aa S1S0=10 Cin=1 | F=56 Cout=0
+# => PASS: Expect: 56 (86), DUT: 56 (86)
+# ------------------------------------------------------------
+# [TIME:  47000] [Direct] A=55 B=aa S1S0=11 Cin=0 | F=aa Cout=0
+# => PASS: Expect: aa (170), DUT: aa (170)
+# ------------------------------------------------------------
+# [TIME:  48000] [Direct] A=55 B=aa S1S0=11 Cin=1 | F=ab Cout=0
+# => PASS: Expect: ab (171), DUT: ab (171)
+# ------------------------------------------------------------
+# [TIME:  49000] [Direct] A=0f B=f0 S1S0=00 Cin=0 | F=ff Cout=0
+# => PASS: Expect: ff (255), DUT: ff (255)
+# ------------------------------------------------------------
+# [TIME:  50000] [Direct] A=0f B=f0 S1S0=00 Cin=1 | F=00 Cout=1
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# [TIME:  51000] [Direct] A=0f B=f0 S1S0=01 Cin=0 | F=0f Cout=0
+# => PASS: Expect: 0f (15), DUT: 0f (15)
+# ------------------------------------------------------------
+# [TIME:  52000] [Direct] A=0f B=f0 S1S0=01 Cin=1 | F=10 Cout=0
+# => PASS: Expect: 10 (16), DUT: 10 (16)
+# ------------------------------------------------------------
+# [TIME:  53000] [Direct] A=0f B=f0 S1S0=10 Cin=0 | F=0f Cout=0
+# => PASS: Expect: 0f (15), DUT: 0f (15)
+# ------------------------------------------------------------
+# [TIME:  54000] [Direct] A=0f B=f0 S1S0=10 Cin=1 | F=10 Cout=0
+# => PASS: Expect: 10 (16), DUT: 10 (16)
+# ------------------------------------------------------------
+# [TIME:  55000] [Direct] A=0f B=f0 S1S0=11 Cin=0 | F=1e Cout=0
+# => PASS: Expect: 1e (30), DUT: 1e (30)
+# ------------------------------------------------------------
+# [TIME:  56000] [Direct] A=0f B=f0 S1S0=11 Cin=1 | F=1f Cout=0
+# => PASS: Expect: 1f (31), DUT: 1f (31)
+# ------------------------------------------------------------
+# 
+# ========== ZERO CASE TEST ==========
+# 
+# [TIME:  57000] [Zero] A=00 B=00 S1S0=00 Cin=0 | F=00 Cout=0
+# => PASS: Expect: 00 (0), DUT: 00 (0)
+# ------------------------------------------------------------
+# 
+# ========== STARTING RANDOM TESTS ==========
+# 
+# [TIME:  59000] [Random] A=07 B=5b S1S0=11 Cin=1 | F=ac Cout=0
+# => PASS: Expect: ac (172), DUT: ac (172)
+# ------------------------------------------------------------
+# [TIME:  61000] [Random] A=46 B=63 S1S0=00 Cin=1 | F=aa Cout=0
+# => PASS: Expect: aa (170), DUT: aa (170)
+# ------------------------------------------------------------
+# [TIME:  63000] [Random] A=07 B=a0 S1S0=00 Cin=0 | F=a7 Cout=0
+# => PASS: Expect: a7 (167), DUT: a7 (167)
+# ------------------------------------------------------------
+# [TIME:  65000] [Random] A=f2 B=ff S1S0=00 Cin=0 | F=f1 Cout=1
+# => PASS: Expect: f1 (241), DUT: f1 (241)
+# ------------------------------------------------------------
+# [TIME:  67000] [Random] A=d3 B=30 S1S0=11 Cin=0 | F=a2 Cout=1
+# => PASS: Expect: a2 (162), DUT: a2 (162)
+# ------------------------------------------------------------
+# [TIME:  69000] [Random] A=b0 B=24 S1S0=00 Cin=1 | F=d5 Cout=0
+# => PASS: Expect: d5 (213), DUT: d5 (213)
+# ------------------------------------------------------------
+# [TIME:  71000] [Random] A=6a B=82 S1S0=10 Cin=1 | F=7e Cout=0
+# => PASS: Expect: 7e (126), DUT: 7e (126)
+# ------------------------------------------------------------
+# [TIME:  73000] [Random] A=48 B=de S1S0=11 Cin=0 | F=69 Cout=0
+# => PASS: Expect: 69 (105), DUT: 69 (105)
+# ------------------------------------------------------------
+# [TIME:  75000] [Random] A=4b B=ab S1S0=00 Cin=1 | F=f7 Cout=0
+# => PASS: Expect: f7 (247), DUT: f7 (247)
+# ------------------------------------------------------------
+# [TIME:  77000] [Random] A=a4 B=81 S1S0=00 Cin=1 | F=26 Cout=1
+# => PASS: Expect: 26 (38), DUT: 26 (38)
+# ------------------------------------------------------------
+# [TIME:  79000] [Random] A=96 B=21 S1S0=00 Cin=0 | F=b7 Cout=0
+# => PASS: Expect: b7 (183), DUT: b7 (183)
+# ------------------------------------------------------------
+# [TIME:  81000] [Random] A=17 B=dc S1S0=01 Cin=1 | F=18 Cout=0
+# => PASS: Expect: 18 (24), DUT: 18 (24)
+# ------------------------------------------------------------
+# [TIME:  83000] [Random] A=fe B=ec S1S0=00 Cin=1 | F=eb Cout=1
+# => PASS: Expect: eb (235), DUT: eb (235)
+# ------------------------------------------------------------
+# [TIME:  85000] [Random] A=d4 B=b2 S1S0=10 Cin=1 | F=4e Cout=0
+# => PASS: Expect: 4e (78), DUT: 4e (78)
+# ------------------------------------------------------------
+# [TIME:  87000] [Random] A=38 B=9f S1S0=11 Cin=1 | F=99 Cout=0
+# => PASS: Expect: 99 (153), DUT: 99 (153)
+# ------------------------------------------------------------
+# [TIME:  89000] [Random] A=6d B=0d S1S0=11 Cin=1 | F=60 Cout=1
+# => PASS: Expect: 60 (96), DUT: 60 (96)
+# ------------------------------------------------------------
+# [TIME:  91000] [Random] A=e6 B=bf S1S0=01 Cin=1 | F=e7 Cout=0
+# => PASS: Expect: e7 (231), DUT: e7 (231)
+# ------------------------------------------------------------
+# [TIME:  93000] [Random] A=15 B=95 S1S0=11 Cin=1 | F=80 Cout=0
+# => PASS: Expect: 80 (128), DUT: 80 (128)
+# ------------------------------------------------------------
+# [TIME:  95000] [Random] A=66 B=9b S1S0=11 Cin=1 | F=cb Cout=0
+# => PASS: Expect: cb (203), DUT: cb (203)
+# ------------------------------------------------------------
+# [TIME:  97000] [Random] A=f3 B=c8 S1S0=10 Cin=1 | F=38 Cout=0
+# => PASS: Expect: 38 (56), DUT: 38 (56)
+# ------------------------------------------------------------
+# [TIME:  99000] [Random] A=6d B=3d S1S0=10 Cin=1 | F=c3 Cout=0
+# => PASS: Expect: c3 (195), DUT: c3 (195)
+# ------------------------------------------------------------
+# [TIME: 101000] [Random] A=3c B=2a S1S0=10 Cin=1 | F=d6 Cout=0
+# => PASS: Expect: d6 (214), DUT: d6 (214)
+# ------------------------------------------------------------
+# [TIME: 103000] [Random] A=05 B=51 S1S0=00 Cin=0 | F=56 Cout=0
+# => PASS: Expect: 56 (86), DUT: 56 (86)
+# ------------------------------------------------------------
+# [TIME: 105000] [Random] A=1c B=bf S1S0=10 Cin=1 | F=41 Cout=0
+# => PASS: Expect: 41 (65), DUT: 41 (65)
+# ------------------------------------------------------------
+# [TIME: 107000] [Random] A=14 B=9c S1S0=01 Cin=0 | F=14 Cout=0
+# => PASS: Expect: 14 (20), DUT: 14 (20)
+# ------------------------------------------------------------
+# [TIME: 109000] [Random] A=9f B=d5 S1S0=11 Cin=1 | F=ca Cout=0
+# => PASS: Expect: ca (202), DUT: ca (202)
+# ------------------------------------------------------------
+# [TIME: 111000] [Random] A=6a B=b4 S1S0=01 Cin=1 | F=6b Cout=0
+# => PASS: Expect: 6b (107), DUT: 6b (107)
+# ------------------------------------------------------------
+# [TIME: 113000] [Random] A=ec B=5c S1S0=00 Cin=1 | F=49 Cout=1
+# => PASS: Expect: 49 (73), DUT: 49 (73)
+# ------------------------------------------------------------
+# [TIME: 115000] [Random] A=e2 B=2c S1S0=01 Cin=0 | F=e2 Cout=0
+# => PASS: Expect: e2 (226), DUT: e2 (226)
+# ------------------------------------------------------------
+# [TIME: 117000] [Random] A=da B=2b S1S0=00 Cin=0 | F=05 Cout=1
+# => PASS: Expect: 05 (5), DUT: 05 (5)
+# ------------------------------------------------------------
+# [TIME: 119000] [Random] A=bb B=42 S1S0=10 Cin=0 | F=bd Cout=0
+# => PASS: Expect: bd (189), DUT: bd (189)
+# ------------------------------------------------------------
+# [TIME: 121000] [Random] A=a1 B=d5 S1S0=10 Cin=0 | F=2a Cout=0
+# => PASS: Expect: 2a (42), DUT: 2a (42)
+# ------------------------------------------------------------
+# [TIME: 123000] [Random] A=f1 B=e9 S1S0=10 Cin=0 | F=16 Cout=0
+# => PASS: Expect: 16 (22), DUT: 16 (22)
+# ------------------------------------------------------------
+# [TIME: 125000] [Random] A=25 B=f9 S1S0=01 Cin=1 | F=26 Cout=0
+# => PASS: Expect: 26 (38), DUT: 26 (38)
+# ------------------------------------------------------------
+# [TIME: 127000] [Random] A=85 B=36 S1S0=01 Cin=0 | F=85 Cout=0
+# => PASS: Expect: 85 (133), DUT: 85 (133)
+# ------------------------------------------------------------
+# [TIME: 129000] [Random] A=26 B=1a S1S0=00 Cin=1 | F=41 Cout=0
+# => PASS: Expect: 41 (65), DUT: 41 (65)
+# ------------------------------------------------------------
+# [TIME: 131000] [Random] A=b8 B=a3 S1S0=10 Cin=1 | F=5d Cout=0
+# => PASS: Expect: 5d (93), DUT: 5d (93)
+# ------------------------------------------------------------
+# [TIME: 133000] [Random] A=7b B=40 S1S0=11 Cin=1 | F=3b Cout=1
+# => PASS: Expect: 3b (59), DUT: 3b (59)
+# ------------------------------------------------------------
+# [TIME: 135000] [Random] A=24 B=a4 S1S0=11 Cin=1 | F=80 Cout=0
+# => PASS: Expect: 80 (128), DUT: 80 (128)
+# ------------------------------------------------------------
+# [TIME: 137000] [Random] A=cd B=65 S1S0=00 Cin=1 | F=33 Cout=1
+# => PASS: Expect: 33 (51), DUT: 33 (51)
+# ------------------------------------------------------------
+# [TIME: 139000] [Random] A=fd B=ef S1S0=01 Cin=0 | F=fd Cout=0
+# => PASS: Expect: fd (253), DUT: fd (253)
+# ------------------------------------------------------------
+# [TIME: 141000] [Random] A=8a B=79 S1S0=11 Cin=1 | F=11 Cout=1
+# => PASS: Expect: 11 (17), DUT: 11 (17)
+# ------------------------------------------------------------
+# [TIME: 143000] [Random] A=1f B=93 S1S0=11 Cin=1 | F=8c Cout=0
+# => PASS: Expect: 8c (140), DUT: 8c (140)
+# ------------------------------------------------------------
+# 
+# ============================================
+# =============== TEST SUMMARY ===============
+# Total test cases : 100
+# Passed            : 100
+# Failed            : 0
+# Pass rate         : 100.00 %
+# ============================================
+# 
+# PASS: All tests succeeded.
+# ** Note: $finish    : C:/Users/DELL/Downloads/ALU/tb.sv(210)
+#    Time: 143 ns  Iteration: 0  Instance: /tb_ALU8
+# 1
+# Break in Module tb_ALU8 at C:/Users/DELL/Downloads/ALU/tb.sv line 210

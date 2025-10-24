@@ -73,14 +73,14 @@ Cho các standard cell là: Cổng NOT, các cổng logic 2 ngõ vào, Mux 2-1, 
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=.9\linewidth]{/home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Question6/comparator_2bit.png}
+			\includegraphics[width=.9\linewidth]{./my-chapters/my-diagrams/Question6/comparator_2bit.png}
 			\caption{Sơ đồ logic của bộ Comparator 2-bit.}
 		\end{figure}
 	
 		\item Triển khai bộ so sánh 4-bit
 		
 		\begin{minipage}{.4\linewidth}
-			\includegraphics[width=.7\linewidth]{/home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Question6/propagation.png}
+			\includegraphics[width=.7\linewidth]{./my-chapters/my-diagrams/Question6/propagation.png}
 		\end{minipage}
 		\begin{minipage}{.4\linewidth}
 			Sử dụng bộ lan truyền dấu so sánh trên, với nếu các bit trên có có xuất hiện bit less thì ngõ ra lan truyền bit less, còn nếu bit thấp thì nếu tầng trên bằng nhau và các tầng thấp có bit less ngõ ra lan truyền bit less.
@@ -88,7 +88,7 @@ Cho các standard cell là: Cổng NOT, các cổng logic 2 ngõ vào, Mux 2-1, 
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=.9\linewidth]{/home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Question6/comparator_4bit.png}
+			\includegraphics[width=.9\linewidth]{./my-chapters/my-diagrams/Question6/comparator_4bit.png}
 			\caption{Sơ đồ logic của bộ Comparator 4-bit.}
 		\end{figure}
 	
@@ -98,7 +98,7 @@ Cho các standard cell là: Cổng NOT, các cổng logic 2 ngõ vào, Mux 2-1, 
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=.9\linewidth]{/home/noname/Documents/project_tiny/Ex3/20_doc/my-chapters/my-diagrams/Question6/comparator_8bit.png}
+			\includegraphics[width=.9\linewidth]{./my-chapters/my-diagrams/Question6/comparator_8bit.png}
 			\caption{Sơ đồ logic của bộ Comparator 8-bit.}
 		\end{figure}
 	\end{itemize}
@@ -122,19 +122,19 @@ Cho các standard cell là: Cổng NOT, các cổng logic 2 ngõ vào, Mux 2-1, 
 
 \answer{b}{Viết chương trình HDL mô tả mạch đã cho.}
 
-\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ so sánh 2-bit.}]{/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_2bit.sv}
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ so sánh 2-bit.}]{./../02_rtl/Question6/COMP_2bit.sv}
 
-\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ so sánh 4-bit.}]{/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_4bit.sv}
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ so sánh 4-bit.}]{./../02_rtl/Question6/COMP_4bit.sv}
 
-\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ so sánh 8-bit.}]{/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/COMP_less.sv}
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ so sánh 8-bit.}]{./../02_rtl/Question6/COMP_less.sv}
 
-\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả một đơn vị của bộ Bitonic Merger Sort.}]{/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Compare_and_Swap_unit.sv}
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả một đơn vị của bộ Bitonic Merger Sort.}]{./../02_rtl/Question6/Compare_and_Swap_unit.sv}
 
-\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ Bitonic Merger Sort Block-4.}]{/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block4.sv}
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ Bitonic Merger Sort Block-4.}]{./../02_rtl/Question6/Bitonic_Block4.sv}
 
-\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ Bitonic Merger Sort Block-8.}]{/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Block8.sv}
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ Bitonic Merger Sort Block-8.}]{./../02_rtl/Question6/Bitonic_Block8.sv}
 
-\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ Bitonic Merger Sort 8 phần tử đầu vào.}]{/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv}
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ Bitonic Merger Sort 8 phần tử đầu vào.}]{./../02_rtl/Question6/Bitonic_Sort.sv}
 
 \answer{c}{Viết chương trình testbench cho mạch.}
 
