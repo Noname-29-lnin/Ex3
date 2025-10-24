@@ -1,5 +1,17 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {section}{Câu 3}{1}{Doc-Start}%
+\contentsline {section}{Câu 2}{1}{Doc-Start}%
 \contentsline {subsection}{a)}{1}{section*.1}%
-\contentsline {subsection}{b)}{5}{figure.caption.6}%
-\contentsline {subsection}{c)}{7}{lstnumber.2.61}%
+\contentsline {subsection}{b)}{4}{figure.caption.6}%
+\contentsline {subsection}{c)}{8}{lstnumber.4.37}%
+\contentsline {section}{Câu 3}{12}{lstnumber.12.9}%
+\contentsline {subsection}{a)}{12}{section*.7}%
+\contentsline {subsection}{b)}{16}{figure.caption.12}%
+\contentsline {subsection}{c)}{18}{lstnumber.14.61}%
+\contentsline {section}{Câu 5}{20}{lstnumber.18.6}%
+\contentsline {subsection}{a)}{20}{table.caption.13}%
+\contentsline {subsection}{b)}{24}{figure.caption.19}%
+\contentsline {subsection}{c)}{26}{lstnumber.21.45}%
+\contentsline {section}{Câu 6}{33}{lstnumber.28.8}%
+\contentsline {subsection}{a)}{34}{figure.caption.22}%
+\contentsline {subsection}{b)}{38}{figure.caption.28}%
+\contentsline {subsection}{c)}{45}{lstnumber.35.80}%

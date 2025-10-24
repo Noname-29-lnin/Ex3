@@ -1,0 +1,436 @@
+\question{Câu 5}
+
+Thiết kế một ALU thực hiện theo tính toán như bảng sau. Trong đó, $A$ và $B$ là 2 ngõ vào 8-bit. Các tín hiệu lựa chọn $S_{1}$, $S_{0}$ và $C_{in}$.
+
+\begin{table}[H]
+	\centering
+	\caption{Bảng tính toán để thiết kế ALU.}
+	\renewcommand{\arraystretch}{1.3}
+	\setlength{\tabcolsep}{10pt}
+	\begin{tabular}{|>{\centering\arraybackslash}m{1.5cm}
+			|>{\centering\arraybackslash}m{5cm}
+			|>{\centering\arraybackslash}m{5cm}|}
+		\hline
+		\textbf{S1S0} & \textbf{Cin = 0} & \textbf{Cin = 1} \\ \hline
+		00 & $F = A + B$ (add) & $F = A + B + 1$ \\ \hline
+		01 & $F = A$ (transfer) & $F = A + 1$ (increment) \\ \hline
+		10 & $F = \bar{B}$ (complement) & $F = \bar{B} + 1$ (negate) \\ \hline
+		11 & $F = A + \bar{B}$ & $F = A + \bar{B} + 1$ (subtract) \\ \hline
+	\end{tabular}
+	\label{tab: de_cau_5}
+\end{table}
+
+Cho các standard cell là: cổng not, các cổng logic 2 ngõ vào, mux 2-1, mux 4-1.
+
+
+\answer{a}{Thiết kế mạch chỉ sử dụng các standard cell trên và chỉ được thiết kế 1 bộ cộng.}
+
+Trước tiên, dựa vào Bảng \ref{tab: de_cau_5}, ta có thể rút ra được công thức tổng quát như sau: 
+\[ F = A + B + C_{in} \]
+Mà $C_{in}$ sẽ được điều khiển trực tiếp để đưa vào bộ cộng nên không cần dùng mux. Tóm lại ta chỉ cần quan tâm đến 2 toán hạng còn lại gọi là Op1 và Op2.
+
+Ngoài ra, quan sát thấy tại $S_{1}S_{0} = 10$ chỉ có 1 toán hạng là $\bar{B}$ $\rightarrow$ Dùng mux 2-1 để chọn ra trường hợp đặc biệt này, dưới đây là hình ảnh thiết kế.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question5/hình 6.png}
+	\caption{Mux 2-1 cho toán hạng thứ nhất Op1.}
+	\label{fig: 1}
+\end{figure}
+
+Hình \ref{fig: 1} là thiết kế được tóm gọn lại. Thực chất, vì là $A$ và $B$ là số 8-bit nên sẽ là 8 bộ mux 2-1 cho mỗi một bit.
+
+Sau khi có toán hạng thứ nhất, ta tiến đến toán hạng thứ hai dựa vào toán hạng thứ nhất như sau:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|>{\centering\arraybackslash}m{1.5cm}
+			|>{\centering\arraybackslash}m{5cm}
+			|>{\centering\arraybackslash}m{5cm}|}
+		\hline
+		\textbf{S1S0} & \textbf{Toán hạng 1 (Op1)} & \textbf{Toán hạng 2 (Op2)} \\ \hline
+		00 & $A$ & $B$ \\ \hline
+		01 & $A$ & $0$ \\ \hline
+		10 & $\bar{B}$ & $0$ \\ \hline
+		11 & $A$ & $\bar{B}$ \\ \hline
+	\end{tabular}
+	\caption{Bảng lựa chọn toán hạng thứ hai.}
+	\label{tab: 2}
+\end{table}
+
+Dựa vào bảng \ref{tab: 2}, nhóm em chọn mux 4-1 để thiết kế cho phù hợp với 4 trường hợp trên. Tương tự, vì là thiết kế cho mỗi bit nên thực chất sẽ có đến 8 bộ mux 4-1.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.7\linewidth]{./my-chapters/my-images/Question5/hình 7.png}
+	\caption{Mux 4-1 cho toán hạng thứ Op2.}
+\end{figure}
+
+Sau khi đã có đầy đủ hai toán hạng, việc còn lại là thiết kế bộ cộng với đầu vào là toán hạng thứ nhất và thứ hai đã chọn cùng với $C_{in}$. Tổng quát, bộ ALU sẽ có thiết kế như sau:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question5/hình 8.png}
+	\caption{Sơ đồ logic của bộ ALU.}
+\end{figure}
+
+Đối với bộ cộng, nhóm em sử dụng bộ cộng CLA 8-bit. Trước hết, cần phải xây dựng một khối CLA 4-bit như sau.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question5/hình 9.png}
+	\caption{4-bit Carry Lookahead Adder.}
+\end{figure}
+
+Dựa vào thiết kế này, ta nối 2 khối CLA 4-bit thành bộ cộng CLA 8-bit, cụ thể như hình dưới:
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.9\linewidth]{./my-chapters/my-images/Question5/hình 10.png}
+	\caption{8-bit Carry Lookahead Adder.}
+\end{figure}
+
+\answer{b}{Viết chương trình HDL mô tả mạch đã cho và viết testbench cho mạch}
+
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả CLA 4-bit.}]{./../02_rtl/Question5/cla_4bit.sv}
+
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả CLA 8-bit.}]{./../02_rtl/Question5/cla_8bit.sv}
+
+\lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả bộ ALU 8-bit.}]{./../02_rtl/Question5/alu_8bit.sv}
+
+\answer{c}{Viết testbench cho mạch.}
+
+Mục tiêu: Xác minh chức năng ALU 8-bit theo bảng $S_{1}$, $S_{0}$, $C_{in}$; đảm bảo $F$ và $C_{out}$ của DUT khớp với mô hình tham chiếu trên tập mẫu Directed + Random (100 mẫu tổng).
+
+Ở đây, phương pháp nhóm em áp dụng là Functional Verification - Self-checking testbench. Cụ thể hơn, đây là Direct + Random Testing kết hợp Reference Model Comparison.
+
+Nhóm sử dụng Reference Model để tính toán giá trị expected . Sau đó, thực hiện task để so sánh với giá trị expected và thực hiện cập nhật \textsf{PASS}/\textsf{FAIL}. Nhóm thực hiện test 100 trường hợp với những trường hợp và phương pháp test khác nhau.
+
+\begin{itemize}[label=-]
+	\item TestCase0: Thực hiện Directed Test kiểm tra trường hợp đầu vào đặc biệt mà logic dễ sai như sau:
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|>{\centering\arraybackslash}m{1cm}
+				|>{\centering\arraybackslash}m{3.5cm}
+				|>{\arraybackslash}m{8.5cm}|}
+			\hline
+			\textbf{Trường hợp} & \textbf{Giá trị test A và B} & \textbf{Tác dụng test} \\ \hline
+			1 & $A = 8'h00$, $B = 8'h00$ & Kiểm tra tính cộng cơ bản $(0 + 0 = 0)$ và xác nhận không có bit rác hoặc lỗi \textit{sign extension}. \\ \hline
+			2 & $A = 8'hFF$, $B = 8'hFF$ & Kiểm tra tràn (\textit{overflow/carry}); khi $A = B = FF_h$, phép cộng cho $FE_h$ và \textit{carry} = 1. \\ \hline
+			3 & $A = 8'hFF$, $B = 8'h01$ & Kiểm tra sinh \textit{Cout} khi cộng giá trị lớn nhất với 1 và xác nhận mạch \textit{carry propagate} hoạt động đúng ở bit thấp. \\ \hline
+			4 & $A = 8'h80$, $B = 8'h80$ & Kiểm tra xử lý bit 7 (MSB), vì $0x80 = 1000\_0000$. Với signed, đây là vùng âm; với unsigned, kiểm tra tràn. \\ \hline
+			5 & $A = 8'hAA$, $B = 8'h55$ & Kiểm tra truyền \textit{carry} xen kẽ. Các bit 1–0 xen kẽ giúp phát hiện lỗi nối bit hoặc XOR sai. \\ \hline
+			6 & $A = 8'h55$, $B = 8'hAA$ & Kiểm tra tính đối xứng của phép cộng ($A + B = B + A$). \\ \hline
+			7 & $A = 8'h0F$, $B = 8'hF0$ & Kiểm tra truyền \textit{carry} giữa nibble thấp–cao, đánh giá hoạt động cộng giữa các bit chéo. \\ \hline
+		\end{tabular}
+		\caption{Trường hợp đặc biệt được kiểm tra bằng Directed Test.}
+	\end{table}
+	
+	\begin{lstlisting}[style=StyleCode, language=SystemVerilog, caption={Thực hiện Directed Test.}]
+		task automatic run_test();
+		logic [7:0] edgeA [0:6];
+		logic [7:0] edgeB [0:6];
+		int idx;
+		int s1, s0, c;
+		int rctl;
+		begin
+			total_tests = 0;
+			errors = 0;
+			test_count = 0;
+			test_pass = 0;
+			
+			// --- Directed edge cases ---
+			edgeA[0] = 8'h00; edgeB[0] = 8'h00;
+			edgeA[1] = 8'hFF; edgeB[1] = 8'hFF;
+			edgeA[2] = 8'hFF; edgeB[2] = 8'h01;
+			edgeA[3] = 8'h80; edgeB[3] = 8'h80;
+			edgeA[4] = 8'hAA; edgeB[4] = 8'h55;
+			edgeA[5] = 8'h55; edgeB[5] = 8'hAA;
+			edgeA[6] = 8'h0F; edgeB[6] = 8'hF0;
+			
+			$display("\n========== STARTING DIRECTED TESTS ==========\n");
+			for (idx = 0; idx <= 6; idx++) begin
+				for (s1 = 0; s1 < 2; s1++) begin
+					for (s0 = 0; s0 < 2; s0++) begin
+						for (c = 0; c < 2; c++) begin
+							apply_and_check(edgeA[idx], edgeB[idx], s1, s0, c, "Direct");
+						end
+					end
+				end
+			end
+		end
+		endtask
+	\end{lstlisting}
+	
+	Kết quả 
+	
+	\begin{lstlisting}[style=StyleResult, language=Result, caption={Kết quả mô phỏng Directed Test.}]
+		# ========== STARTING DIRECTED TESTS ==========
+		# 
+		# [TIME:   1000] [Direct] A=00 B=00 S1S0=00 Cin=0 | F=00 Cout=0
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:   2000] [Direct] A=00 B=00 S1S0=00 Cin=1 | F=01 Cout=0
+		# => PASS: Expect: 01 (1), DUT: 01 (1)
+		# ------------------------------------------------------------
+		# [TIME:   3000] [Direct] A=00 B=00 S1S0=01 Cin=0 | F=00 Cout=0
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:   4000] [Direct] A=00 B=00 S1S0=01 Cin=1 | F=01 Cout=0
+		# => PASS: Expect: 01 (1), DUT: 01 (1)
+		# ------------------------------------------------------------
+		# [TIME:   5000] [Direct] A=00 B=00 S1S0=10 Cin=0 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:   6000] [Direct] A=00 B=00 S1S0=10 Cin=1 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:   7000] [Direct] A=00 B=00 S1S0=11 Cin=0 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:   8000] [Direct] A=00 B=00 S1S0=11 Cin=1 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:   9000] [Direct] A=ff B=ff S1S0=00 Cin=0 | F=fe Cout=1
+		# => PASS: Expect: fe (254), DUT: fe (254)
+		# ------------------------------------------------------------
+		# [TIME:  10000] [Direct] A=ff B=ff S1S0=00 Cin=1 | F=ff Cout=1
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:  11000] [Direct] A=ff B=ff S1S0=01 Cin=0 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:  12000] [Direct] A=ff B=ff S1S0=01 Cin=1 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  13000] [Direct] A=ff B=ff S1S0=10 Cin=0 | F=00 Cout=0
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  14000] [Direct] A=ff B=ff S1S0=10 Cin=1 | F=01 Cout=0
+		# => PASS: Expect: 01 (1), DUT: 01 (1)
+		# ------------------------------------------------------------
+		# [TIME:  15000] [Direct] A=ff B=ff S1S0=11 Cin=0 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:  16000] [Direct] A=ff B=ff S1S0=11 Cin=1 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  17000] [Direct] A=ff B=01 S1S0=00 Cin=0 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  18000] [Direct] A=ff B=01 S1S0=00 Cin=1 | F=01 Cout=1
+		# => PASS: Expect: 01 (1), DUT: 01 (1)
+		# ------------------------------------------------------------
+		# [TIME:  19000] [Direct] A=ff B=01 S1S0=01 Cin=0 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:  20000] [Direct] A=ff B=01 S1S0=01 Cin=1 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  21000] [Direct] A=ff B=01 S1S0=10 Cin=0 | F=fe Cout=0
+		# => PASS: Expect: fe (254), DUT: fe (254)
+		# ------------------------------------------------------------
+		# [TIME:  22000] [Direct] A=ff B=01 S1S0=10 Cin=1 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:  23000] [Direct] A=ff B=01 S1S0=11 Cin=0 | F=fd Cout=1
+		# => PASS: Expect: fd (253), DUT: fd (253)
+		# ------------------------------------------------------------
+		# [TIME:  24000] [Direct] A=ff B=01 S1S0=11 Cin=1 | F=fe Cout=1
+		# => PASS: Expect: fe (254), DUT: fe (254)
+		# ------------------------------------------------------------
+		# [TIME:  25000] [Direct] A=80 B=80 S1S0=00 Cin=0 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  26000] [Direct] A=80 B=80 S1S0=00 Cin=1 | F=01 Cout=1
+		# => PASS: Expect: 01 (1), DUT: 01 (1)
+		# ------------------------------------------------------------
+		# [TIME:  27000] [Direct] A=80 B=80 S1S0=01 Cin=0 | F=80 Cout=0
+		# => PASS: Expect: 80 (128), DUT: 80 (128)
+		# ------------------------------------------------------------
+		# [TIME:  28000] [Direct] A=80 B=80 S1S0=01 Cin=1 | F=81 Cout=0
+		# => PASS: Expect: 81 (129), DUT: 81 (129)
+		# ------------------------------------------------------------
+		# [TIME:  29000] [Direct] A=80 B=80 S1S0=10 Cin=0 | F=7f Cout=0
+		# => PASS: Expect: 7f (127), DUT: 7f (127)
+		# ------------------------------------------------------------
+		# [TIME:  30000] [Direct] A=80 B=80 S1S0=10 Cin=1 | F=80 Cout=0
+		# => PASS: Expect: 80 (128), DUT: 80 (128)
+		# ------------------------------------------------------------
+		# [TIME:  31000] [Direct] A=80 B=80 S1S0=11 Cin=0 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:  32000] [Direct] A=80 B=80 S1S0=11 Cin=1 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  33000] [Direct] A=aa B=55 S1S0=00 Cin=0 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:  34000] [Direct] A=aa B=55 S1S0=00 Cin=1 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  35000] [Direct] A=aa B=55 S1S0=01 Cin=0 | F=aa Cout=0
+		# => PASS: Expect: aa (170), DUT: aa (170)
+		# ------------------------------------------------------------
+		# [TIME:  36000] [Direct] A=aa B=55 S1S0=01 Cin=1 | F=ab Cout=0
+		# => PASS: Expect: ab (171), DUT: ab (171)
+		# ------------------------------------------------------------
+		# [TIME:  37000] [Direct] A=aa B=55 S1S0=10 Cin=0 | F=aa Cout=0
+		# => PASS: Expect: aa (170), DUT: aa (170)
+		# ------------------------------------------------------------
+		# [TIME:  38000] [Direct] A=aa B=55 S1S0=10 Cin=1 | F=ab Cout=0
+		# => PASS: Expect: ab (171), DUT: ab (171)
+		# ------------------------------------------------------------
+		# [TIME:  39000] [Direct] A=aa B=55 S1S0=11 Cin=0 | F=54 Cout=1
+		# => PASS: Expect: 54 (84), DUT: 54 (84)
+		# ------------------------------------------------------------
+		# [TIME:  40000] [Direct] A=aa B=55 S1S0=11 Cin=1 | F=55 Cout=1
+		# => PASS: Expect: 55 (85), DUT: 55 (85)
+		# ------------------------------------------------------------
+		# [TIME:  41000] [Direct] A=55 B=aa S1S0=00 Cin=0 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:  42000] [Direct] A=55 B=aa S1S0=00 Cin=1 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  43000] [Direct] A=55 B=aa S1S0=01 Cin=0 | F=55 Cout=0
+		# => PASS: Expect: 55 (85), DUT: 55 (85)
+		# ------------------------------------------------------------
+		# [TIME:  44000] [Direct] A=55 B=aa S1S0=01 Cin=1 | F=56 Cout=0
+		# => PASS: Expect: 56 (86), DUT: 56 (86)
+		# ------------------------------------------------------------
+		# [TIME:  45000] [Direct] A=55 B=aa S1S0=10 Cin=0 | F=55 Cout=0
+		# => PASS: Expect: 55 (85), DUT: 55 (85)
+		# ------------------------------------------------------------
+		# [TIME:  46000] [Direct] A=55 B=aa S1S0=10 Cin=1 | F=56 Cout=0
+		# => PASS: Expect: 56 (86), DUT: 56 (86)
+		# ------------------------------------------------------------
+		# [TIME:  47000] [Direct] A=55 B=aa S1S0=11 Cin=0 | F=aa Cout=0
+		# => PASS: Expect: aa (170), DUT: aa (170)
+		# ------------------------------------------------------------
+		# [TIME:  48000] [Direct] A=55 B=aa S1S0=11 Cin=1 | F=ab Cout=0
+		# => PASS: Expect: ab (171), DUT: ab (171)
+		# ------------------------------------------------------------
+		# [TIME:  49000] [Direct] A=0f B=f0 S1S0=00 Cin=0 | F=ff Cout=0
+		# => PASS: Expect: ff (255), DUT: ff (255)
+		# ------------------------------------------------------------
+		# [TIME:  50000] [Direct] A=0f B=f0 S1S0=00 Cin=1 | F=00 Cout=1
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+		# [TIME:  51000] [Direct] A=0f B=f0 S1S0=01 Cin=0 | F=0f Cout=0
+		# => PASS: Expect: 0f (15), DUT: 0f (15)
+		# ------------------------------------------------------------
+		# [TIME:  52000] [Direct] A=0f B=f0 S1S0=01 Cin=1 | F=10 Cout=0
+		# => PASS: Expect: 10 (16), DUT: 10 (16)
+		# ------------------------------------------------------------
+		# [TIME:  53000] [Direct] A=0f B=f0 S1S0=10 Cin=0 | F=0f Cout=0
+		# => PASS: Expect: 0f (15), DUT: 0f (15)
+		# ------------------------------------------------------------
+		# [TIME:  54000] [Direct] A=0f B=f0 S1S0=10 Cin=1 | F=10 Cout=0
+		# => PASS: Expect: 10 (16), DUT: 10 (16)
+		# ------------------------------------------------------------
+		# [TIME:  55000] [Direct] A=0f B=f0 S1S0=11 Cin=0 | F=1e Cout=0
+		# => PASS: Expect: 1e (30), DUT: 1e (30)
+		# ------------------------------------------------------------
+		# [TIME:  56000] [Direct] A=0f B=f0 S1S0=11 Cin=1 | F=1f Cout=0
+		# => PASS: Expect: 1f (31), DUT: 1f (31)
+		# ------------------------------------------------------------
+	\end{lstlisting}
+	
+	\item TestCase1: test trường hợp toàn zero. Để xác nhận là mô phỏng ổn, đảm bảo mạch không tạo nhiễu hay glitch.
+	
+	\begin{lstlisting}[style=StyleCode, language=SystemVerilog, caption={Thực hiện kiểm tra zero case.}]
+		task automatic run_test();
+		logic [7:0] edgeA [0:6];
+		logic [7:0] edgeB [0:6];
+		int idx;
+		int s1, s0, c;
+		int rctl;
+		begin
+			total_tests = 0;
+			errors = 0;
+			test_count = 0;
+			test_pass = 0;
+			$display("\n========== ZERO CASE TEST ==========\n");
+			apply_and_check(8'h00, 8'h00, 0, 0, 0, "Zero");
+		end
+		endtask
+	\end{lstlisting}
+	
+	Kết quả
+	
+	\begin{lstlisting}[style=StyleResult, language=Result, caption={Kết quả mô phỏng Directed Test.}]
+		# ========== ZERO CASE TEST ==========
+		# 
+		# [TIME:  57000] [Zero] A=00 B=00 S1S0=00 Cin=0 | F=00 Cout=0
+		# => PASS: Expect: 00 (0), DUT: 00 (0)
+		# ------------------------------------------------------------
+	\end{lstlisting}
+	
+	\item TestCase2: Random Test sau khi chạy Directed test và zero case trước đó: Sinh ngẫu nhiên giá trị $A$, $B$, $S_{1}$, $S_{0}$, $C_{in}$ bằng hàm \$urandom(seed). Dừng khi đạt 100 mẫu test tổng cộng.
+	
+	\begin{lstlisting}[style=StyleCode, language=SystemVerilog, caption={Thực hiện Random Test.}]
+		task automatic run_test();
+		logic [7:0] edgeA [0:6];
+		logic [7:0] edgeB [0:6];
+		int idx;
+		int s1, s0, c;
+		int rctl;
+		begin
+			total_tests = 0;
+			errors = 0;
+			test_count = 0;
+			test_pass = 0;
+			seed = 32'hCAFEBABE;
+			while (total_tests < 100) begin
+				A = $urandom(seed) & 8'hFF;
+				B = $urandom(seed + 1) & 8'hFF;
+				rctl = $urandom(seed + 2) % 8;
+				S1 = (rctl >> 2) & 1;
+				S0 = (rctl >> 1) & 1;
+				Cin = rctl & 1;
+				#1;
+				apply_and_check(A, B, S1, S0, Cin, "Random");
+				seed = seed + 12345;
+			end
+		end
+		endtask
+	\end{lstlisting}
+	
+	Kết quả 
+	
+	\begin{lstlisting}[style=StyleResult, language=Result, caption={Kết quả mô phỏng Directed Test.}]
+		# ========== STARTING RANDOM TESTS ==========
+		# 
+		# [TIME:  59000] [Random] A=07 B=5b S1S0=11 Cin=1 | F=ac Cout=0
+		# => PASS: Expect: ac (172), DUT: ac (172)
+		# ------------------------------------------------------------
+		# [TIME:  61000] [Random] A=46 B=63 S1S0=00 Cin=1 | F=aa Cout=0
+		# => PASS: Expect: aa (170), DUT: aa (170)
+		# ------------------------------------------------------------
+		# [TIME:  63000] [Random] A=07 B=a0 S1S0=00 Cin=0 | F=a7 Cout=0
+		# => PASS: Expect: a7 (167), DUT: a7 (167)
+		...
+		# [TIME: 141000] [Random] A=8a B=79 S1S0=11 Cin=1 | F=11 Cout=1
+		# => PASS: Expect: 11 (17), DUT: 11 (17)
+		# ------------------------------------------------------------
+		# [TIME: 143000] [Random] A=1f B=93 S1S0=11 Cin=1 | F=8c Cout=0
+		# => PASS: Expect: 8c (140), DUT: 8c (140)
+		# ------------------------------------------------------------
+	\end{lstlisting}
+	
+	\item Kết quả tổng kết.
+	
+	\begin{lstlisting}[style=StyleResult, language=SystemVerilog, caption={Kết quả của tổng kết của bài test.}]
+		# ============================================
+		# =============== TEST SUMMARY ===============
+		# Total test cases : 100
+		# Passed            : 100
+		# Failed            : 0
+		# Pass rate         : 100.00 %
+		# ============================================
+	\end{lstlisting}
+\end{itemize}

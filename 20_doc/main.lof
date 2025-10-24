@@ -1,6 +1,20 @@
 \babel@toc {vietnamese}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Sơ đồ logic của PG Generator.}}{1}{figure.caption.2}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Sơ đồ logic của Carry Generator.}}{2}{figure.caption.3}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Sơ đồ logic của bộ cộng 4-bit CLA.}}{3}{figure.caption.4}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Block diagram của bộ cộng 4-bit CLA.}}{4}{figure.caption.5}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Block diagram của bộ cộng 32-bit CLA.}}{5}{figure.caption.6}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Sơ đồ logic của bộ LOPD 4bit.}}{1}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Sơ đồ logic của bộ LOPD 8bit.}}{2}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Sơ đồ logic của bộ LOPD 16bit.}}{3}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Sơ đồ logic của bộ LOPD 24-bit.}}{4}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Sơ đồ logic của PG Generator.}}{12}{figure.caption.8}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Sơ đồ logic của Carry Generator.}}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Sơ đồ logic của bộ cộng 4-bit CLA.}}{14}{figure.caption.10}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Block diagram của bộ cộng 4-bit CLA.}}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Block diagram của bộ cộng 32-bit CLA.}}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Mux 2-1 cho toán hạng thứ nhất Op1.}}{21}{figure.caption.14}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Mux 4-1 cho toán hạng thứ Op2.}}{22}{figure.caption.16}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Sơ đồ logic của bộ ALU.}}{22}{figure.caption.17}%
+\contentsline {figure}{\numberline {13}{\ignorespaces 4-bit Carry Lookahead Adder.}}{23}{figure.caption.18}%
+\contentsline {figure}{\numberline {14}{\ignorespaces 8-bit Carry Lookahead Adder.}}{24}{figure.caption.19}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Sơ đồ logic của bộ Comparator 2-bit.}}{35}{figure.caption.24}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Sơ đồ logic của bộ Comparator 4-bit.}}{36}{figure.caption.25}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Sơ đồ logic của bộ Comparator 8-bit.}}{37}{figure.caption.26}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Bộ so sánh và swap giá trị trong Bitonic Merger Sort.}}{38}{figure.caption.27}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Bộ sắp xếp Bitonic Merger Sort.}}{38}{figure.caption.28}%
