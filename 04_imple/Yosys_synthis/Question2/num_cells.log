@@ -1,0 +1,101 @@
+
+7. Printing statistics.
+
+=== LOPD_4bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       11 wires
+       15 wire bits
+        3 public wires
+        7 public wire bits
+        3 ports
+        7 port bits
+        8 cells
+        1   $and
+        2   $not
+        5   $or
+
+=== LOPD_16bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       12 wires
+       34 wire bits
+        7 public wires
+       29 public wire bits
+        3 ports
+       21 port bits
+        5 cells
+        1   $and
+        3   $mux
+        1   $not
+        2 submodules
+        2   LOPD_8bit
+
+=== LOPD_8bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       11 wires
+       22 wire bits
+        7 public wires
+       18 public wire bits
+        3 ports
+       12 port bits
+        4 cells
+        1   $and
+        2   $mux
+        1   $not
+        2 submodules
+        2   LOPD_4bit
+
+=== Question2 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       15 wires
+       69 wire bits
+        9 public wires
+       63 public wire bits
+        3 ports
+       30 port bits
+        6 cells
+        1   $and
+        4   $mux
+        1   $not
+        2 submodules
+        1   LOPD_16bit
+        1   LOPD_8bit
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+       71 Question2
+        5 LOPD_16bit
+        4   LOPD_8bit
+        8     LOPD_4bit
+        4 LOPD_8bit
+        8   LOPD_4bit
+
+        +----------Count including submodules.
+        | 
+      126 wires
+      259 wire bits
+       55 public wires
+      188 public wire bits
+       33 ports
+      129 port bits
+        - memories
+        - memory bits
+        - processes
+       71 cells
+       11   $and
+       13   $mux
+       17   $not
+       30   $or
+        2 submodules
+        1   LOPD_16bit
+        1   LOPD_8bit
+
