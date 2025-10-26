@@ -69,6 +69,40 @@ Từ bộ LOPD 8-bit và LOPD 16-bit trên, ta ghép lại thành 24-bit với L
 
 \lstinputlisting[style=StyleCode, language=SystemVerilog, caption={Chương trình mô tả LOPD 24-bit.}]{./../02_rtl/Question2/Question2.sv}
 
+Thực hiện sử dụng Yosys để kiểm tra số lượng cell sử dụng cho câu 2:
+\begin{lstlisting}[style=StyleResult, language=Result, caption={Số lượng Cell sử dụng cho câu 2.}]
+	=== design hierarchy ===
+	
+		+----------Count including submodules.
+		| 
+		71 Question2
+		5 LOPD_16bit
+		4   LOPD_8bit
+		8     LOPD_4bit
+		4 LOPD_8bit
+		8   LOPD_4bit
+		
+		+----------Count including submodules.
+		| 
+		126 wires
+		259 wire bits
+		55 public wires
+		188 public wire bits
+		33 ports
+		129 port bits
+		- memories
+		- memory bits
+		- processes
+		71 cells
+		11   $and
+		13   $mux
+		17   $not
+		30   $or
+		2 submodules
+		1   LOPD_16bit
+		1   LOPD_8bit
+\end{lstlisting}
+
 \answer{c}{Viết testbench cho mạch, thực hiện testbench với 100 mẫu và tính scoreboard của 100 mẫu đó.}
 
 Đầu tiên nhóm em thưc hiện triển khai chứng minh kết quả đúng bằng giải thuật sau:
