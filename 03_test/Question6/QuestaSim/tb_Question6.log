@@ -1,0 +1,285 @@
+# vsim -coverage -lib ./../Question6/QuestaSim/work -l ./../Question6/QuestaSim/tb_Question6.log -voptargs="+cover=bcesft" -assertdebug -c tb_Question6 -wlf ./../Question6/QuestaSim/tb_Question6.wlf -do "coverage save -onexit ./../Question6/QuestaSim/tb_Question6.ucdb; cd ./../Question6/QuestaSim; log -r /*; run -all;" 
+# Start time: 23:17:33 on Oct 24,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb_Question6(fast)
+# coverage save -onexit ./../Question6/QuestaSim/tb_Question6.ucdb
+#  cd ./../Question6/QuestaSim
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+#  log -r /*
+#  run -all
+# 
+# ===DESCENDING===
+# 
+# 
+# 
+# Input[          0] 	= 00000000 (  0)
+# Input[          1] 	= 00000000 (  0)
+# Input[          2] 	= 00000000 (  0)
+# Input[          3] 	= 00000000 (  0)
+# Input[          4] 	= 00000000 (  0)
+# Input[          5] 	= 00000000 (  0)
+# Input[          6] 	= 00000000 (  0)
+# Input[          7] 	= 00000000 (  0)
+# 
+# 
+# Output[          0] 	= 00000000 (  0)
+# Output[          1] 	= 00000000 (  0)
+# Output[          2] 	= 00000000 (  0)
+# Output[          3] 	= 00000000 (  0)
+# Output[          4] 	= 00000000 (  0)
+# Output[          5] 	= 00000000 (  0)
+# Output[          6] 	= 00000000 (  0)
+# Output[          7] 	= 00000000 (  0)
+# [TIME: 41000] [Zero] i_data = 0000000000000000 (                   0) 	| o_data = 0000000000000000 (                   0)
+# => PASS: Expect: 00000000, DUT: 00000000 
+# 
+# 
+# Input[          0] 	= 000000c6 (198)
+# Input[          1] 	= 000000c7 (199)
+# Input[          2] 	= 00000084 (132)
+# Input[          3] 	= 00000016 ( 22)
+# Input[          4] 	= 00000000 (  0)
+# Input[          5] 	= 00000000 (  0)
+# Input[          6] 	= 00000000 (  0)
+# Input[          7] 	= 00000000 (  0)
+# 
+# 
+# Output[          0] 	= 000000c7 (199)
+# Output[          1] 	= 000000c6 (198)
+# Output[          2] 	= 00000084 (132)
+# Output[          3] 	= 00000016 ( 22)
+# Output[          4] 	= 00000000 (  0)
+# Output[          5] 	= 00000000 (  0)
+# Output[          6] 	= 00000000 (  0)
+# Output[          7] 	= 00000000 (  0)
+# [TIME: 51000] [Random] i_data = 000000001684c7c6 (           377800646) 	| o_data = 000000001684c6c7 (           377800391)
+# => PASS: Expect: 1684c6c7, DUT: 1684c6c7 
+# [TIME: 61000] [Random] i_data = 00000000710f699e (          1896835486) 	| o_data = 000000000f69719e (           258568606)
+# => PASS: Expect: 0f69719e, DUT: 0f69719e 
+# [TIME: 71000] [Random] i_data = 0000000097de9ebe (          2547949246) 	| o_data = 00000000979ebede (          2543763166)
+# => PASS: Expect: 979ebede, DUT: 979ebede 
+# [TIME: 81000] [Random] i_data = 00000000d961c811 (          3647064081) 	| o_data = 000000001161c8d9 (           291621081)
+# => PASS: Expect: 1161c8d9, DUT: 1161c8d9 
+# [TIME: 91000] [Random] i_data = 000000009b8fd745 (          2609895237) 	| o_data = 00000000458f9bd7 (          1167039447)
+# => PASS: Expect: 458f9bd7, DUT: 458f9bd7 
+# [TIME: 101000] [Random] i_data = 000000005dcde5b1 (          1573774769) 	| o_data = 000000005db1cde5 (          1571933669)
+# => PASS: Expect: 5db1cde5, DUT: 5db1cde5 
+# [TIME: 111000] [Random] i_data = 00000000738f6b79 (          1938779001) 	| o_data = 000000006b73798f (          1802729871)
+# => PASS: Expect: 6b73798f, DUT: 6b73798f 
+# [TIME: 121000] [Random] i_data = 00000000e2593e38 (          3797499448) 	| o_data = 00000000383e59e2 (           943610338)
+# => PASS: Expect: 383e59e2, DUT: 383e59e2 
+# [TIME: 131000] [Random] i_data = 000000008d44042b (          2370044971) 	| o_data = 00000000042b448d (            69944461)
+# => PASS: Expect: 042b448d, DUT: 042b448d 
+# [TIME: 141000] [Random] i_data = 00000000eaa7dd00 (          3936869632) 	| o_data = 0000000000a7ddea (            11001322)
+# => PASS: Expect: 00a7ddea, DUT: 00a7ddea 
+# [TIME: 151000] [Random] i_data = 0000000064ea4c8b (          1693076619) 	| o_data = 000000004c648bea (          1281657834)
+# => PASS: Expect: 4c648bea, DUT: 4c648bea 
+# [TIME: 161000] [Random] i_data = 00000000922d601a (          2452447258) 	| o_data = 000000001a2d6092 (           439181458)
+# => PASS: Expect: 1a2d6092, DUT: 1a2d6092 
+# [TIME: 171000] [Random] i_data = 000000009919a0f7 (          2568593655) 	| o_data = 000000001999a0f7 (           429498615)
+# => PASS: Expect: 1999a0f7, DUT: 1999a0f7 
+# [TIME: 181000] [Random] i_data = 00000000f278812e (          4067983662) 	| o_data = 000000002e7881f2 (           779649522)
+# => PASS: Expect: 2e7881f2, DUT: 2e7881f2 
+# [TIME: 191000] [Random] i_data = 0000000078d81d38 (          2027429176) 	| o_data = 000000001d3878d8 (           490240216)
+# => PASS: Expect: 1d3878d8, DUT: 1d3878d8 
+# [TIME: 201000] [Random] i_data = 0000000020580699 (           542639769) 	| o_data = 0000000006205899 (           102783129)
+# => PASS: Expect: 06205899, DUT: 06205899 
+# [TIME: 211000] [Random] i_data = 00000000a46093f7 (          2757792759) 	| o_data = 000000006093a4f7 (          1620288759)
+# => PASS: Expect: 6093a4f7, DUT: 6093a4f7 
+# [TIME: 221000] [Random] i_data = 0000000096355055 (          2520076373) 	| o_data = 0000000035505596 (           894457238)
+# => PASS: Expect: 35505596, DUT: 35505596 
+# [TIME: 231000] [Random] i_data = 00000000c45e7c0b (          3294526475) 	| o_data = 000000000b5e7cc4 (           190741700)
+# => PASS: Expect: 0b5e7cc4, DUT: 0b5e7cc4 
+# [TIME: 241000] [Random] i_data = 00000000e20fc6c9 (          3792684745) 	| o_data = 000000000fc6c9e2 (           264686050)
+# => PASS: Expect: 0fc6c9e2, DUT: 0fc6c9e2 
+# [TIME: 251000] [Random] i_data = 00000000b17e09e9 (          2977827305) 	| o_data = 00000000097eb1e9 (           159298025)
+# => PASS: Expect: 097eb1e9, DUT: 097eb1e9 
+# [TIME: 261000] [Random] i_data = 0000000005f92eaa (           100216490) 	| o_data = 00000000052eaaf9 (            86944505)
+# => PASS: Expect: 052eaaf9, DUT: 052eaaf9 
+# [TIME: 271000] [Random] i_data = 000000009068db0d (          2422790925) 	| o_data = 000000000d6890db (           224956635)
+# => PASS: Expect: 0d6890db, DUT: 0d6890db 
+# [TIME: 281000] [Random] i_data = 000000001a53cf8f (           441700239) 	| o_data = 000000001a538fcf (           441683919)
+# => PASS: Expect: 1a538fcf, DUT: 1a538fcf 
+# [TIME: 291000] [Random] i_data = 000000008819bc57 (          2283387991) 	| o_data = 00000000195788bc (           425167036)
+# => PASS: Expect: 195788bc, DUT: 195788bc 
+# [TIME: 301000] [Random] i_data = 00000000a8199184 (          2820247940) 	| o_data = 00000000198491a8 (           428118440)
+# => PASS: Expect: 198491a8, DUT: 198491a8 
+# [TIME: 311000] [Random] i_data = 0000000012bd8a92 (           314411666) 	| o_data = 00000000128a92bd (           311071421)
+# => PASS: Expect: 128a92bd, DUT: 128a92bd 
+# [TIME: 321000] [Random] i_data = 00000000a162701c (          2707583004) 	| o_data = 000000001c6270a1 (           476213409)
+# => PASS: Expect: 1c6270a1, DUT: 1c6270a1 
+# [TIME: 331000] [Random] i_data = 000000003e5a4b51 (          1046104913) 	| o_data = 000000003e4b515a (          1045123418)
+# => PASS: Expect: 3e4b515a, DUT: 3e4b515a 
+# [TIME: 341000] [Random] i_data = 00000000b4d2a3ae (          3033703342) 	| o_data = 00000000a3aeb4d2 (          2746135762)
+# => PASS: Expect: a3aeb4d2, DUT: a3aeb4d2 
+# [TIME: 351000] [Random] i_data = 000000003a751216 (           980750870) 	| o_data = 0000000012163a75 (           303446645)
+# => PASS: Expect: 12163a75, DUT: 12163a75 
+# [TIME: 361000] [Random] i_data = 00000000ea764634 (          3933619764) 	| o_data = 00000000344676ea (           877033194)
+# => PASS: Expect: 344676ea, DUT: 344676ea 
+# [TIME: 371000] [Random] i_data = 00000000b60a981c (          3054147612) 	| o_data = 000000000a1c98b6 (           169646262)
+# => PASS: Expect: 0a1c98b6, DUT: 0a1c98b6 
+# [TIME: 381000] [Random] i_data = 000000001d15f6d7 (           487978711) 	| o_data = 00000000151dd7f6 (           354277366)
+# => PASS: Expect: 151dd7f6, DUT: 151dd7f6 
+# [TIME: 391000] [Random] i_data = 00000000e2d43bea (          3805559786) 	| o_data = 000000003bd4e2ea (          1003807466)
+# => PASS: Expect: 3bd4e2ea, DUT: 3bd4e2ea 
+# [TIME: 401000] [Random] i_data = 0000000069a32e18 (          1772301848) 	| o_data = 00000000182e69a3 (           405694883)
+# => PASS: Expect: 182e69a3, DUT: 182e69a3 
+# [TIME: 411000] [Random] i_data = 00000000f024b248 (          4028936776) 	| o_data = 000000002448b2f0 (           608744176)
+# => PASS: Expect: 2448b2f0, DUT: 2448b2f0 
+# [TIME: 421000] [Random] i_data = 00000000cc84ed7f (          3431263615) 	| o_data = 000000007f84cced (          2139409645)
+# => PASS: Expect: 7f84cced, DUT: 7f84cced 
+# [TIME: 431000] [Random] i_data = 0000000030d55921 (           819288353) 	| o_data = 00000000213059d5 (           556816853)
+# => PASS: Expect: 213059d5, DUT: 213059d5 
+# [TIME: 441000] [Random] i_data = 000000006a439259 (          1782813273) 	| o_data = 0000000043596a92 (          1129933458)
+# => PASS: Expect: 43596a92, DUT: 43596a92 
+# [TIME: 451000] [Random] i_data = 00000000e391eec7 (          3817991879) 	| o_data = 0000000091c7e3ee (          2445796334)
+# => PASS: Expect: 91c7e3ee, DUT: 91c7e3ee 
+# [TIME: 461000] [Random] i_data = 0000000008b76dea (           146238954) 	| o_data = 00000000086db7ea (           141408234)
+# => PASS: Expect: 086db7ea, DUT: 086db7ea 
+# [TIME: 471000] [Random] i_data = 000000002173633b (           561210171) 	| o_data = 00000000213b6373 (           557540211)
+# => PASS: Expect: 213b6373, DUT: 213b6373 
+# [TIME: 481000] [Random] i_data = 0000000046e51a79 (          1189419641) 	| o_data = 000000001a4679e5 (           440826341)
+# => PASS: Expect: 1a4679e5, DUT: 1a4679e5 
+# [TIME: 491000] [Random] i_data = 00000000beeb0107 (          3203072263) 	| o_data = 000000000107beeb (            17284843)
+# => PASS: Expect: 0107beeb, DUT: 0107beeb 
+# [TIME: 501000] [Random] i_data = 00000000f545b2bd (          4114985661) 	| o_data = 0000000045b2bdf5 (          1169341941)
+# => PASS: Expect: 45b2bdf5, DUT: 45b2bdf5 
+# [TIME: 511000] [Random] i_data = 00000000e0b37ae0 (          3769858784) 	| o_data = 000000007ab3e0e0 (          2058608864)
+# => PASS: Expect: 7ab3e0e0, DUT: 7ab3e0e0 
+# [TIME: 521000] [Random] i_data = 000000008fd77266 (          2413261414) 	| o_data = 0000000066728fd7 (          1718783959)
+# => PASS: Expect: 66728fd7, DUT: 66728fd7 
+# [TIME: 531000] [Random] i_data = 00000000550a2a9c (          1426729628) 	| o_data = 000000000a2a559c (           170546588)
+# => PASS: Expect: 0a2a559c, DUT: 0a2a559c 
+# [TIME: 541000] [Random] i_data = 000000002030a639 (           540059193) 	| o_data = 00000000203039a6 (           540031398)
+# => PASS: Expect: 203039a6, DUT: 203039a6 
+# [TIME: 551000] [Random] i_data = 000000004f96609d (          1335255197) 	| o_data = 000000004f60969d (          1331730077)
+# => PASS: Expect: 4f60969d, DUT: 4f60969d 
+# [TIME: 561000] [Random] i_data = 00000000cd314ce6 (          3442560230) 	| o_data = 00000000314ccde6 (           827117030)
+# => PASS: Expect: 314ccde6, DUT: 314ccde6 
+# [TIME: 571000] [Random] i_data = 000000008534204b (          2234785867) 	| o_data = 0000000020344b85 (           540298117)
+# => PASS: Expect: 20344b85, DUT: 20344b85 
+# [TIME: 581000] [Random] i_data = 00000000727a3928 (          1920612648) 	| o_data = 000000002839727a (           674853498)
+# => PASS: Expect: 2839727a, DUT: 2839727a 
+# [TIME: 591000] [Random] i_data = 00000000663edd00 (          1715395840) 	| o_data = 00000000003e66dd (             4089565)
+# => PASS: Expect: 003e66dd, DUT: 003e66dd 
+# [TIME: 601000] [Random] i_data = 00000000bc605a4e (          3160431182) 	| o_data = 000000004e5a60bc (          1314545852)
+# => PASS: Expect: 4e5a60bc, DUT: 4e5a60bc 
+# [TIME: 611000] [Random] i_data = 0000000014f96969 (           351889769) 	| o_data = 00000000146969f9 (           342452729)
+# => PASS: Expect: 146969f9, DUT: 146969f9 
+# [TIME: 621000] [Random] i_data = 00000000be128c69 (          3188886633) 	| o_data = 0000000012698cbe (           308907198)
+# => PASS: Expect: 12698cbe, DUT: 12698cbe 
+# [TIME: 631000] [Random] i_data = 000000007e217d70 (          2116124016) 	| o_data = 0000000021707d7e (           561020286)
+# => PASS: Expect: 21707d7e, DUT: 21707d7e 
+# [TIME: 641000] [Random] i_data = 00000000a4a4740c (          2762241036) 	| o_data = 000000000c74a4a4 (           208970916)
+# => PASS: Expect: 0c74a4a4, DUT: 0c74a4a4 
+# [TIME: 651000] [Random] i_data = 00000000ade2f59f (          2917332383) 	| o_data = 000000009fade2f5 (          2678973173)
+# => PASS: Expect: 9fade2f5, DUT: 9fade2f5 
+# [TIME: 661000] [Random] i_data = 00000000deba7149 (          3736760649) 	| o_data = 000000004971bade (          1232190174)
+# => PASS: Expect: 4971bade, DUT: 4971bade 
+# [TIME: 671000] [Random] i_data = 00000000398761be (           965173694) 	| o_data = 00000000396187be (           962693054)
+# => PASS: Expect: 396187be, DUT: 396187be 
+# [TIME: 681000] [Random] i_data = 00000000e3f82215 (          3824689685) 	| o_data = 000000001522e3f8 (           354608120)
+# => PASS: Expect: 1522e3f8, DUT: 1522e3f8 
+# [TIME: 691000] [Random] i_data = 0000000032cbd16d (           852218221) 	| o_data = 00000000326dcbd1 (           846056401)
+# => PASS: Expect: 326dcbd1, DUT: 326dcbd1 
+# [TIME: 701000] [Random] i_data = 0000000023d2d37f (           601019263) 	| o_data = 00000000237fd2d3 (           595579603)
+# => PASS: Expect: 237fd2d3, DUT: 237fd2d3 
+# [TIME: 711000] [Random] i_data = 00000000eb24df84 (          3945062276) 	| o_data = 000000002484dfeb (           612687851)
+# => PASS: Expect: 2484dfeb, DUT: 2484dfeb 
+# [TIME: 721000] [Random] i_data = 0000000053a29f1e (          1403166494) 	| o_data = 000000001e539fa2 (           508796834)
+# => PASS: Expect: 1e539fa2, DUT: 1e539fa2 
+# [TIME: 731000] [Random] i_data = 000000001280d868 (           310433896) 	| o_data = 00000000126880d8 (           308838616)
+# => PASS: Expect: 126880d8, DUT: 126880d8 
+# [TIME: 741000] [Random] i_data = 000000006b64024f (          1801716303) 	| o_data = 00000000024f646b (            38757483)
+# => PASS: Expect: 024f646b, DUT: 024f646b 
+# [TIME: 751000] [Random] i_data = 000000006595888e (          1704298638) 	| o_data = 0000000065888e95 (          1703448213)
+# => PASS: Expect: 65888e95, DUT: 65888e95 
+# [TIME: 761000] [Random] i_data = 0000000034101111 (           873468177) 	| o_data = 0000000010111134 (           269553972)
+# => PASS: Expect: 10111134, DUT: 10111134 
+# [TIME: 771000] [Random] i_data = 00000000d04371b4 (          3494080948) 	| o_data = 000000004371b4d0 (          1131525328)
+# => PASS: Expect: 4371b4d0, DUT: 4371b4d0 
+# [TIME: 781000] [Random] i_data = 00000000cacdf928 (          3402496296) 	| o_data = 0000000028cacdf9 (           684379641)
+# => PASS: Expect: 28cacdf9, DUT: 28cacdf9 
+# [TIME: 791000] [Random] i_data = 000000006b652717 (          1801791255) 	| o_data = 000000001727656b (           388457835)
+# => PASS: Expect: 1727656b, DUT: 1727656b 
+# [TIME: 801000] [Random] i_data = 000000007a9b8777 (          2057013111) 	| o_data = 00000000777a879b (          2004518811)
+# => PASS: Expect: 777a879b, DUT: 777a879b 
+# [TIME: 811000] [Random] i_data = 0000000076c8df43 (          1992875843) 	| o_data = 000000004376c8df (          1131858143)
+# => PASS: Expect: 4376c8df, DUT: 4376c8df 
+# [TIME: 821000] [Random] i_data = 00000000bdcf31b2 (          3184472498) 	| o_data = 0000000031b2bdcf (           833797583)
+# => PASS: Expect: 31b2bdcf, DUT: 31b2bdcf 
+# [TIME: 831000] [Random] i_data = 000000001b65179d (           459610013) 	| o_data = 00000000171b659d (           387671453)
+# => PASS: Expect: 171b659d, DUT: 171b659d 
+# [TIME: 841000] [Random] i_data = 0000000075d59d00 (          1976933632) 	| o_data = 0000000000759dd5 (             7708117)
+# => PASS: Expect: 00759dd5, DUT: 00759dd5 
+# [TIME: 851000] [Random] i_data = 00000000e3ca86a1 (          3821700769) 	| o_data = 0000000086a1cae3 (          2258750179)
+# => PASS: Expect: 86a1cae3, DUT: 86a1cae3 
+# [TIME: 861000] [Random] i_data = 00000000103a7d05 (           272268549) 	| o_data = 0000000005103a7d (            84949629)
+# => PASS: Expect: 05103a7d, DUT: 05103a7d 
+# [TIME: 871000] [Random] i_data = 0000000066bd76a5 (          1723692709) 	| o_data = 000000006676a5bd (          1719051709)
+# => PASS: Expect: 6676a5bd, DUT: 6676a5bd 
+# [TIME: 881000] [Random] i_data = 000000006d77cfa9 (          1836568489) 	| o_data = 000000006d77a9cf (          1836558799)
+# => PASS: Expect: 6d77a9cf, DUT: 6d77a9cf 
+# [TIME: 891000] [Random] i_data = 00000000644b122a (          1682641450) 	| o_data = 00000000122a4b64 (           304761700)
+# => PASS: Expect: 122a4b64, DUT: 122a4b64 
+# [TIME: 901000] [Random] i_data = 0000000059dba7dc (          1507567580) 	| o_data = 0000000059a7dbdc (          1504173020)
+# => PASS: Expect: 59a7dbdc, DUT: 59a7dbdc 
+# [TIME: 911000] [Random] i_data = 000000008936163b (          2302023227) 	| o_data = 0000000016363b89 (           372652937)
+# => PASS: Expect: 16363b89, DUT: 16363b89 
+# [TIME: 921000] [Random] i_data = 00000000340474de (           872707294) 	| o_data = 00000000043474de (            70546654)
+# => PASS: Expect: 043474de, DUT: 043474de 
+# [TIME: 931000] [Random] i_data = 000000005bfc95bf (          1543280063) 	| o_data = 000000005b95bffc (          1536540668)
+# => PASS: Expect: 5b95bffc, DUT: 5b95bffc 
+# [TIME: 941000] [Random] i_data = 00000000da0017e1 (          3657439201) 	| o_data = 000000000017dae1 (             1563361)
+# => PASS: Expect: 0017dae1, DUT: 0017dae1 
+# [TIME: 951000] [Random] i_data = 000000000cacf6b6 (           212661942) 	| o_data = 000000000cacb6f6 (           212645622)
+# => PASS: Expect: 0cacb6f6, DUT: 0cacb6f6 
+# [TIME: 961000] [Random] i_data = 000000001b523466 (           458372198) 	| o_data = 000000001b345266 (           456413798)
+# => PASS: Expect: 1b345266, DUT: 1b345266 
+# [TIME: 971000] [Random] i_data = 000000009863e169 (          2556682601) 	| o_data = 00000000636998e1 (          1667864801)
+# => PASS: Expect: 636998e1, DUT: 636998e1 
+# [TIME: 981000] [Random] i_data = 000000000a9ef65f (           178189919) 	| o_data = 000000000a5f9ef6 (           174038774)
+# => PASS: Expect: 0a5f9ef6, DUT: 0a5f9ef6 
+# [TIME: 991000] [Random] i_data = 0000000074e84b4c (          1961380684) 	| o_data = 000000004b4c74e8 (          1263301864)
+# => PASS: Expect: 4b4c74e8, DUT: 4b4c74e8 
+# [TIME: 1001000] [Random] i_data = 00000000de2b42dc (          3727377116) 	| o_data = 000000002b42dcde (           725802206)
+# => PASS: Expect: 2b42dcde, DUT: 2b42dcde 
+# [TIME: 1011000] [Random] i_data = 00000000948f8c00 (          2492435456) 	| o_data = 00000000008c8f94 (             9211796)
+# => PASS: Expect: 008c8f94, DUT: 008c8f94 
+# [TIME: 1021000] [Random] i_data = 00000000f3e6aca7 (          4091980967) 	| o_data = 00000000a7ace6f3 (          2813126387)
+# => PASS: Expect: a7ace6f3, DUT: a7ace6f3 
+# [TIME: 1031000] [Random] i_data = 00000000c7e4e353 (          3353666387) 	| o_data = 0000000053c7e3e4 (          1405608932)
+# => PASS: Expect: 53c7e3e4, DUT: 53c7e3e4 
+# [TIME: 1041000] [Random] i_data = 0000000063915bc6 (          1670470598) 	| o_data = 000000005b6391c6 (          1533252038)
+# => PASS: Expect: 5b6391c6, DUT: 5b6391c6 
+# [TIME: 1051000] [Random] i_data = 00000000d67ab476 (          3598365814) 	| o_data = 00000000767ab4d6 (          1987753174)
+# => PASS: Expect: 767ab4d6, DUT: 767ab4d6 
+# 
+# ================================
+# ==========TEST SUMMARY==========
+# Total test cases:    102    
+# Passed          :    102    
+# Failed          :      0    
+# Pass rate       : 100.00%
+# ================================
+# ** Note: $finish    : /home/noname/Documents/project_tiny/Ex3/03_verif/DUT/Question6/tb_Question6.sv(162)
+#    Time: 1161 ns  Iteration: 0  Instance: /tb_Question6
+# Saving coverage database on exit...
+# End time: 23:17:33 on Oct 24,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0

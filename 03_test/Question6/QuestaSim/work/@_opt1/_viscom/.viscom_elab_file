@@ -1,0 +1,1 @@
+/home/noname/intelFPGA_lite/24.1std/questa_fse/linux_x86_64/VisualizerRls/bin/viscom -nolock -quiet -jmem_size 393216 ./../Question6/QuestaSim/work.tb_Question6 -quiet -auto_acc_if_foreign -work ./../Question6/QuestaSim/work +cover=bcesft -allow_unnamed -o _opt1 -id 1-000ae431a4f1-68fba582-20886-7193 +__betafsm

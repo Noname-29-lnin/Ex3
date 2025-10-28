@@ -1,0 +1,136 @@
+# vsim -coverage -lib ./../Question3/QuestaSim/work -l ./../Question3/QuestaSim/tb_Question3.log -voptargs="+cover=bcesft" -assertdebug -c tb_Question3 -wlf ./../Question3/QuestaSim/tb_Question3.wlf -do "coverage save -onexit ./../Question3/QuestaSim/tb_Question3.ucdb; cd ./../Question3/QuestaSim; log -r /*; run -all;" 
+# Start time: 23:32:32 on Oct 24,2025
+# ** Note: (vsim-3812) Design is being optimized...
+# //  Questa Intel Starter FPGA Edition-64
+# //  Version 2024.3 linux_x86_64 Sep 10 2024
+# //
+# // Unpublished work. Copyright 2024 Siemens
+# //
+# // This material contains trade secrets or otherwise confidential information
+# // owned by Siemens Industry Software Inc. or its affiliates (collectively,
+# // "SISW"), or its licensors. Access to and use of this information is strictly
+# // limited as set forth in the Customer's applicable agreements with SISW.
+# //
+# // This material may not be copied, distributed, or otherwise disclosed outside
+# // of the Customer's facilities without the express written permission of SISW,
+# // and may not be used in any way not expressly authorized by SISW.
+# //
+# Loading sv_std.std
+# Loading work.tb_Question3(fast)
+# coverage save -onexit ./../Question3/QuestaSim/tb_Question3.ucdb
+#  cd ./../Question3/QuestaSim
+# Cannot change directory while a simulation is in progress.
+# Use the "quit -sim" command to unload the design first.
+#  log -r /*
+#  run -all
+# === Start run_test (100 samples) ===
+# PASS [0] A=0x2e16c603 B=0x32b62460 Cin=0 => {Cout,Sum}=0x060ccea63
+# PASS [1] A=0x8138c03f B=0x0904f1d9 Cin=1 => {Cout,Sum}=0x08a3db219
+# PASS [2] A=0x0bcce20f B=0x51b679ca Cin=0 => {Cout,Sum}=0x05d835bd9
+# PASS [3] A=0xbb8a3f71 B=0x4fc2089b Cin=0 => {Cout,Sum}=0x10b4c480c
+# PASS [4] A=0x29389638 B=0x0afda186 Cin=0 => {Cout,Sum}=0x0343637be
+# PASS [5] A=0xf04cbf5c B=0xb84ecddf Cin=0 => {Cout,Sum}=0x1a89b8d3b
+# PASS [6] A=0x83974cea B=0x5abe0c40 Cin=1 => {Cout,Sum}=0x0de55592b
+# PASS [7] A=0x2f2aa567 B=0x8e392162 Cin=1 => {Cout,Sum}=0x0bd63c6ca
+# PASS [8] A=0x3cbba5fb B=0xcf5eb040 Cin=0 => {Cout,Sum}=0x10c1a563b
+# PASS [9] A=0x1a43cee0 B=0xfb6a9e85 Cin=1 => {Cout,Sum}=0x115ae6d66
+# PASS [10] A=0x1ba8039a B=0x99ee2cf1 Cin=0 => {Cout,Sum}=0x0b596308b
+# PASS [11] A=0x19075126 B=0xc69e51ff Cin=0 => {Cout,Sum}=0x0dfa5a325
+# PASS [12] A=0x47e38bc6 B=0x34d4ca73 Cin=0 => {Cout,Sum}=0x07cb85639
+# PASS [13] A=0x68ab7029 B=0x5270961a Cin=1 => {Cout,Sum}=0x0bb1c0644
+# PASS [14] A=0x7ce5a0b5 B=0x9838f808 Cin=1 => {Cout,Sum}=0x1151e98be
+# PASS [15] A=0xf6a845f1 B=0xaed9a1e9 Cin=1 => {Cout,Sum}=0x1a581e7db
+# PASS [16] A=0x0af2511d B=0x1cbc587b Cin=0 => {Cout,Sum}=0x027aea998
+# PASS [17] A=0xae445fe7 B=0xed34cc21 Cin=0 => {Cout,Sum}=0x19b792c08
+# PASS [18] A=0xdc6902a0 B=0xfc0ac9c9 Cin=0 => {Cout,Sum}=0x1d873cc69
+# PASS [19] A=0xb059d8f8 B=0x145f1024 Cin=1 => {Cout,Sum}=0x0c4b8e91d
+# PASS [20] A=0x4bbe9778 B=0xe6560d95 Cin=0 => {Cout,Sum}=0x13214a50d
+# PASS [21] A=0xadbb6a8c B=0xc685d3f5 Cin=0 => {Cout,Sum}=0x174413e81
+# PASS [22] A=0x18e2df63 B=0x8569308a Cin=1 => {Cout,Sum}=0x09e4c0fee
+# PASS [23] A=0xc75b2332 B=0xabbc0217 Cin=0 => {Cout,Sum}=0x173172549
+# PASS [24] A=0x0943b93c B=0x54c4757c Cin=0 => {Cout,Sum}=0x05e082eb8
+# PASS [25] A=0xc38dc9b2 B=0x6e7e0ac1 Cin=1 => {Cout,Sum}=0x1320bd474
+# PASS [26] A=0x030a48b2 B=0xe2aacda8 Cin=1 => {Cout,Sum}=0x0e5b5165b
+# PASS [27] A=0x8d390b95 B=0x9bb8c0f3 Cin=1 => {Cout,Sum}=0x128f1cc89
+# PASS [28] A=0xfb72d096 B=0x84d15195 Cin=1 => {Cout,Sum}=0x18044222c
+# PASS [29] A=0x15ad7375 B=0x7bbab2ba Cin=1 => {Cout,Sum}=0x091682630
+# PASS [30] A=0xb8b2b944 B=0x9202fc9f Cin=0 => {Cout,Sum}=0x14ab5b5e3
+# PASS [31] A=0x20e309dd B=0xd86bb202 Cin=0 => {Cout,Sum}=0x0f94ebbdf
+# PASS [32] A=0xf711cdd3 B=0xf52a27c9 Cin=0 => {Cout,Sum}=0x1ec3bf59c
+# PASS [33] A=0x407932d6 B=0xbafe3ef9 Cin=0 => {Cout,Sum}=0x0fb7771cf
+# PASS [34] A=0x73fe14c1 B=0x2f42bd0d Cin=1 => {Cout,Sum}=0x0a340d1cf
+# PASS [35] A=0xa9df0f23 B=0xfcb50a48 Cin=1 => {Cout,Sum}=0x1a694196c
+# PASS [36] A=0x5810a148 B=0x47db3939 Cin=0 => {Cout,Sum}=0x09febda81
+# PASS [37] A=0xa0059e02 B=0x4cce8638 Cin=1 => {Cout,Sum}=0x0ecd4243b
+# PASS [38] A=0x117690ca B=0xcb8ea645 Cin=1 => {Cout,Sum}=0x0dd053710
+# PASS [39] A=0xf13f2791 B=0xc5fc3777 Cin=0 => {Cout,Sum}=0x1b73b5f08
+# PASS [40] A=0x53c5302d B=0x9fdf0084 Cin=1 => {Cout,Sum}=0x0f3a430b2
+# PASS [41] A=0x14c221b1 B=0xb6114f7f Cin=0 => {Cout,Sum}=0x0cad37130
+# PASS [42] A=0xd7d0adf2 B=0xa1e31af9 Cin=0 => {Cout,Sum}=0x179b3c8eb
+# PASS [43] A=0x708d6ff0 B=0x87669ce1 Cin=0 => {Cout,Sum}=0x0f7f40cd1
+# PASS [44] A=0x449f8878 B=0xf110785c Cin=0 => {Cout,Sum}=0x135b000d4
+# PASS [45] A=0xb1304b51 B=0x931b218d Cin=0 => {Cout,Sum}=0x1444b6cde
+# PASS [46] A=0xcd245a8a B=0xf767cd54 Cin=1 => {Cout,Sum}=0x1c48c27df
+# PASS [47] A=0x88f030b2 B=0x83011c06 Cin=0 => {Cout,Sum}=0x10bf14cb8
+# PASS [48] A=0xe27d36de B=0x5be51dc6 Cin=1 => {Cout,Sum}=0x13e6254a5
+# PASS [49] A=0xdf49d779 B=0xea363543 Cin=1 => {Cout,Sum}=0x1c9800cbd
+# PASS [50] A=0xff287ac0 B=0xe0c55eb9 Cin=1 => {Cout,Sum}=0x1dfedd97a
+# PASS [51] A=0x479cd67d B=0x4eb7def5 Cin=0 => {Cout,Sum}=0x09654b572
+# PASS [52] A=0xdd0fb713 B=0x3f2b356b Cin=0 => {Cout,Sum}=0x11c3aec7e
+# PASS [53] A=0x12c68509 B=0x3f00cadd Cin=1 => {Cout,Sum}=0x051c74fe7
+# PASS [54] A=0xecdca294 B=0xfb69092c Cin=0 => {Cout,Sum}=0x1e845abc0
+# PASS [55] A=0x2c0586e8 B=0x90c83065 Cin=1 => {Cout,Sum}=0x0bccdb74e
+# PASS [56] A=0xb1322dbc B=0x661584fa Cin=0 => {Cout,Sum}=0x11747b2b6
+# PASS [57] A=0x4912cc8b B=0x2eff47ca Cin=0 => {Cout,Sum}=0x078121455
+# PASS [58] A=0x26779851 B=0x1760da79 Cin=0 => {Cout,Sum}=0x03dd872ca
+# PASS [59] A=0x15af3c05 B=0xd10005b1 Cin=1 => {Cout,Sum}=0x0e6af41b7
+# PASS [60] A=0x8ef40eee B=0x5d4a08e1 Cin=0 => {Cout,Sum}=0x0ec3e17cf
+# PASS [61] A=0x6cdf8ccf B=0x820bfa67 Cin=1 => {Cout,Sum}=0x0eeeb8737
+# PASS [62] A=0x2caa48c4 B=0x57392615 Cin=0 => {Cout,Sum}=0x083e36ed9
+# PASS [63] A=0x919861eb B=0x947f6a06 Cin=1 => {Cout,Sum}=0x12617cbf2
+# PASS [64] A=0x9c85399e B=0x06022dc1 Cin=1 => {Cout,Sum}=0x0a2876760
+# PASS [65] A=0x044c4e45 B=0x4e4198c9 Cin=0 => {Cout,Sum}=0x0528de70e
+# PASS [66] A=0x9f00f260 B=0x4b75662f Cin=1 => {Cout,Sum}=0x0ea765890
+# PASS [67] A=0x1ebf419a B=0x38d56d6b Cin=0 => {Cout,Sum}=0x05794af05
+# PASS [68] A=0x74ba5c74 B=0xc0c23ba9 Cin=0 => {Cout,Sum}=0x1357c981d
+# PASS [69] A=0x7ae5bf07 B=0x580f0e64 Cin=0 => {Cout,Sum}=0x0d2f4cd6b
+# PASS [70] A=0x939fe217 B=0x8ff4300c Cin=1 => {Cout,Sum}=0x123941224
+# PASS [71] A=0x8d2f58d4 B=0x06fd86ef Cin=0 => {Cout,Sum}=0x0942cdfc3
+# PASS [72] A=0x27e25161 B=0x2ab2d70f Cin=1 => {Cout,Sum}=0x052952871
+# PASS [73] A=0x0e07ac9f B=0x71df59a6 Cin=1 => {Cout,Sum}=0x07fe70646
+# PASS [74] A=0x4f8737d8 B=0x3aaf195c Cin=1 => {Cout,Sum}=0x08a365135
+# PASS [75] A=0x5ec60b68 B=0x811203b5 Cin=1 => {Cout,Sum}=0x0dfd80f1e
+# PASS [76] A=0x7fbc988a B=0x075dc635 Cin=0 => {Cout,Sum}=0x0871a5ebf
+# PASS [77] A=0x2a76903c B=0x8bd2936f Cin=1 => {Cout,Sum}=0x0b64923ac
+# PASS [78] A=0xc2c2b6c4 B=0xa51b5799 Cin=0 => {Cout,Sum}=0x167de0e5d
+# PASS [79] A=0x97b3fdbe B=0xd91dca0d Cin=0 => {Cout,Sum}=0x170d1c7cb
+# PASS [80] A=0x0e0546b3 B=0x8e0dbee9 Cin=0 => {Cout,Sum}=0x09c13059c
+# PASS [81] A=0x809d0dd1 B=0xc308001e Cin=0 => {Cout,Sum}=0x143a50def
+# PASS [82] A=0x09fb3844 B=0x61d0d9c4 Cin=1 => {Cout,Sum}=0x06bcc1209
+# PASS [83] A=0xb9c48710 B=0xbe437b65 Cin=1 => {Cout,Sum}=0x178080276
+# PASS [84] A=0x83af2761 B=0x6ffc1dd4 Cin=0 => {Cout,Sum}=0x0f3ab4535
+# PASS [85] A=0x7e03df44 B=0x6a563a87 Cin=0 => {Cout,Sum}=0x0e85a19cb
+# PASS [86] A=0x35352e66 B=0xa05fbd5b Cin=0 => {Cout,Sum}=0x0d594ebc1
+# PASS [87] A=0xb89466bf B=0xfad72744 Cin=1 => {Cout,Sum}=0x1b36b8e04
+# PASS [88] A=0xede8a573 B=0x035ca92e Cin=0 => {Cout,Sum}=0x0f1454ea1
+# PASS [89] A=0x57f14d70 B=0xddb2967a Cin=0 => {Cout,Sum}=0x135a3e3ea
+# PASS [90] A=0xe600abcb B=0xdcdca514 Cin=0 => {Cout,Sum}=0x1c2dd50df
+# PASS [91] A=0x0a8bf129 B=0x78f3b175 Cin=0 => {Cout,Sum}=0x0837fa29e
+# PASS [92] A=0x7ca53e0f B=0x794d0bbe Cin=0 => {Cout,Sum}=0x0f5f249cd
+# PASS [93] A=0x9b6e7c2e B=0x83c0bc31 Cin=0 => {Cout,Sum}=0x11f2f385f
+# PASS [94] A=0x24f148f5 B=0x47a649ea Cin=1 => {Cout,Sum}=0x06c9792e0
+# PASS [95] A=0x8ecc22e0 B=0x5fe82b52 Cin=1 => {Cout,Sum}=0x0eeb44e33
+# PASS [96] A=0xae1c57e7 B=0xb4ddac66 Cin=1 => {Cout,Sum}=0x162fa044e
+# PASS [97] A=0x5519dd6d B=0xcc335716 Cin=0 => {Cout,Sum}=0x1214d3483
+# PASS [98] A=0x6acee646 B=0x87870399 Cin=0 => {Cout,Sum}=0x0f255e9df
+# PASS [99] A=0xea6be85b B=0x8cf523a3 Cin=0 => {Cout,Sum}=0x177610bfe
+# === Test summary ===
+# Total samples = 100
+# PASS = 100
+# FAIL = 0
+# === End run_test ===
+# ** Note: $finish    : /home/noname/Documents/project_tiny/Ex3/03_test/Question3/tb_Question3.sv(102)
+#    Time: 2026 ns  Iteration: 0  Instance: /tb_Question3
+# Saving coverage database on exit...
+# End time: 23:32:33 on Oct 24,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

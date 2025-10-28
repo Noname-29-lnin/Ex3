@@ -1,0 +1,133 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2024.3 2024.09, Sep 10 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/noname/Documents/project_tiny/Ex3/03_test/Questasim
+T_opt
+Z2 !s110 1761323749
+V6mX;5_NCl?nil_eGG9g2Q3
+04 12 4 work tb_Question5 fast 0
+=1-000ae431a4f1-68fbaae5-b50ce-d9d5
+Z3 !s102 +cover=bcesft
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM10U5 
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work ./../Question5/QuestaSim/work +cover=bcesft
+Z4 tCvgOpt 0
+n@_opt
+OL;O;2024.3;79
+valu_8bit
+Z5 2/home/noname/Documents/project_tiny/Ex3/03_test/Question5/tb_Question5.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/alu_8bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/cla_8bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/cla_4bit.sv
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 E=LiEgg<MY;bYXGko@JAC0
+I0bf8lkU;A_>8kbo5Xnon81
+S1
+R1
+Z7 w1761320720
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/alu_8bit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/alu_8bit.sv
+!i122 0
+L0 1 45
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2024.3;79
+r1
+!s85 0
+31
+Z10 !s108 1761323749.000000
+Z11 !s107 /home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/cla_4bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/cla_8bit.sv|/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/alu_8bit.sv|/home/noname/Documents/project_tiny/Ex3/03_test/Question5/tb_Question5.sv|
+Z12 !s90 +cover=bcesft|-f|./../Question5/flist.f|
+!i113 0
+R3
+Z13 o+cover=bcesft -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vcla_4bit
+R5
+R6
+R2
+!i10b 1
+!s100 58ieH0SG[Jh9]j69h@TE@2
+I3AzNMT9OT1ZH_^bj^IPOI0
+S1
+R1
+R7
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/cla_4bit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/cla_4bit.sv
+!i122 0
+L0 1 25
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R3
+R13
+R4
+vcla_8bit
+R5
+R6
+R2
+!i10b 1
+!s100 0_TVUGNeV29?D?QP::2K@1
+IZc439WO5@:gzN7aB2YYIA0
+S1
+R1
+R7
+8/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/cla_8bit.sv
+F/home/noname/Documents/project_tiny/Ex3/02_rtl/Question5/cla_8bit.sv
+!i122 0
+L0 1 30
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R3
+R13
+R4
+vtb_Question5
+R5
+R6
+R2
+!i10b 1
+!s100 EoKh_WhA?;J]>_2i`Ubz;0
+IjdHI4lOJKSnKUabdRz8T60
+S1
+R1
+w1761323703
+8/home/noname/Documents/project_tiny/Ex3/03_test/Question5/tb_Question5.sv
+F/home/noname/Documents/project_tiny/Ex3/03_test/Question5/tb_Question5.sv
+!i122 0
+L0 3 216
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R3
+R13
+R4
+ntb_@question5

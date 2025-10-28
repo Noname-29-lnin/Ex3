@@ -1,0 +1,9 @@
+\babel@toc {vietnamese}{}\relax 
+\contentsline {section}{Câu 1}{1}{Doc-Start}%
+\contentsline {subsection}{a)}{1}{section*.1}%
+\contentsline {subsection}{b)}{3}{figure.caption.2}%
+\contentsline {subsection}{c)}{4}{lstnumber.1.35}%
+\contentsline {section}{Câu 4}{8}{lstnumber.5.13}%
+\contentsline {subsection}{a)}{8}{figure.caption.3}%
+\contentsline {subsection}{b)}{11}{figure.caption.8}%
+\contentsline {subsection}{c)}{14}{lstnumber.8.84}%

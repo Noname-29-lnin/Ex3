@@ -1,0 +1,2 @@
+Total coverage (50/93) 53.00%
+See lines with '%00' in ./../Question3/Verilator/coverage/annotated_src

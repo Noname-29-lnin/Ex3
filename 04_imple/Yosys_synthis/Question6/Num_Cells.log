@@ -1,0 +1,146 @@
+
+10. Printing statistics.
+
+=== COMP_2bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       17 wires
+       20 wire bits
+        4 public wires
+        6 public wire bits
+        4 ports
+        6 port bits
+       13 cells
+        4   $and
+        1   $logic_not
+        3   $not
+        3   $or
+        1   $reduce_or
+        1   $xor
+
+=== COMP_4bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       11 wires
+       17 wire bits
+        8 public wires
+       14 public wire bits
+        4 ports
+       10 port bits
+        3 cells
+        2   $and
+        1   $or
+        2 submodules
+        2   COMP_2bit
+
+=== $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        9 wires
+       23 wire bits
+        7 public wires
+       21 public wire bits
+        3 ports
+       17 port bits
+        2 cells
+        1   $and
+        1   $or
+        2 submodules
+        2   COMP_4bit
+
+=== $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        7 wires
+       49 wire bits
+        5 public wires
+       33 public wire bits
+        4 ports
+       32 port bits
+        2 cells
+        2   $mux
+        1 submodules
+        1   $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+
+=== Bitonic_Sort ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       82 wires
+      768 wire bits
+       26 public wires
+      320 public wire bits
+        2 ports
+      128 port bits
+       24 processes
+        3 submodules
+        2   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4
+        1   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8
+
+=== $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       36 wires
+      288 wire bits
+       36 public wires
+      288 public wire bits
+       16 ports
+      128 port bits
+       10 submodules
+       10   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+
+=== $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       18 wires
+      144 wire bits
+       18 public wires
+      144 public wire bits
+        8 ports
+       64 port bits
+        5 submodules
+        5   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+     1240 Bitonic_Sort
+        2   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+        2     $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+        3       COMP_4bit
+       13         COMP_2bit
+        2   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+        2     $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+        3       COMP_4bit
+       13         COMP_2bit
+
+        +----------Count including submodules.
+        | 
+     2274 wires
+     5064 wire bits
+      978 public wires
+     3016 public wire bits
+      654 ports
+     2244 port bits
+        - memories
+        - memory bits
+       24 processes
+     1240 cells
+      420   $and
+       80   $logic_not
+       40   $mux
+      240   $not
+      300   $or
+       80   $reduce_or
+       80   $xor
+        3 submodules
+        2   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4
+        1   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8
+

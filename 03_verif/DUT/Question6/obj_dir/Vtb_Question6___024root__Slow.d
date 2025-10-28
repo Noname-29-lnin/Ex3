@@ -1,2 +1,0 @@
-Vtb_Question6___024root__Slow.o: Vtb_Question6___024root__Slow.cpp \
- Vtb_Question6__pch.h Vtb_Question6__Syms.h Vtb_Question6___024root.h

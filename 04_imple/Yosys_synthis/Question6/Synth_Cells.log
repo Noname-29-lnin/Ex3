@@ -1,0 +1,1069 @@
+11. Executing SYNTH pass.
+
+11.1. Executing HIERARCHY pass (managing design hierarchy).
+
+11.1.1. Analyzing design hierarchy..
+Top module:  \Bitonic_Sort
+Used module:     $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8
+Used module:         $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+Used module:             $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+Used module:                 \COMP_4bit
+Used module:                     \COMP_2bit
+Used module:     $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4
+
+11.1.2. Analyzing design hierarchy..
+Top module:  \Bitonic_Sort
+Used module:     $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8
+Used module:         $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+Used module:             $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+Used module:                 \COMP_4bit
+Used module:                     \COMP_2bit
+Used module:     $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4
+Removed 0 unused modules.
+
+11.2. Executing PROC pass (convert processes to netlists).
+
+11.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+11.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+11.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 24 assignments to connections.
+
+11.2.4. Executing PROC_INIT pass (extract init attributes).
+
+11.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+11.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+11.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:70$64'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:69$63'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:68$62'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:67$61'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:66$60'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:65$59'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:64$58'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:62$57'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:47$56'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:46$55'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:45$54'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:43$53'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:33$52'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:32$51'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:31$50'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:29$49'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$48'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$47'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$46'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$45'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$44'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$43'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$42'.
+Creating decoders for process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$41'.
+
+11.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\Bitonic_Sort.\w_sorted[7]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:70$64'.
+No latch inferred for signal `\Bitonic_Sort.\w_sorted[6]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:69$63'.
+No latch inferred for signal `\Bitonic_Sort.\w_sorted[5]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:68$62'.
+No latch inferred for signal `\Bitonic_Sort.\w_sorted[4]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:67$61'.
+No latch inferred for signal `\Bitonic_Sort.\w_sorted[3]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:66$60'.
+No latch inferred for signal `\Bitonic_Sort.\w_sorted[2]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:65$59'.
+No latch inferred for signal `\Bitonic_Sort.\w_sorted[1]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:64$58'.
+No latch inferred for signal `\Bitonic_Sort.\w_sorted[0]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:62$57'.
+No latch inferred for signal `\Bitonic_Sort.\w_0_data[7]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:47$56'.
+No latch inferred for signal `\Bitonic_Sort.\w_0_data[6]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:46$55'.
+No latch inferred for signal `\Bitonic_Sort.\w_0_data[5]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:45$54'.
+No latch inferred for signal `\Bitonic_Sort.\w_0_data[4]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:43$53'.
+No latch inferred for signal `\Bitonic_Sort.\w_0_data[3]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:33$52'.
+No latch inferred for signal `\Bitonic_Sort.\w_0_data[2]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:32$51'.
+No latch inferred for signal `\Bitonic_Sort.\w_0_data[1]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:31$50'.
+No latch inferred for signal `\Bitonic_Sort.\w_0_data[0]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:29$49'.
+No latch inferred for signal `\Bitonic_Sort.\w_i_data[7]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$48'.
+No latch inferred for signal `\Bitonic_Sort.\w_i_data[6]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$47'.
+No latch inferred for signal `\Bitonic_Sort.\w_i_data[5]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$46'.
+No latch inferred for signal `\Bitonic_Sort.\w_i_data[4]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$45'.
+No latch inferred for signal `\Bitonic_Sort.\w_i_data[3]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$44'.
+No latch inferred for signal `\Bitonic_Sort.\w_i_data[2]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$43'.
+No latch inferred for signal `\Bitonic_Sort.\w_i_data[1]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$42'.
+No latch inferred for signal `\Bitonic_Sort.\w_i_data[0]' from process `\Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$41'.
+
+11.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+11.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+11.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:70$64'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:69$63'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:68$62'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:67$61'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:66$60'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:65$59'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:64$58'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:62$57'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:47$56'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:46$55'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:45$54'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:43$53'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:33$52'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:32$51'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:31$50'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:29$49'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$48'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$47'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$46'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$45'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$44'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$43'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$42'.
+Removing empty process `Bitonic_Sort.$proc$/home/noname/Documents/project_tiny/Ex3/02_rtl/Question6/Bitonic_Sort.sv:18$41'.
+Cleaned up 0 empty switches.
+
+11.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module Bitonic_Sort.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+
+11.3. Executing OPT_EXPR pass (perform const folding).
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module Bitonic_Sort.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+
+11.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Removed 0 unused cells and 63 unused wires.
+<suppressed ~5 debug messages>
+
+11.5. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4...
+Checking module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8...
+Checking module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit...
+Checking module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000...
+Checking module Bitonic_Sort...
+Checking module COMP_2bit...
+Checking module COMP_4bit...
+Found and reported 0 problems.
+
+11.6. Executing OPT pass (performing simple optimizations).
+
+11.6.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.6.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \Bitonic_Sort..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \COMP_2bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \COMP_4bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+11.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+  Optimizing cells in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+  Optimizing cells in module \Bitonic_Sort.
+  Optimizing cells in module \COMP_2bit.
+  Optimizing cells in module \COMP_4bit.
+Performed a total of 0 changes.
+
+11.6.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+11.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.6.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.6.9. Finished fast OPT passes. (There is nothing left to do.)
+
+11.7. Executing FSM pass (extract and optimize FSM).
+
+11.7.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+11.7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+11.7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+11.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+11.7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+11.7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+11.7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+11.8. Executing OPT pass (performing simple optimizations).
+
+11.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \Bitonic_Sort..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \COMP_2bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \COMP_4bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+11.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+  Optimizing cells in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+  Optimizing cells in module \Bitonic_Sort.
+  Optimizing cells in module \COMP_2bit.
+  Optimizing cells in module \COMP_4bit.
+Performed a total of 0 changes.
+
+11.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+11.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.8.9. Finished fast OPT passes. (There is nothing left to do.)
+
+11.9. Executing WREDUCE pass (reducing word size of cells).
+
+11.10. Executing PEEPOPT pass (run peephole optimizers).
+
+11.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.12. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module Bitonic_Sort:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module COMP_2bit:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module COMP_4bit:
+  created 0 $alu and 0 $macc cells.
+
+11.13. Executing SHARE pass (SAT-based resource sharing).
+
+11.14. Executing OPT pass (performing simple optimizations).
+
+11.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \Bitonic_Sort..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \COMP_2bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \COMP_4bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+11.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+  Optimizing cells in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+  Optimizing cells in module \Bitonic_Sort.
+  Optimizing cells in module \COMP_2bit.
+  Optimizing cells in module \COMP_4bit.
+Performed a total of 0 changes.
+
+11.14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+11.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.14.9. Finished fast OPT passes. (There is nothing left to do.)
+
+11.15. Executing MEMORY pass.
+
+11.15.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+11.15.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+11.15.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+11.15.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+11.15.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+11.15.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.15.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+11.15.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+11.15.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.15.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+11.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.17. Executing OPT pass (performing simple optimizations).
+
+11.17.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.17.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.17.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+11.17.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.17.5. Finished fast OPT passes.
+
+11.18. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+11.19. Executing OPT pass (performing simple optimizations).
+
+11.19.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.19.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.19.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+  Creating internal representation of mux trees.
+  Evaluating internal representation of mux trees.
+  Analyzing evaluation results.
+Running muxtree optimizer on module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \Bitonic_Sort..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \COMP_2bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \COMP_4bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+<suppressed ~4 debug messages>
+
+11.19.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+  Optimizing cells in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+  Optimizing cells in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+  Optimizing cells in module \Bitonic_Sort.
+  Optimizing cells in module \COMP_2bit.
+  Optimizing cells in module \COMP_4bit.
+Performed a total of 0 changes.
+
+11.19.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.19.6. Executing OPT_SHARE pass.
+
+11.19.7. Executing OPT_DFF pass (perform DFF optimizations).
+
+11.19.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+
+11.19.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.19.10. Finished fast OPT passes. (There is nothing left to do.)
+
+11.20. Executing TECHMAP pass (map to technology primitives).
+
+11.20.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/techmap.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/techmap.v
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `\$connect'.
+Generating RTLIL representation for module `\$input_port'.
+Successfully finished Verilog frontend.
+
+11.20.2. Continuing TECHMAP pass.
+Using extmapper simplemap for cells of type $and.
+Using extmapper simplemap for cells of type $or.
+Using extmapper simplemap for cells of type $not.
+Using extmapper simplemap for cells of type $xor.
+Using extmapper simplemap for cells of type $reduce_or.
+Using extmapper simplemap for cells of type $logic_not.
+Using extmapper simplemap for cells of type $mux.
+No more expansions possible.
+<suppressed ~97 debug messages>
+
+11.21. Executing OPT pass (performing simple optimizations).
+
+11.21.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.21.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.21.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+11.21.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+Removed 0 unused cells and 1 unused wires.
+<suppressed ~1 debug messages>
+
+11.21.5. Finished fast OPT passes.
+
+11.22. Executing ABC pass (technology mapping using ABC).
+
+11.22.1. Extracting gate netlist of module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4' to `<abc-temp-dir>/input.blif'..
+Don't call ABC as there is nothing to map.
+
+11.22.1.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Removing temp directory.
+
+11.22.2. Extracting gate netlist of module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8' to `<abc-temp-dir>/input.blif'..
+Don't call ABC as there is nothing to map.
+
+11.22.2.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Removing temp directory.
+
+11.22.3. Extracting gate netlist of module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit' to `<abc-temp-dir>/input.blif'..
+
+11.22.3.1. Executed ABC.
+Extracted 16 gates and 33 wires to a netlist network with 17 inputs and 16 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 24 2025 23:55:48)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /tmp/yosys-abc-8fwda1/stdcells.genlib 
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+11.22.3.2. Re-integrating ABC results.
+ABC RESULTS:               MUX cells:       16
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:       17
+ABC RESULTS:          output signals:       16
+Removing temp directory.
+
+11.22.4. Extracting gate netlist of module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000' to `<abc-temp-dir>/input.blif'..
+
+11.22.4.1. Executed ABC.
+Extracted 2 gates and 5 wires to a netlist network with 3 inputs and 1 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 24 2025 23:55:48)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /tmp/yosys-abc-8fwda1/stdcells.genlib 
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+11.22.4.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:        1
+ABC RESULTS:                OR cells:        1
+ABC RESULTS:        internal signals:        1
+ABC RESULTS:           input signals:        3
+ABC RESULTS:          output signals:        1
+Removing temp directory.
+
+11.22.5. Extracting gate netlist of module `\Bitonic_Sort' to `<abc-temp-dir>/input.blif'..
+Don't call ABC as there is nothing to map.
+
+11.22.5.1. Executed ABC.
+Extracted 0 gates and 0 wires to a netlist network with 0 inputs and 0 outputs.
+Removing temp directory.
+
+11.22.6. Extracting gate netlist of module `\COMP_2bit' to `<abc-temp-dir>/input.blif'..
+
+11.22.6.1. Executed ABC.
+Extracted 14 gates and 18 wires to a netlist network with 4 inputs and 2 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 24 2025 23:55:48)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /tmp/yosys-abc-8fwda1/stdcells.genlib 
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+11.22.6.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:        1
+ABC RESULTS:            ANDNOT cells:        4
+ABC RESULTS:                OR cells:        3
+ABC RESULTS:              XNOR cells:        1
+ABC RESULTS:               XOR cells:        1
+ABC RESULTS:        internal signals:       12
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+
+11.22.7. Extracting gate netlist of module `\COMP_4bit' to `<abc-temp-dir>/input.blif'..
+
+11.22.7.1. Executed ABC.
+Extracted 3 gates and 7 wires to a netlist network with 4 inputs and 2 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 24 2025 23:55:48)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /tmp/yosys-abc-8fwda1/stdcells.genlib 
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+11.22.7.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:        2
+ABC RESULTS:                OR cells:        1
+ABC RESULTS:        internal signals:        1
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        2
+Removing temp directory.
+Removing global temp directory.
+
+11.23. Executing OPT pass (performing simple optimizations).
+
+11.23.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8.
+Optimizing module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit.
+Optimizing module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000.
+Optimizing module Bitonic_Sort.
+Optimizing module COMP_2bit.
+Optimizing module COMP_4bit.
+
+11.23.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8'.
+Finding identical cells in module `$paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit'.
+Finding identical cells in module `$paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000'.
+Finding identical cells in module `\Bitonic_Sort'.
+Finding identical cells in module `\COMP_2bit'.
+Finding identical cells in module `\COMP_4bit'.
+Removed a total of 0 cells.
+
+11.23.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+11.23.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8..
+Finding unused cells or wires in module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit..
+Finding unused cells or wires in module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000..
+Finding unused cells or wires in module \Bitonic_Sort..
+Finding unused cells or wires in module \COMP_2bit..
+Finding unused cells or wires in module \COMP_4bit..
+Removed 0 unused cells and 62 unused wires.
+<suppressed ~4 debug messages>
+
+11.23.5. Finished fast OPT passes.
+
+11.24. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `Bitonic_Sort'. Setting top module to Bitonic_Sort.
+
+11.24.1. Analyzing design hierarchy..
+Top module:  \Bitonic_Sort
+Used module:     $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4
+Used module:         $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+Used module:             $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+Used module:                 \COMP_4bit
+Used module:                     \COMP_2bit
+Used module:     $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8
+
+11.24.2. Analyzing design hierarchy..
+Top module:  \Bitonic_Sort
+Used module:     $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4
+Used module:         $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+Used module:             $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+Used module:                 \COMP_4bit
+Used module:                     \COMP_2bit
+Used module:     $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8
+Removed 0 unused modules.
+
+11.25. Printing statistics.
+
+=== $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       18 wires
+      144 wire bits
+       18 public wires
+      144 public wire bits
+        8 ports
+       64 port bits
+        5 submodules
+        5   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+
+=== $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       36 wires
+      288 wire bits
+       36 public wires
+      288 public wire bits
+       16 ports
+      128 port bits
+       10 submodules
+       10   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+
+=== $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+       33 wire bits
+        5 public wires
+       33 public wire bits
+        4 ports
+       32 port bits
+       16 cells
+       16   $_MUX_
+        1 submodules
+        1   $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+
+=== $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        8 wires
+       22 wire bits
+        7 public wires
+       21 public wire bits
+        3 ports
+       17 port bits
+        2 cells
+        1   $_AND_
+        1   $_OR_
+        2 submodules
+        2   COMP_4bit
+
+=== Bitonic_Sort ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       26 wires
+      320 wire bits
+       26 public wires
+      320 public wire bits
+        2 ports
+      128 port bits
+        3 submodules
+        2   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4
+        1   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8
+
+=== COMP_2bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+       12 wires
+       14 wire bits
+        4 public wires
+        6 public wire bits
+        4 ports
+        6 port bits
+       10 cells
+        4   $_ANDNOT_
+        1   $_AND_
+        3   $_OR_
+        1   $_XNOR_
+        1   $_XOR_
+
+=== COMP_4bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        9 wires
+       15 wire bits
+        8 public wires
+       14 public wire bits
+        4 ports
+       10 port bits
+        3 cells
+        2   $_AND_
+        1   $_OR_
+        2 submodules
+        2   COMP_2bit
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+     1280 Bitonic_Sort
+       16   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+        2     $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+        3       COMP_4bit
+       10         COMP_2bit
+       16   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit
+        2     $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000
+        3       COMP_4bit
+       10         COMP_2bit
+
+        +----------Count including submodules.
+        | 
+     1678 wires
+     3716 wire bits
+      978 public wires
+     3016 public wire bits
+      654 ports
+     2244 port bits
+        - memories
+        - memory bits
+        - processes
+     1280 cells
+      320   $_ANDNOT_
+      180   $_AND_
+      320   $_MUX_
+      300   $_OR_
+       80   $_XNOR_
+       80   $_XOR_
+        3 submodules
+        2   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4
+        1   $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8
+
+11.26. Executing CHECK pass (checking for obvious problems).
+Checking module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block4...
+Checking module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Bitonic_Block8...
+Checking module $paramod$f7088a211ff736e5257e09ddc21bfc9d7d309b67\Compare_and_Swap_unit...
+Checking module $paramod\COMP_less\SIZE_DATA=s32'00000000000000000000000000001000...
+Checking module Bitonic_Sort...
+Checking module COMP_2bit...
+Checking module COMP_4bit...
+Found and reported 0 problems.

@@ -1,0 +1,737 @@
+
+9. Executing SYNTH pass.
+
+9.1. Executing HIERARCHY pass (managing design hierarchy).
+
+9.1.1. Analyzing design hierarchy..
+Top module:  \Question2
+Used module:     \LOPD_16bit
+Used module:         \LOPD_8bit
+Used module:             \LOPD_4bit
+
+9.1.2. Analyzing design hierarchy..
+Top module:  \Question2
+Used module:     \LOPD_16bit
+Used module:         \LOPD_8bit
+Used module:             \LOPD_4bit
+Removed 0 unused modules.
+
+9.2. Executing PROC pass (convert processes to netlists).
+
+9.2.1. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+9.2.2. Executing PROC_RMDEAD pass (remove dead branches from decision trees).
+Removed a total of 0 dead cases.
+
+9.2.3. Executing PROC_PRUNE pass (remove redundant assignments in processes).
+Removed 0 redundant assignments.
+Promoted 0 assignments to connections.
+
+9.2.4. Executing PROC_INIT pass (extract init attributes).
+
+9.2.5. Executing PROC_ARST pass (detect async resets in processes).
+
+9.2.6. Executing PROC_ROM pass (convert switches to ROMs).
+Converted 0 switches.
+
+9.2.7. Executing PROC_MUX pass (convert decision trees to multiplexers).
+
+9.2.8. Executing PROC_DLATCH pass (convert process syncs to latches).
+
+9.2.9. Executing PROC_DFF pass (convert process syncs to FFs).
+
+9.2.10. Executing PROC_MEMWR pass (convert process memory writes to cells).
+
+9.2.11. Executing PROC_CLEAN pass (remove empty switches from decision trees).
+Cleaned up 0 empty switches.
+
+9.2.12. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.3. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.5. Executing CHECK pass (checking for obvious problems).
+Checking module LOPD_16bit...
+Checking module LOPD_4bit...
+Checking module LOPD_8bit...
+Checking module Question2...
+Found and reported 0 problems.
+
+9.6. Executing OPT pass (performing simple optimizations).
+
+9.6.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.6.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.6.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \LOPD_16bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \LOPD_4bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \LOPD_8bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \Question2..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+9.6.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \LOPD_16bit.
+  Optimizing cells in module \LOPD_4bit.
+  Optimizing cells in module \LOPD_8bit.
+  Optimizing cells in module \Question2.
+Performed a total of 0 changes.
+
+9.6.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.6.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.6.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.6.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.6.9. Finished fast OPT passes. (There is nothing left to do.)
+
+9.7. Executing FSM pass (extract and optimize FSM).
+
+9.7.1. Executing FSM_DETECT pass (finding FSMs in design).
+
+9.7.2. Executing FSM_EXTRACT pass (extracting FSM from design).
+
+9.7.3. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+9.7.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.7.5. Executing FSM_OPT pass (simple optimizations of FSMs).
+
+9.7.6. Executing FSM_RECODE pass (re-assigning FSM state encoding).
+
+9.7.7. Executing FSM_INFO pass (dumping all available information on FSM cells).
+
+9.7.8. Executing FSM_MAP pass (mapping FSMs to basic logic).
+
+9.8. Executing OPT pass (performing simple optimizations).
+
+9.8.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.8.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.8.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \LOPD_16bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \LOPD_4bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \LOPD_8bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \Question2..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+9.8.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \LOPD_16bit.
+  Optimizing cells in module \LOPD_4bit.
+  Optimizing cells in module \LOPD_8bit.
+  Optimizing cells in module \Question2.
+Performed a total of 0 changes.
+
+9.8.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.8.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.8.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.8.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.8.9. Finished fast OPT passes. (There is nothing left to do.)
+
+9.9. Executing WREDUCE pass (reducing word size of cells).
+
+9.10. Executing PEEPOPT pass (run peephole optimizers).
+
+9.11. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.12. Executing ALUMACC pass (create $alu and $macc cells).
+Extracting $alu and $macc cells in module LOPD_16bit:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module LOPD_4bit:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module LOPD_8bit:
+  created 0 $alu and 0 $macc cells.
+Extracting $alu and $macc cells in module Question2:
+  created 0 $alu and 0 $macc cells.
+
+9.13. Executing SHARE pass (SAT-based resource sharing).
+
+9.14. Executing OPT pass (performing simple optimizations).
+
+9.14.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.14.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.14.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \LOPD_16bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \LOPD_4bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \LOPD_8bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \Question2..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+9.14.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \LOPD_16bit.
+  Optimizing cells in module \LOPD_4bit.
+  Optimizing cells in module \LOPD_8bit.
+  Optimizing cells in module \Question2.
+Performed a total of 0 changes.
+
+9.14.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.14.6. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.14.7. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.14.8. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.14.9. Finished fast OPT passes. (There is nothing left to do.)
+
+9.15. Executing MEMORY pass.
+
+9.15.1. Executing OPT_MEM pass (optimize memories).
+Performed a total of 0 transformations.
+
+9.15.2. Executing OPT_MEM_PRIORITY pass (removing unnecessary memory write priority relations).
+Performed a total of 0 transformations.
+
+9.15.3. Executing OPT_MEM_FEEDBACK pass (finding memory read-to-write feedback paths).
+
+9.15.4. Executing MEMORY_BMUX2ROM pass (converting muxes to ROMs).
+
+9.15.5. Executing MEMORY_DFF pass (merging $dff cells to $memrd).
+
+9.15.6. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.15.7. Executing MEMORY_SHARE pass (consolidating $memrd/$memwr cells).
+
+9.15.8. Executing OPT_MEM_WIDEN pass (optimize memories where all ports are wide).
+Performed a total of 0 transformations.
+
+9.15.9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.15.10. Executing MEMORY_COLLECT pass (generating $mem cells).
+
+9.16. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.17. Executing OPT pass (performing simple optimizations).
+
+9.17.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.17.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.17.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.17.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.17.5. Finished fast OPT passes.
+
+9.18. Executing MEMORY_MAP pass (converting memories to logic and flip-flops).
+
+9.19. Executing OPT pass (performing simple optimizations).
+
+9.19.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.19.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.19.3. Executing OPT_MUXTREE pass (detect dead branches in mux trees).
+Running muxtree optimizer on module \LOPD_16bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \LOPD_4bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \LOPD_8bit..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Running muxtree optimizer on module \Question2..
+  Creating internal representation of mux trees.
+  No muxes found in this module.
+Removed 0 multiplexer ports.
+
+9.19.4. Executing OPT_REDUCE pass (consolidate $*mux and $reduce_* inputs).
+  Optimizing cells in module \LOPD_16bit.
+  Optimizing cells in module \LOPD_4bit.
+  Optimizing cells in module \LOPD_8bit.
+  Optimizing cells in module \Question2.
+Performed a total of 0 changes.
+
+9.19.5. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.19.6. Executing OPT_SHARE pass.
+
+9.19.7. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.19.8. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.19.9. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.19.10. Finished fast OPT passes. (There is nothing left to do.)
+
+9.20. Executing TECHMAP pass (map to technology primitives).
+
+9.20.1. Executing Verilog-2005 frontend: /usr/local/bin/../share/yosys/techmap.v
+Parsing Verilog input from `/usr/local/bin/../share/yosys/techmap.v' to AST representation.
+verilog frontend filename /usr/local/bin/../share/yosys/techmap.v
+Generating RTLIL representation for module `\_90_simplemap_bool_ops'.
+Generating RTLIL representation for module `\_90_simplemap_reduce_ops'.
+Generating RTLIL representation for module `\_90_simplemap_logic_ops'.
+Generating RTLIL representation for module `\_90_simplemap_compare_ops'.
+Generating RTLIL representation for module `\_90_simplemap_various'.
+Generating RTLIL representation for module `\_90_simplemap_registers'.
+Generating RTLIL representation for module `\_90_shift_ops_shr_shl_sshl_sshr'.
+Generating RTLIL representation for module `\_90_shift_shiftx'.
+Generating RTLIL representation for module `\_90_fa'.
+Generating RTLIL representation for module `\_90_lcu_brent_kung'.
+Generating RTLIL representation for module `\_90_alu'.
+Generating RTLIL representation for module `\_90_macc'.
+Generating RTLIL representation for module `\_90_alumacc'.
+Generating RTLIL representation for module `\$__div_mod_u'.
+Generating RTLIL representation for module `\$__div_mod_trunc'.
+Generating RTLIL representation for module `\_90_div'.
+Generating RTLIL representation for module `\_90_mod'.
+Generating RTLIL representation for module `\$__div_mod_floor'.
+Generating RTLIL representation for module `\_90_divfloor'.
+Generating RTLIL representation for module `\_90_modfloor'.
+Generating RTLIL representation for module `\_90_pow'.
+Generating RTLIL representation for module `\_90_pmux'.
+Generating RTLIL representation for module `\_90_demux'.
+Generating RTLIL representation for module `\_90_lut'.
+Generating RTLIL representation for module `\$connect'.
+Generating RTLIL representation for module `\$input_port'.
+Successfully finished Verilog frontend.
+
+9.20.2. Continuing TECHMAP pass.
+No more expansions possible.
+<suppressed ~77 debug messages>
+
+9.21. Executing OPT pass (performing simple optimizations).
+
+9.21.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.21.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.21.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.21.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+
+9.21.5. Finished fast OPT passes.
+
+9.22. Executing ABC pass (technology mapping using ABC).
+
+9.22.1. Extracting gate netlist of module `\LOPD_16bit' to `<abc-temp-dir>/input.blif'..
+
+9.22.1.1. Executed ABC.
+Extracted 5 gates and 13 wires to a netlist network with 8 inputs and 5 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 24 2025 23:55:48)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /tmp/yosys-abc-GmkBsW/stdcells.genlib 
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+9.22.1.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:        1
+ABC RESULTS:               MUX cells:        3
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        8
+ABC RESULTS:          output signals:        5
+Removing temp directory.
+
+9.22.2. Extracting gate netlist of module `\LOPD_4bit' to `<abc-temp-dir>/input.blif'..
+
+9.22.2.1. Executed ABC.
+Extracted 5 gates and 9 wires to a netlist network with 4 inputs and 3 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 24 2025 23:55:48)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /tmp/yosys-abc-GmkBsW/stdcells.genlib 
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+9.22.2.2. Re-integrating ABC results.
+ABC RESULTS:            ANDNOT cells:        2
+ABC RESULTS:               NOR cells:        1
+ABC RESULTS:                OR cells:        2
+ABC RESULTS:        internal signals:        2
+ABC RESULTS:           input signals:        4
+ABC RESULTS:          output signals:        3
+Removing temp directory.
+
+9.22.3. Extracting gate netlist of module `\LOPD_8bit' to `<abc-temp-dir>/input.blif'..
+
+9.22.3.1. Executed ABC.
+Extracted 4 gates and 10 wires to a netlist network with 6 inputs and 4 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 24 2025 23:55:48)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /tmp/yosys-abc-GmkBsW/stdcells.genlib 
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+9.22.3.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:        1
+ABC RESULTS:               MUX cells:        2
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        6
+ABC RESULTS:          output signals:        4
+Removing temp directory.
+
+9.22.4. Extracting gate netlist of module `\Question2' to `<abc-temp-dir>/input.blif'..
+
+9.22.4.1. Executed ABC.
+Extracted 6 gates and 15 wires to a netlist network with 9 inputs and 6 outputs.
+Running ABC script: <abc-temp-dir>/abc.script
+ABC: UC Berkeley, ABC 1.01 (compiled Oct 24 2025 23:55:48)
+ABC: abc 01> empty
+ABC: abc 01> source <abc-temp-dir>/abc.script
+ABC: + read_blif <abc-temp-dir>/input.blif 
+ABC: + read_library /tmp/yosys-abc-GmkBsW/stdcells.genlib 
+ABC: + strash 
+ABC: + dretime 
+ABC: + map 
+ABC: + write_blif <abc-temp-dir>/output.blif 
+
+9.22.4.2. Re-integrating ABC results.
+ABC RESULTS:               AND cells:        2
+ABC RESULTS:               MUX cells:        3
+ABC RESULTS:               NOT cells:        1
+ABC RESULTS:        internal signals:        0
+ABC RESULTS:           input signals:        9
+ABC RESULTS:          output signals:        6
+Removing temp directory.
+Removing global temp directory.
+
+9.23. Executing OPT pass (performing simple optimizations).
+
+9.23.1. Executing OPT_EXPR pass (perform const folding).
+Optimizing module LOPD_16bit.
+Optimizing module LOPD_4bit.
+Optimizing module LOPD_8bit.
+Optimizing module Question2.
+
+9.23.2. Executing OPT_MERGE pass (detect identical cells).
+Finding identical cells in module `\LOPD_16bit'.
+Finding identical cells in module `\LOPD_4bit'.
+Finding identical cells in module `\LOPD_8bit'.
+Finding identical cells in module `\Question2'.
+Removed a total of 0 cells.
+
+9.23.3. Executing OPT_DFF pass (perform DFF optimizations).
+
+9.23.4. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \LOPD_16bit..
+Finding unused cells or wires in module \LOPD_4bit..
+Finding unused cells or wires in module \LOPD_8bit..
+Finding unused cells or wires in module \Question2..
+Removed 0 unused cells and 47 unused wires.
+<suppressed ~4 debug messages>
+
+9.23.5. Finished fast OPT passes.
+
+9.24. Executing HIERARCHY pass (managing design hierarchy).
+Attribute `top' found on module `Question2'. Setting top module to Question2.
+
+9.24.1. Analyzing design hierarchy..
+Top module:  \Question2
+Used module:     \LOPD_16bit
+Used module:         \LOPD_8bit
+Used module:             \LOPD_4bit
+
+9.24.2. Analyzing design hierarchy..
+Top module:  \Question2
+Used module:     \LOPD_16bit
+Used module:         \LOPD_8bit
+Used module:             \LOPD_4bit
+Removed 0 unused modules.
+
+9.25. Printing statistics.
+
+=== LOPD_16bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        7 wires
+       29 wire bits
+        7 public wires
+       29 public wire bits
+        3 ports
+       21 port bits
+        5 cells
+        1   $_AND_
+        3   $_MUX_
+        1   $_NOT_
+        2 submodules
+        2   LOPD_8bit
+
+=== LOPD_4bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        5 wires
+        9 wire bits
+        3 public wires
+        7 public wire bits
+        3 ports
+        7 port bits
+        5 cells
+        2   $_ANDNOT_
+        1   $_NOR_
+        2   $_OR_
+
+=== LOPD_8bit ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        7 wires
+       18 wire bits
+        7 public wires
+       18 public wire bits
+        3 ports
+       12 port bits
+        4 cells
+        1   $_AND_
+        2   $_MUX_
+        1   $_NOT_
+        2 submodules
+        2   LOPD_4bit
+
+=== Question2 ===
+
+        +----------Local Count, excluding submodules.
+        | 
+        9 wires
+       63 wire bits
+        9 public wires
+       63 public wire bits
+        3 ports
+       30 port bits
+        6 cells
+        2   $_AND_
+        3   $_MUX_
+        1   $_NOT_
+        2 submodules
+        1   LOPD_16bit
+        1   LOPD_8bit
+
+=== design hierarchy ===
+
+        +----------Count including submodules.
+        | 
+       53 Question2
+        5 LOPD_16bit
+        4   LOPD_8bit
+        5     LOPD_4bit
+        4 LOPD_8bit
+        5   LOPD_4bit
+
+        +----------Count including submodules.
+        | 
+       67 wires
+      200 wire bits
+       55 public wires
+      188 public wire bits
+       33 ports
+      129 port bits
+        - memories
+        - memory bits
+        - processes
+       53 cells
+       12   $_ANDNOT_
+        6   $_AND_
+       12   $_MUX_
+        6   $_NOR_
+        5   $_NOT_
+       12   $_OR_
+        2 submodules
+        1   LOPD_16bit
+        1   LOPD_8bit
+
+9.26. Executing CHECK pass (checking for obvious problems).
+Checking module LOPD_16bit...
+Checking module LOPD_4bit...
+Checking module LOPD_8bit...
+Checking module Question2...
+Found and reported 0 problems.

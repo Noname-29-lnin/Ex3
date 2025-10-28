@@ -1,0 +1,287 @@
+Coverage Report by instance with details
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[6]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        38         1    97.43%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_Question3/DUT/BLK[6]/u4 --
+
+  File /home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_4bit.sv
+
+
+
+
+----------------Focused Expression View-----------------
+Line       20 Item    1  (((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) | (((g[0] & p[3]) & p[2]) & p[1]))
+Expression totals: 5 of 6 input terms covered = 83.33%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+        p[1]         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  g[2]_0                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~((g[1] & p[3]) & p[2]) && p[3])
+  Row   2:          1  g[2]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~((g[1] & p[3]) & p[2]) && p[3])
+  Row   3:          1  p[3]_0                g[2], (p[2] && g[1]), (p[1] && p[2] && g[0])
+  Row   4:          1  p[3]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~((g[1] & p[3]) & p[2]) && g[2]), (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && p[2] && g[1]), (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && p[2] && g[0])
+  Row   5:          1  g[1]_0                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && p[2] && p[3])
+  Row   6:          1  g[1]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && p[2] && p[3])
+  Row   7:          1  p[2]_0                (~(g[2] & p[3]) && (g[1] & p[3])), (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && (g[0] & p[3]))
+  Row   8:          1  p[2]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && (g[1] & p[3])), (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && (g[0] & p[3]))
+  Row   9:          1  g[0]_0                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && p[2] && p[3])
+ Row   10:          1  g[0]_1                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && p[2] && p[3])
+ Row   11:    ***0***  p[1]_0                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && ((g[0] & p[3]) & p[2]))
+ Row   12:          1  p[1]_1                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && ((g[0] & p[3]) & p[2]))
+
+
+
+
+
+
+
+
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[4]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        38         1    97.43%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_Question3/DUT/BLK[4]/u4 --
+
+  File /home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_4bit.sv
+
+
+
+
+----------------Focused Expression View-----------------
+Line       20 Item    1  (((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) | (((g[0] & p[3]) & p[2]) & p[1]))
+Expression totals: 5 of 6 input terms covered = 83.33%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+        p[1]         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  g[2]_0                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~((g[1] & p[3]) & p[2]) && p[3])
+  Row   2:          1  g[2]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~((g[1] & p[3]) & p[2]) && p[3])
+  Row   3:          1  p[3]_0                g[2], (p[2] && g[1]), (p[1] && p[2] && g[0])
+  Row   4:          1  p[3]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~((g[1] & p[3]) & p[2]) && g[2]), (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && p[2] && g[1]), (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && p[2] && g[0])
+  Row   5:          1  g[1]_0                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && p[2] && p[3])
+  Row   6:          1  g[1]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && p[2] && p[3])
+  Row   7:          1  p[2]_0                (~(g[2] & p[3]) && (g[1] & p[3])), (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && (g[0] & p[3]))
+  Row   8:          1  p[2]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && (g[1] & p[3])), (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && (g[0] & p[3]))
+  Row   9:          1  g[0]_0                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && p[2] && p[3])
+ Row   10:          1  g[0]_1                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && p[2] && p[3])
+ Row   11:    ***0***  p[1]_0                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && ((g[0] & p[3]) & p[2]))
+ Row   12:          1  p[1]_1                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && ((g[0] & p[3]) & p[2]))
+
+
+
+
+
+
+
+
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[1]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        38         1    97.43%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_Question3/DUT/BLK[1]/u4 --
+
+  File /home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_4bit.sv
+
+
+
+
+----------------Focused Expression View-----------------
+Line       20 Item    1  (((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) | (((g[0] & p[3]) & p[2]) & p[1]))
+Expression totals: 5 of 6 input terms covered = 83.33%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+        p[2]         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:          1  g[2]_0                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~((g[1] & p[3]) & p[2]) && p[3])
+  Row   2:          1  g[2]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~((g[1] & p[3]) & p[2]) && p[3])
+  Row   3:          1  p[3]_0                g[2], (p[2] && g[1]), (p[1] && p[2] && g[0])
+  Row   4:          1  p[3]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~((g[1] & p[3]) & p[2]) && g[2]), (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && p[2] && g[1]), (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && p[2] && g[0])
+  Row   5:          1  g[1]_0                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && p[2] && p[3])
+  Row   6:          1  g[1]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && p[2] && p[3])
+  Row   7:    ***0***  p[2]_0                (~(g[2] & p[3]) && (g[1] & p[3])), (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && (g[0] & p[3]))
+  Row   8:          1  p[2]_1                (~(((g[0] & p[3]) & p[2]) & p[1]) && ~(g[2] & p[3]) && (g[1] & p[3])), (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && (g[0] & p[3]))
+  Row   9:          1  g[0]_0                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && p[2] && p[3])
+ Row   10:          1  g[0]_1                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && p[1] && p[2] && p[3])
+ Row   11:          1  p[1]_0                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && ((g[0] & p[3]) & p[2]))
+ Row   12:          1  p[1]_1                (~((g[2] & p[3]) | ((g[1] & p[3]) & p[2])) && ((g[0] & p[3]) & p[2]))
+
+
+
+
+
+
+
+
+
+=================================================================================
+=== Instance: /tb_Question3/DUT/BLK[0]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+Expression Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     39        38         1    97.43%
+
+================================Expression Details================================
+
+Expression Coverage for instance /tb_Question3/DUT/BLK[0]/u4 --
+
+  File /home/noname/Documents/project_tiny/Ex3/02_rtl/Question3/cla_4bit.sv
+
+
+
+----------------Focused Expression View-----------------
+Line       19 Item    1  (((p[3] & p[2]) & p[1]) & p[0])
+Expression totals: 3 of 4 input terms covered = 75.00%
+
+  Input Term   Covered  Reason for no coverage   Hint
+ -----------  --------  -----------------------  --------------
+        p[3]         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  p[3]_0                (p[0] && p[1] && p[2])        
+  Row   2:          1  p[3]_1                (p[0] && p[1] && p[2])        
+  Row   3:          1  p[2]_0                (p[0] && p[1] && p[3])        
+  Row   4:          1  p[2]_1                (p[0] && p[1] && p[3])        
+  Row   5:          1  p[1]_0                (p[0] && (p[3] & p[2]))       
+  Row   6:          1  p[1]_1                (p[0] && (p[3] & p[2]))       
+  Row   7:          1  p[0]_0                ((p[3] & p[2]) & p[1])        
+  Row   8:          1  p[0]_1                ((p[3] & p[2]) & p[1])        
+
+
+
+
+
+
+
+
+
+
+=================================================================================
+=== Instance: /tb_Question3
+=== Design Unit: work.tb_Question3
+=================================================================================
+Branch Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                         2         1         1    50.00%
+
+================================Branch Details================================
+
+Branch Coverage for instance /tb_Question3
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File /home/noname/Documents/project_tiny/Ex3/03_test/Question3/tb_Question3.sv
+------------------------------------IF Branch------------------------------------
+    77                                       100     Count coming in to IF
+    77              1                        100                     if (got == expected) begin
+    81              1                    ***0***                     end else begin
+Branch totals: 1 hit of 2 branches = 50.00%
+
+
+Condition Coverage:
+    Enabled Coverage              Bins   Covered    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Conditions                       1         0         1     0.00%
+
+================================Condition Details================================
+
+Condition Coverage for instance /tb_Question3 --
+
+  File /home/noname/Documents/project_tiny/Ex3/03_test/Question3/tb_Question3.sv
+----------------Focused Condition View-------------------
+Line       77 Item    1  (got == expected)
+Condition totals: 0 of 1 input term covered = 0.00%
+
+         Input Term   Covered  Reason for no coverage   Hint
+        -----------  --------  -----------------------  --------------
+  (got == expected)         N  '_0' not hit             Hit '_0'
+
+     Rows:       Hits  FEC Target            Non-masking condition(s)      
+ ---------  ---------  --------------------  -------------------------     
+  Row   1:    ***0***  (got == expected)_0   -                             
+  Row   2:          1  (got == expected)_1   -                             
+
+
+Statement Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Statements                      39        37         2    94.87%
+
+================================Statement Details================================
+
+Statement Coverage for instance /tb_Question3 --
+
+    Line         Item                      Count     Source 
+    ----         ----                      -----     ------ 
+  File /home/noname/Documents/project_tiny/Ex3/03_test/Question3/tb_Question3.sv
+    82              1                         fail_count++;
+    83              1                         $display("FAIL [%0d] A=0x%08h B=0x%08h Cin=%0d => got=0x%09h (exp=0x%09h)",
+Toggle Coverage:
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Toggles                        328       212       116    64.63%
+
+================================Toggle Details================================
+
+Toggle Coverage for instance /tb_Question3 --
+
+                                              Node      1H->0L      0L->1H  "Coverage"
+                                              ---------------------------------------
+                                        A_tb[0-31]           1           1      100.00 
+                                        B_tb[0-31]           1           1      100.00 
+                                            Cin_tb           1           1      100.00 
+                                           Cout_tb           1           1      100.00 
+                                      Sum_tb[0-31]           1           1      100.00 
+                                               clk           1           1      100.00 
+                                  fail_count[0-31]           0           0        0.00 
+                                   pass_count[0-5]           1           1      100.00 
+                                     pass_count[6]           0           1       50.00 
+                                  pass_count[7-31]           0           0        0.00 
+                                             rst_n           0           1       50.00 
+
+Total Node Count     =        164 
+Toggled Node Count   =        105 
+Untoggled Node Count =         59 
+
+Toggle Coverage      =      64.63% (212 of 328 bins)
+
+
+Total Coverage By Instance (filtered view): 61.38%
+

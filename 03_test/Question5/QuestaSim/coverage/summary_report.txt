@@ -1,0 +1,57 @@
+Coverage Report Summary Data by instance
+
+=================================================================================
+=== Instance: /tb_Question5/dut/u_adder/BLK[1]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     43        38         5    88.37%
+    Statements                      12        12         0   100.00%
+    Toggles                         36        36         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question5/dut/u_adder/BLK[0]/u4
+=== Design Unit: work.cla_4bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                     43        42         1    97.67%
+    Statements                      12        12         0   100.00%
+    Toggles                         36        36         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question5/dut/u_adder
+=== Design Unit: work.cla_8bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Expressions                      6         6         0   100.00%
+    Statements                       2         2         0   100.00%
+    Toggles                         32        32         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question5/dut
+=== Design Unit: work.alu_8bit
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        21        20         1    95.23%
+    Expressions                     26        26         0   100.00%
+    Statements                      16        15         1    93.75%
+    Toggles                         68        68         0   100.00%
+
+=================================================================================
+=== Instance: /tb_Question5
+=== Design Unit: work.tb_Question5
+=================================================================================
+    Enabled Coverage              Bins      Hits    Misses  Coverage
+    ----------------              ----      ----    ------  --------
+    Branches                        17        12         5    70.58%
+    Conditions                       8         3         5    37.50%
+    Statements                      91        85         6    93.40%
+    Toggles                        376       148       228    39.36%
+
+
+Total Coverage By Instance (filtered view): 73.95%
+
