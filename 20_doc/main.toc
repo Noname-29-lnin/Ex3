@@ -3,23 +3,23 @@
 \contentsline {subsection}{a)}{1}{section*.1}%
 \contentsline {subsection}{b)}{2}{figure.caption.2}%
 \contentsline {subsection}{c)}{3}{lstnumber.1.35}%
-\contentsline {section}{Câu 2}{8}{lstnumber.5.13}%
-\contentsline {subsection}{a)}{8}{section*.3}%
-\contentsline {subsection}{b)}{11}{figure.caption.8}%
-\contentsline {subsection}{c)}{16}{lstnumber.10.30}%
-\contentsline {section}{Câu 3}{19}{lstnumber.18.9}%
-\contentsline {subsection}{a)}{19}{section*.9}%
-\contentsline {subsection}{b)}{23}{figure.caption.14}%
-\contentsline {subsection}{c)}{25}{lstnumber.20.60}%
-\contentsline {section}{Câu 4}{27}{lstnumber.24.6}%
-\contentsline {subsection}{a)}{27}{figure.caption.15}%
-\contentsline {subsection}{b)}{29}{figure.caption.20}%
-\contentsline {subsection}{c)}{32}{lstnumber.27.84}%
-\contentsline {section}{Câu 5}{35}{lstnumber.30.26}%
-\contentsline {subsection}{a)}{35}{table.caption.21}%
-\contentsline {subsection}{b)}{39}{figure.caption.27}%
-\contentsline {subsection}{c)}{41}{lstnumber.33.45}%
-\contentsline {section}{Câu 6}{48}{lstnumber.40.8}%
-\contentsline {subsection}{a)}{49}{figure.caption.30}%
-\contentsline {subsection}{b)}{53}{figure.caption.36}%
-\contentsline {subsection}{c)}{61}{lstnumber.48.36}%
+\contentsline {section}{Câu 2}{7}{lstnumber.5.13}%
+\contentsline {subsection}{a)}{7}{section*.3}%
+\contentsline {subsection}{b)}{10}{figure.caption.8}%
+\contentsline {subsection}{c)}{15}{lstnumber.10.30}%
+\contentsline {section}{Câu 3}{18}{lstnumber.18.9}%
+\contentsline {subsection}{a)}{18}{section*.9}%
+\contentsline {subsection}{b)}{22}{figure.caption.14}%
+\contentsline {subsection}{c)}{24}{lstnumber.20.60}%
+\contentsline {section}{Câu 4}{26}{lstnumber.24.6}%
+\contentsline {subsection}{a)}{26}{figure.caption.15}%
+\contentsline {subsection}{b)}{28}{figure.caption.20}%
+\contentsline {subsection}{c)}{31}{lstnumber.27.84}%
+\contentsline {section}{Câu 5}{34}{lstnumber.30.26}%
+\contentsline {subsection}{a)}{34}{table.caption.21}%
+\contentsline {subsection}{b)}{38}{figure.caption.27}%
+\contentsline {subsection}{c)}{40}{lstnumber.33.45}%
+\contentsline {section}{Câu 6}{47}{lstnumber.40.8}%
+\contentsline {subsection}{a)}{48}{figure.caption.30}%
+\contentsline {subsection}{b)}{52}{figure.caption.36}%
+\contentsline {subsection}{c)}{60}{lstnumber.48.36}%
